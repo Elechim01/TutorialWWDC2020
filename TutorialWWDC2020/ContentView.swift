@@ -9,8 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+//        NavigationView{
+//            ViewDragAndDropApi()
+//                .navigationTitle("Drag Images")
+//                .navigationBarTitleDisplayMode(.inline)
+//        }
+//        NavigationView {
+//            iMessagePinnedView()
+//                .navigationTitle("Message")
+//                .navigationBarTitleDisplayMode(.inline)
+//                .navigationBarItems(trailing:  Button(action: {
+//                    
+//                }, label: {
+//                    Image(systemName: "square.and.pencil")
+//                        .font(.title)
+//                }))
+//        }
+//        MainView()
+        ViewAppleMiusicAnimation()
+      
+       
     }
 }
 

@@ -3,16 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */; };
+		C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */; };
+		C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */; };
+		C4413C6C2706640E0029F129 /* ViewInstagramStory3DCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4413C6B2706640E0029F129 /* ViewInstagramStory3DCube.swift */; };
+		C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4413D1B270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift */; };
+		C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4413D1E270A50650029F129 /* ViewJSONParsing.swift */; };
+		C4413D22270A50CE0029F129 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C4413D21270A50CE0029F129 /* SDWebImageSwiftUI */; };
+		C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */; };
+		C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */; };
+		C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */; };
+		C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */; };
+		C496851226F292580061949E /* HomeTabViewWithSwipeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496851126F292580061949E /* HomeTabViewWithSwipeGesture.swift */; };
+		C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496851426F29FC40061949E /* HomeDepthStacksGestures.swift */; };
+		C496851926F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496851826F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift */; };
+		C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496851B26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift */; };
 		C4A01DE526EFF77B001AF3F6 /* TutorialWWDC2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */; };
 		C4A01DE726EFF77B001AF3F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01DE626EFF77B001AF3F6 /* ContentView.swift */; };
 		C4A01DE926EFF77C001AF3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */; };
 		C4A01DEC26EFF77C001AF3F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A01DEB26EFF77C001AF3F6 /* Preview Assets.xcassets */; };
 		C4A01DF726EFF77C001AF3F6 /* TutorialWWDC2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01DF626EFF77C001AF3F6 /* TutorialWWDC2020Tests.swift */; };
 		C4A01E0226EFF77C001AF3F6 /* TutorialWWDC2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E0126EFF77C001AF3F6 /* TutorialWWDC2020UITests.swift */; };
+		C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E1026EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift */; };
+		C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */; };
+		C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92482270B9FCB000BBE8A /* ViewGradientPickerAPI.swift */; };
+		C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92485270CE761000BBE8A /* ViewCustomTabPageIcons.swift */; };
+		C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92488270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift */; };
+		C4B9248C270CED19000BBE8A /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4B9248A270CED19000BBE8A /* CoreData.xcdatamodeld */; };
+		C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9248E270E3AE7000BBE8A /* ViewCrossPlatformUI.swift */; };
+		C4B92492270E4BAC000BBE8A /* ViewLoading3DObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92491270E4BAC000BBE8A /* ViewLoading3DObjects.swift */; };
+		C4B92498270E4DBC000BBE8A /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C4B92493270E4DBA000BBE8A /* Earth.usdz */; };
+		C4B92499270E4DBC000BBE8A /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C4B92494270E4DBB000BBE8A /* Venus.usdz */; };
+		C4B9249A270E4DBC000BBE8A /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C4B92495270E4DBB000BBE8A /* Pluto.usdz */; };
+		C4B9249B270E4DBC000BBE8A /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C4B92496270E4DBB000BBE8A /* Jupiter.usdz */; };
+		C4B9249C270E4DBC000BBE8A /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C4B92497270E4DBB000BBE8A /* Mars.usdz */; };
+		C4BC34AC2714D35600948E89 /* ViewVerticalCarouselList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34AB2714D35600948E89 /* ViewVerticalCarouselList.swift */; };
+		C4BC34B32714DD1000948E89 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = C4BC34B22714DD1000948E89 /* FacebookLogin */; };
+		C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34B52716278600948E89 /* ViewSlideOutMenu.swift */; };
+		C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34B82716391F00948E89 /* StylishDashboardAppUIView.swift */; };
+		C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34BB2717891E00948E89 /* ViewAppLockUsingAppStorage.swift */; };
+		C4BC34BF2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34BE2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift */; };
+		C4BC34C22718D69000948E89 /* ViewSharingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34C12718D69000948E89 /* ViewSharingImages.swift */; };
+		C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34C42718DA4400948E89 /* ViewAppleMiusicAnimation.swift */; };
+		C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +70,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIPHPickerView.swift; sourceTree = "<group>"; };
+		C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTravelAppUI.swift; sourceTree = "<group>"; };
+		C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTranslucentBackgroudEffect.swift; sourceTree = "<group>"; };
+		C4413C6B2706640E0029F129 /* ViewInstagramStory3DCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInstagramStory3DCube.swift; sourceTree = "<group>"; };
+		C4413D1B270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMuisicPlayerUiNeumorphism.swift; sourceTree = "<group>"; };
+		C4413D1E270A50650029F129 /* ViewJSONParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewJSONParsing.swift; sourceTree = "<group>"; };
+		C47C44C6270262F5002A949A /* ViewShoeAppHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShoeAppHeroAnimation.swift; sourceTree = "<group>"; };
+		C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeroAnimation.swift; sourceTree = "<group>"; };
+		C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParallaxScrolling.swift; sourceTree = "<group>"; };
+		C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomPathsSolidAnimations.swift; sourceTree = "<group>"; };
+		C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChatUIImagePicker.swift; sourceTree = "<group>"; };
+		C496851126F292580061949E /* HomeTabViewWithSwipeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewWithSwipeGesture.swift; sourceTree = "<group>"; };
+		C496851426F29FC40061949E /* HomeDepthStacksGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDepthStacksGestures.swift; sourceTree = "<group>"; };
+		C496851826F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFitnessDashboardBarCharts.swift; sourceTree = "<group>"; };
+		C496851B26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoginPageCustomCurvesShapes.swift; sourceTree = "<group>"; };
 		C4A01DE126EFF77B001AF3F6 /* TutorialWWDC2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialWWDC2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialWWDC2020App.swift; sourceTree = "<group>"; };
 		C4A01DE626EFF77B001AF3F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +97,29 @@
 		C4A01DFD26EFF77C001AF3F6 /* TutorialWWDC2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialWWDC2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A01E0126EFF77C001AF3F6 /* TutorialWWDC2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialWWDC2020UITests.swift; sourceTree = "<group>"; };
 		C4A01E0326EFF77C001AF3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A01E1026EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppleMiusicAnimations.swift; sourceTree = "<group>"; };
+		C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomGridsAndAnimations.swift; sourceTree = "<group>"; };
+		C4B92482270B9FCB000BBE8A /* ViewGradientPickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGradientPickerAPI.swift; sourceTree = "<group>"; };
+		C4B92485270CE761000BBE8A /* ViewCustomTabPageIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomTabPageIcons.swift; sourceTree = "<group>"; };
+		C4B92488270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCoreDataConnectionCRUD.swift; sourceTree = "<group>"; };
+		C4B9248B270CED19000BBE8A /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		C4B9248E270E3AE7000BBE8A /* ViewCrossPlatformUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCrossPlatformUI.swift; sourceTree = "<group>"; };
+		C4B92491270E4BAC000BBE8A /* ViewLoading3DObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoading3DObjects.swift; sourceTree = "<group>"; };
+		C4B92493270E4DBA000BBE8A /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		C4B92494270E4DBB000BBE8A /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		C4B92495270E4DBB000BBE8A /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pluto.usdz; sourceTree = "<group>"; };
+		C4B92496270E4DBB000BBE8A /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		C4B92497270E4DBB000BBE8A /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		C4BC34AB2714D35600948E89 /* ViewVerticalCarouselList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewVerticalCarouselList.swift; sourceTree = "<group>"; };
+		C4BC34AF2714DAC600948E89 /* ViewFacebookLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFacebookLogin.swift; sourceTree = "<group>"; };
+		C4BC34B52716278600948E89 /* ViewSlideOutMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSlideOutMenu.swift; sourceTree = "<group>"; };
+		C4BC34B82716391F00948E89 /* StylishDashboardAppUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylishDashboardAppUIView.swift; sourceTree = "<group>"; };
+		C4BC34BB2717891E00948E89 /* ViewAppLockUsingAppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAppLockUsingAppStorage.swift; sourceTree = "<group>"; };
+		C4BC34BE2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBottomSheetMapsBottomSheet.swift; sourceTree = "<group>"; };
+		C4BC34C12718D69000948E89 /* ViewSharingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSharingImages.swift; sourceTree = "<group>"; };
+		C4BC34C42718DA4400948E89 /* ViewAppleMiusicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAppleMiusicAnimation.swift; sourceTree = "<group>"; };
+		C4D8DBF026FD1A0400AA3A91 /* iMessagePinnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessagePinnedView.swift; sourceTree = "<group>"; };
+		C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDragAndDropApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +127,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BC34B32714DD1000948E89 /* FacebookLogin in Frameworks */,
+				C4413D22270A50CE0029F129 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +149,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4204E0E26FD2D410006554B /* NewPHPickerAPIPhotosUI */ = {
+			isa = PBXGroup;
+			children = (
+				C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */,
+			);
+			path = NewPHPickerAPIPhotosUI;
+			sourceTree = "<group>";
+		};
+		C429334A270F8CC400313A75 /* TravelAppUI */ = {
+			isa = PBXGroup;
+			children = (
+				C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */,
+			);
+			path = TravelAppUI;
+			sourceTree = "<group>";
+		};
+		C43C3FBD270514FA004142C0 /* TransucentBackgroudEffect */ = {
+			isa = PBXGroup;
+			children = (
+				C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */,
+			);
+			path = TransucentBackgroudEffect;
+			sourceTree = "<group>";
+		};
+		C4413C6A270663D90029F129 /* CubeTransitionInstagramStory3DCube */ = {
+			isa = PBXGroup;
+			children = (
+				C4413C6B2706640E0029F129 /* ViewInstagramStory3DCube.swift */,
+			);
+			path = CubeTransitionInstagramStory3DCube;
+			sourceTree = "<group>";
+		};
+		C4413D1A270A41050029F129 /* NeumorphicDesignMuiscPlayerUI */ = {
+			isa = PBXGroup;
+			children = (
+				C4413D1B270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift */,
+			);
+			path = NeumorphicDesignMuiscPlayerUI;
+			sourceTree = "<group>";
+		};
+		C4413D1D270A50430029F129 /* JSONParsing */ = {
+			isa = PBXGroup;
+			children = (
+				C4413D1E270A50650029F129 /* ViewJSONParsing.swift */,
+			);
+			path = JSONParsing;
+			sourceTree = "<group>";
+		};
+		C47C44C5270262C1002A949A /* ShoeAppHeroAnimationCustomTabMenu's */ = {
+			isa = PBXGroup;
+			children = (
+				C47C44C6270262F5002A949A /* ViewShoeAppHeroAnimation.swift */,
+			);
+			path = "ShoeAppHeroAnimationCustomTabMenu's";
+			sourceTree = "<group>";
+		};
+		C4857EB826F9364000FD4939 /* CustomAnimationsHeroAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */,
+			);
+			path = CustomAnimationsHeroAnimation;
+			sourceTree = "<group>";
+		};
+		C491F7B226FBCE15000A58CF /* ParallxEffectParallaxScrolling */ = {
+			isa = PBXGroup;
+			children = (
+				C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */,
+			);
+			path = ParallxEffectParallaxScrolling;
+			sourceTree = "<group>";
+		};
+		C491F7B526FBD35C000A58CF /* CurvedTabBarSolidAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */,
+			);
+			path = CurvedTabBarSolidAnimations;
+			sourceTree = "<group>";
+		};
+		C49684D626F144520061949E /* ChatUIImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */,
+			);
+			path = ChatUIImagePicker;
+			sourceTree = "<group>";
+		};
+		C496851026F2921F0061949E /* DashboardGridsTabViewWithSwipeGestures */ = {
+			isa = PBXGroup;
+			children = (
+				C496851126F292580061949E /* HomeTabViewWithSwipeGesture.swift */,
+			);
+			path = DashboardGridsTabViewWithSwipeGestures;
+			sourceTree = "<group>";
+		};
+		C496851326F29F7F0061949E /* DatingUIDepthStacksGesture */ = {
+			isa = PBXGroup;
+			children = (
+				C496851426F29FC40061949E /* HomeDepthStacksGestures.swift */,
+			);
+			path = DatingUIDepthStacksGesture;
+			sourceTree = "<group>";
+		};
+		C496851726F3E3600061949E /* FitnessDashboardBarCharts */ = {
+			isa = PBXGroup;
+			children = (
+				C496851826F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift */,
+			);
+			path = FitnessDashboardBarCharts;
+			sourceTree = "<group>";
+		};
+		C496851A26F3F3C00061949E /* LoginPageCustomCurvesShapes */ = {
+			isa = PBXGroup;
+			children = (
+				C496851B26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift */,
+			);
+			path = LoginPageCustomCurvesShapes;
+			sourceTree = "<group>";
+		};
 		C4A01DD826EFF77B001AF3F6 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +292,41 @@
 		C4A01DE326EFF77B001AF3F6 /* TutorialWWDC2020 */ = {
 			isa = PBXGroup;
 			children = (
-				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
-				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
+				C496851326F29F7F0061949E /* DatingUIDepthStacksGesture */,
+				C496851026F2921F0061949E /* DashboardGridsTabViewWithSwipeGestures */,
+				C49684D626F144520061949E /* ChatUIImagePicker */,
+				C4A01E1226EFFED3001AF3F6 /* CustomGridsAndAnimations */,
+				C4A01E0F26EFF790001AF3F6 /* AppleMiusciAnimations */,
+				C496851726F3E3600061949E /* FitnessDashboardBarCharts */,
+				C496851A26F3F3C00061949E /* LoginPageCustomCurvesShapes */,
+				C4F684F426FA814C00ED09A6 /* DragAndDropAPI */,
+				C4857EB826F9364000FD4939 /* CustomAnimationsHeroAnimation */,
+				C491F7B226FBCE15000A58CF /* ParallxEffectParallaxScrolling */,
+				C491F7B526FBD35C000A58CF /* CurvedTabBarSolidAnimations */,
+				C4D8DBEF26FD19D100AA3A91 /* IMessagePinnedViewSwipeActions */,
+				C4204E0E26FD2D410006554B /* NewPHPickerAPIPhotosUI */,
+				C47C44C5270262C1002A949A /* ShoeAppHeroAnimationCustomTabMenu's */,
+				C43C3FBD270514FA004142C0 /* TransucentBackgroudEffect */,
+				C4413C6A270663D90029F129 /* CubeTransitionInstagramStory3DCube */,
+				C4413D1A270A41050029F129 /* NeumorphicDesignMuiscPlayerUI */,
+				C4413D1D270A50430029F129 /* JSONParsing */,
+				C4B92481270B9F69000BBE8A /* GradientPickerAPI-Grids */,
+				C4B92484270CE724000BBE8A /* CustomTabViewpageIcons */,
+				C4B92487270CEC7C000BBE8A /* CoreDataConnectionCRUDOperation NSMVVM */,
+				C4B9248D270E3AAE000BBE8A /* AppForIphoneeIpad */,
+				C4B92490270E4B82000BBE8A /* SceneKitLoading3DObjects */,
+				C429334A270F8CC400313A75 /* TravelAppUI */,
+				C4BC34AA2714D2F900948E89 /* VerticalCarouselList */,
+				C4BC34AE2714DA9400948E89 /* FacebookLoginLoginSDK */,
+				C4BC34B42716276000948E89 /* TwitterSlideOutMenu */,
+				C4BC34B7271638DC00948E89 /* StylishDashboardAppUI */,
+				C4BC34BA271788EA00948E89 /* AppLockUsing@AppStorage */,
+				C4BC34BD2718CB5D00948E89 /* BottomSheetAppleMapsBottoSheet */,
+				C4BC34C02718D5E300948E89 /* ShareSheetSharingImage */,
+				C4BC34C32718DA1900948E89 /* AppleMiusicHeaderAnimation */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
+				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
+				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DED26EFF77C001AF3F6 /* Info.plist */,
 				C4A01DEA26EFF77C001AF3F6 /* Preview Content */,
 			);
@@ -130,6 +359,156 @@
 			path = TutorialWWDC2020UITests;
 			sourceTree = "<group>";
 		};
+		C4A01E0F26EFF790001AF3F6 /* AppleMiusciAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C4A01E1026EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift */,
+			);
+			path = AppleMiusciAnimations;
+			sourceTree = "<group>";
+		};
+		C4A01E1226EFFED3001AF3F6 /* CustomGridsAndAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */,
+			);
+			path = CustomGridsAndAnimations;
+			sourceTree = "<group>";
+		};
+		C4B92481270B9F69000BBE8A /* GradientPickerAPI-Grids */ = {
+			isa = PBXGroup;
+			children = (
+				C4B92482270B9FCB000BBE8A /* ViewGradientPickerAPI.swift */,
+			);
+			path = "GradientPickerAPI-Grids";
+			sourceTree = "<group>";
+		};
+		C4B92484270CE724000BBE8A /* CustomTabViewpageIcons */ = {
+			isa = PBXGroup;
+			children = (
+				C4B92485270CE761000BBE8A /* ViewCustomTabPageIcons.swift */,
+			);
+			path = CustomTabViewpageIcons;
+			sourceTree = "<group>";
+		};
+		C4B92487270CEC7C000BBE8A /* CoreDataConnectionCRUDOperation NSMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				C4B92488270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift */,
+				C4B9248A270CED19000BBE8A /* CoreData.xcdatamodeld */,
+			);
+			path = "CoreDataConnectionCRUDOperation NSMVVM";
+			sourceTree = "<group>";
+		};
+		C4B9248D270E3AAE000BBE8A /* AppForIphoneeIpad */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9248E270E3AE7000BBE8A /* ViewCrossPlatformUI.swift */,
+			);
+			path = AppForIphoneeIpad;
+			sourceTree = "<group>";
+		};
+		C4B92490270E4B82000BBE8A /* SceneKitLoading3DObjects */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9249D270E4DCB000BBE8A /* Objects */,
+				C4B92491270E4BAC000BBE8A /* ViewLoading3DObjects.swift */,
+			);
+			path = SceneKitLoading3DObjects;
+			sourceTree = "<group>";
+		};
+		C4B9249D270E4DCB000BBE8A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C4B92493270E4DBA000BBE8A /* Earth.usdz */,
+				C4B92496270E4DBB000BBE8A /* Jupiter.usdz */,
+				C4B92497270E4DBB000BBE8A /* Mars.usdz */,
+				C4B92495270E4DBB000BBE8A /* Pluto.usdz */,
+				C4B92494270E4DBB000BBE8A /* Venus.usdz */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		C4BC34AA2714D2F900948E89 /* VerticalCarouselList */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC34AB2714D35600948E89 /* ViewVerticalCarouselList.swift */,
+			);
+			path = VerticalCarouselList;
+			sourceTree = "<group>";
+		};
+		C4BC34AE2714DA9400948E89 /* FacebookLoginLoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC34AF2714DAC600948E89 /* ViewFacebookLogin.swift */,
+			);
+			path = FacebookLoginLoginSDK;
+			sourceTree = "<group>";
+		};
+		C4BC34B42716276000948E89 /* TwitterSlideOutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC34B52716278600948E89 /* ViewSlideOutMenu.swift */,
+			);
+			path = TwitterSlideOutMenu;
+			sourceTree = "<group>";
+		};
+		C4BC34B7271638DC00948E89 /* StylishDashboardAppUI */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC34B82716391F00948E89 /* StylishDashboardAppUIView.swift */,
+			);
+			path = StylishDashboardAppUI;
+			sourceTree = "<group>";
+		};
+		C4BC34BA271788EA00948E89 /* AppLockUsing@AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC34BB2717891E00948E89 /* ViewAppLockUsingAppStorage.swift */,
+			);
+			path = "AppLockUsing@AppStorage";
+			sourceTree = "<group>";
+		};
+		C4BC34BD2718CB5D00948E89 /* BottomSheetAppleMapsBottoSheet */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC34BE2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift */,
+			);
+			path = BottomSheetAppleMapsBottoSheet;
+			sourceTree = "<group>";
+		};
+		C4BC34C02718D5E300948E89 /* ShareSheetSharingImage */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC34C12718D69000948E89 /* ViewSharingImages.swift */,
+			);
+			path = ShareSheetSharingImage;
+			sourceTree = "<group>";
+		};
+		C4BC34C32718DA1900948E89 /* AppleMiusicHeaderAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC34C42718DA4400948E89 /* ViewAppleMiusicAnimation.swift */,
+			);
+			path = AppleMiusicHeaderAnimation;
+			sourceTree = "<group>";
+		};
+		C4D8DBEF26FD19D100AA3A91 /* IMessagePinnedViewSwipeActions */ = {
+			isa = PBXGroup;
+			children = (
+				C4D8DBF026FD1A0400AA3A91 /* iMessagePinnedView.swift */,
+			);
+			path = IMessagePinnedViewSwipeActions;
+			sourceTree = "<group>";
+		};
+		C4F684F426FA814C00ED09A6 /* DragAndDropAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */,
+			);
+			path = DragAndDropAPI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +525,10 @@
 			dependencies = (
 			);
 			name = TutorialWWDC2020;
+			packageProductDependencies = (
+				C4413D21270A50CE0029F129 /* SDWebImageSwiftUI */,
+				C4BC34B22714DD1000948E89 /* FacebookLogin */,
+			);
 			productName = TutorialWWDC2020;
 			productReference = C4A01DE126EFF77B001AF3F6 /* TutorialWWDC2020.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +600,10 @@
 				Base,
 			);
 			mainGroup = C4A01DD826EFF77B001AF3F6;
+			packageReferences = (
+				C4413D20270A50CE0029F129 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				C4BC34B12714DD1000948E89 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = C4A01DE226EFF77B001AF3F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +620,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B92498270E4DBC000BBE8A /* Earth.usdz in Resources */,
+				C4B92499270E4DBC000BBE8A /* Venus.usdz in Resources */,
+				C4B9249A270E4DBC000BBE8A /* Pluto.usdz in Resources */,
+				C4B9249B270E4DBC000BBE8A /* Jupiter.usdz in Resources */,
+				C4B9249C270E4DBC000BBE8A /* Mars.usdz in Resources */,
 				C4A01DEC26EFF77C001AF3F6 /* Preview Assets.xcassets in Resources */,
 				C4A01DE926EFF77C001AF3F6 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +651,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C496851226F292580061949E /* HomeTabViewWithSwipeGesture.swift in Sources */,
+				C4413C6C2706640E0029F129 /* ViewInstagramStory3DCube.swift in Sources */,
+				C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */,
+				C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */,
+				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
+				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
+				C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */,
+				C4B92492270E4BAC000BBE8A /* ViewLoading3DObjects.swift in Sources */,
+				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
+				C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */,
+				C4BC34AC2714D35600948E89 /* ViewVerticalCarouselList.swift in Sources */,
+				C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */,
+				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
+				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
+				C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */,
+				C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */,
+				C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */,
 				C4A01DE726EFF77B001AF3F6 /* ContentView.swift in Sources */,
+				C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */,
+				C4B9248C270CED19000BBE8A /* CoreData.xcdatamodeld in Sources */,
+				C4BC34BF2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift in Sources */,
 				C4A01DE526EFF77B001AF3F6 /* TutorialWWDC2020App.swift in Sources */,
+				C496851926F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift in Sources */,
+				C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */,
+				C4BC34C22718D69000948E89 /* ViewSharingImages.swift in Sources */,
+				C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */,
+				C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */,
+				C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */,
+				C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */,
+				C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */,
+				C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */,
+				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +1002,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4413D20270A50CE0029F129 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C4BC34B12714DD1000948E89 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C4413D21270A50CE0029F129 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4413D20270A50CE0029F129 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		C4BC34B22714DD1000948E89 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4BC34B12714DD1000948E89 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C4B9248A270CED19000BBE8A /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4B9248B270CED19000BBE8A /* CoreData.xcdatamodel */,
+			);
+			currentVersion = C4B9248B270CED19000BBE8A /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C4A01DD926EFF77B001AF3F6 /* Project object */;
 }
