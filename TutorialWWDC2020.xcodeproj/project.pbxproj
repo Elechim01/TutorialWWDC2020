@@ -14,6 +14,9 @@
 		C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4413D1B270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift */; };
 		C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4413D1E270A50650029F129 /* ViewJSONParsing.swift */; };
 		C4413D22270A50CE0029F129 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C4413D21270A50CE0029F129 /* SDWebImageSwiftUI */; };
+		C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466E91B271E159A00548F80 /* ViewCustomAudioPlayer.swift */; };
+		C466E91E271E163200548F80 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C466E91D271E163200548F80 /* audio.mp3 */; };
+		C466E921271E231D00548F80 /* ViewDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466E920271E231D00548F80 /* ViewDocumentPicker.swift */; };
 		C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */; };
 		C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */; };
 		C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */; };
@@ -76,6 +79,9 @@
 		C4413C6B2706640E0029F129 /* ViewInstagramStory3DCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInstagramStory3DCube.swift; sourceTree = "<group>"; };
 		C4413D1B270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMuisicPlayerUiNeumorphism.swift; sourceTree = "<group>"; };
 		C4413D1E270A50650029F129 /* ViewJSONParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewJSONParsing.swift; sourceTree = "<group>"; };
+		C466E91B271E159A00548F80 /* ViewCustomAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomAudioPlayer.swift; sourceTree = "<group>"; };
+		C466E91D271E163200548F80 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		C466E920271E231D00548F80 /* ViewDocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDocumentPicker.swift; sourceTree = "<group>"; };
 		C47C44C6270262F5002A949A /* ViewShoeAppHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShoeAppHeroAnimation.swift; sourceTree = "<group>"; };
 		C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeroAnimation.swift; sourceTree = "<group>"; };
 		C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParallaxScrolling.swift; sourceTree = "<group>"; };
@@ -197,6 +203,22 @@
 			path = JSONParsing;
 			sourceTree = "<group>";
 		};
+		C466E91A271E156900548F80 /* CircularAudioVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				C466E91B271E159A00548F80 /* ViewCustomAudioPlayer.swift */,
+			);
+			path = CircularAudioVisualizer;
+			sourceTree = "<group>";
+		};
+		C466E91F271E22ED00548F80 /* FileImporter&FileExporter */ = {
+			isa = PBXGroup;
+			children = (
+				C466E920271E231D00548F80 /* ViewDocumentPicker.swift */,
+			);
+			path = "FileImporter&FileExporter";
+			sourceTree = "<group>";
+		};
 		C47C44C5270262C1002A949A /* ShoeAppHeroAnimationCustomTabMenu's */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +294,7 @@
 		C4A01DD826EFF77B001AF3F6 = {
 			isa = PBXGroup;
 			children = (
+				C466E91D271E163200548F80 /* audio.mp3 */,
 				C4A01DE326EFF77B001AF3F6 /* TutorialWWDC2020 */,
 				C4A01DF526EFF77C001AF3F6 /* TutorialWWDC2020Tests */,
 				C4A01E0026EFF77C001AF3F6 /* TutorialWWDC2020UITests */,
@@ -324,7 +347,9 @@
 				C4BC34BD2718CB5D00948E89 /* BottomSheetAppleMapsBottoSheet */,
 				C4BC34C02718D5E300948E89 /* ShareSheetSharingImage */,
 				C4BC34C32718DA1900948E89 /* AppleMiusicHeaderAnimation */,
+				C466E91A271E156900548F80 /* CircularAudioVisualizer */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
+				C466E91F271E22ED00548F80 /* FileImporter&FileExporter */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DED26EFF77C001AF3F6 /* Info.plist */,
@@ -620,6 +645,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C466E91E271E163200548F80 /* audio.mp3 in Resources */,
 				C4B92498270E4DBC000BBE8A /* Earth.usdz in Resources */,
 				C4B92499270E4DBC000BBE8A /* Venus.usdz in Resources */,
 				C4B9249A270E4DBC000BBE8A /* Pluto.usdz in Resources */,
@@ -659,10 +685,12 @@
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
 				C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */,
 				C4B92492270E4BAC000BBE8A /* ViewLoading3DObjects.swift in Sources */,
+				C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */,
 				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
 				C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */,
 				C4BC34AC2714D35600948E89 /* ViewVerticalCarouselList.swift in Sources */,
 				C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */,
+				C466E921271E231D00548F80 /* ViewDocumentPicker.swift in Sources */,
 				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
 				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
 				C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */,

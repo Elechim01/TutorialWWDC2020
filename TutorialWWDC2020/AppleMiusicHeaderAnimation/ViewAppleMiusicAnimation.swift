@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ViewAppleMiusicAnimation: View {
     
-    
     var edges = UIApplication.shared.windows.first?.safeAreaInsets
+    @State var opacity : Double = 0
     
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .top)){
@@ -18,10 +18,39 @@ struct ViewAppleMiusicAnimation: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack{
 //                    First Parallax Scroll...
-                    Image("p0")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                    
+                    GeometryReader{ reader in
+                        VStack{
+                            Image("p0")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+//                            default width...
+                                .frame(width: UIScreen.main.bounds.width,
+                                       height: reader.frame(in: .global).minY > 0 ? reader.frame(in: .global).minY + (UIScreen.main.bounds.height / 2.2) : UIScreen.main.bounds.height / 2.2)
+//                            adjusting view position when scrolls..
+                                .offset(y: -reader.frame(in: .global).minY)
+//                            NavBar Cahnge...
+                                .onChange(of: reader.frame(in: .global).minY) { value in
+//                                    cheking if top is reached...
+                                    let offset = value + (UIScreen.main.bounds.height / 2.2)
+                                    if offset < 80{
+//                                        rating from 0 - 80
+                                        if offset > 0{
+//                                            calculating opacity...
+                                            let opacity_value = (80 - offset) / 80
+                                            self.opacity = Double(opacity_value)
+                                            return
+                                        }
+//                                        else menas
+                                        self.opacity = 1
+                                    }
+                                    else{
+                                        self.opacity = 0
+                                    }
+                                }
+                        }
+                    }
+//                    Setting default height...
+                    .frame(height: UIScreen.main.bounds.height / 2.2)
 //                    List Of Songs...
                     VStack(spacing: 10){
                         ForEach(albums,id: \.album_name){ album in
@@ -45,6 +74,7 @@ struct ViewAppleMiusicAnimation: View {
                         }
                     }
                     .padding(.vertical)
+                    .background(Color.white)
                 }
             }
             
@@ -75,10 +105,11 @@ struct ViewAppleMiusicAnimation: View {
 
             }
             .padding()
-            .foregroundColor(.white)
+            .foregroundColor(opacity > 0.6 ? .black : .white)
 //          since top eges is ignored...
             .padding(.top,edges!.top)
-            .background(Color.white.opacity(0))
+            .background(Color.white.opacity(opacity))
+            .shadow(color: Color.black.opacity(opacity > 0.8 ? 0.1 : 0), radius: 5, x: 0, y: 5)
         }
         .ignoresSafeArea(.all, edges: .top)
     }
