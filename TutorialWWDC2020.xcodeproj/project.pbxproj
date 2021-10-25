@@ -17,6 +17,10 @@
 		C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466E91B271E159A00548F80 /* ViewCustomAudioPlayer.swift */; };
 		C466E91E271E163200548F80 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C466E91D271E163200548F80 /* audio.mp3 */; };
 		C466E921271E231D00548F80 /* ViewDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466E920271E231D00548F80 /* ViewDocumentPicker.swift */; };
+		C466E924271F640C00548F80 /* ViewRestfullApiSailsjs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466E923271F640C00548F80 /* ViewRestfullApiSailsjs.swift */; };
+		C466E9272720BBF200548F80 /* ViewCustomCarouselListSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466E9262720BBF200548F80 /* ViewCustomCarouselListSlider.swift */; };
+		C46A518B272747980001B904 /* ViewJSONParsingUsingOurOwn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A518A272747980001B904 /* ViewJSONParsingUsingOurOwn.swift */; };
+		C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */; };
 		C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */; };
 		C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */; };
 		C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */; };
@@ -33,6 +37,7 @@
 		C4A01E0226EFF77C001AF3F6 /* TutorialWWDC2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E0126EFF77C001AF3F6 /* TutorialWWDC2020UITests.swift */; };
 		C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E1026EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift */; };
 		C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */; };
+		C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34AF2714DAC600948E89 /* ViewFacebookLogin.swift */; };
 		C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92482270B9FCB000BBE8A /* ViewGradientPickerAPI.swift */; };
 		C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92485270CE761000BBE8A /* ViewCustomTabPageIcons.swift */; };
 		C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92488270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift */; };
@@ -52,6 +57,8 @@
 		C4BC34BF2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34BE2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift */; };
 		C4BC34C22718D69000948E89 /* ViewSharingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34C12718D69000948E89 /* ViewSharingImages.swift */; };
 		C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34C42718DA4400948E89 /* ViewAppleMiusicAnimation.swift */; };
+		C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA186B2721FF1E003A7080 /* ViewCircularSliderSeeker.swift */; };
+		C4CA186F27220794003A7080 /* ViewCustomSideBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA186E27220794003A7080 /* ViewCustomSideBarMenu.swift */; };
 		C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +89,10 @@
 		C466E91B271E159A00548F80 /* ViewCustomAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomAudioPlayer.swift; sourceTree = "<group>"; };
 		C466E91D271E163200548F80 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		C466E920271E231D00548F80 /* ViewDocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDocumentPicker.swift; sourceTree = "<group>"; };
+		C466E923271F640C00548F80 /* ViewRestfullApiSailsjs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRestfullApiSailsjs.swift; sourceTree = "<group>"; };
+		C466E9262720BBF200548F80 /* ViewCustomCarouselListSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomCarouselListSlider.swift; sourceTree = "<group>"; };
+		C46A518A272747980001B904 /* ViewJSONParsingUsingOurOwn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewJSONParsingUsingOurOwn.swift; sourceTree = "<group>"; };
+		C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomTabBar.swift; sourceTree = "<group>"; };
 		C47C44C6270262F5002A949A /* ViewShoeAppHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShoeAppHeroAnimation.swift; sourceTree = "<group>"; };
 		C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeroAnimation.swift; sourceTree = "<group>"; };
 		C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParallaxScrolling.swift; sourceTree = "<group>"; };
@@ -124,6 +135,8 @@
 		C4BC34BE2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBottomSheetMapsBottomSheet.swift; sourceTree = "<group>"; };
 		C4BC34C12718D69000948E89 /* ViewSharingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSharingImages.swift; sourceTree = "<group>"; };
 		C4BC34C42718DA4400948E89 /* ViewAppleMiusicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAppleMiusicAnimation.swift; sourceTree = "<group>"; };
+		C4CA186B2721FF1E003A7080 /* ViewCircularSliderSeeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCircularSliderSeeker.swift; sourceTree = "<group>"; };
+		C4CA186E27220794003A7080 /* ViewCustomSideBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomSideBarMenu.swift; sourceTree = "<group>"; };
 		C4D8DBF026FD1A0400AA3A91 /* iMessagePinnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessagePinnedView.swift; sourceTree = "<group>"; };
 		C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDragAndDropApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +230,38 @@
 				C466E920271E231D00548F80 /* ViewDocumentPicker.swift */,
 			);
 			path = "FileImporter&FileExporter";
+			sourceTree = "<group>";
+		};
+		C466E922271F63B700548F80 /* RestApi'sUsingSailsjs */ = {
+			isa = PBXGroup;
+			children = (
+				C466E923271F640C00548F80 /* ViewRestfullApiSailsjs.swift */,
+			);
+			path = "RestApi'sUsingSailsjs";
+			sourceTree = "<group>";
+		};
+		C466E9252720BBCE00548F80 /* StackedCarouselSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C466E9262720BBF200548F80 /* ViewCustomCarouselListSlider.swift */,
+			);
+			path = StackedCarouselSlider;
+			sourceTree = "<group>";
+		};
+		C46A51892727476E0001B904 /* JSONParsingUsingOurOwn */ = {
+			isa = PBXGroup;
+			children = (
+				C46A518A272747980001B904 /* ViewJSONParsingUsingOurOwn.swift */,
+			);
+			path = JSONParsingUsingOurOwn;
+			sourceTree = "<group>";
+		};
+		C46A518C2727528A0001B904 /* CustomTabBarPreservingState */ = {
+			isa = PBXGroup;
+			children = (
+				C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */,
+			);
+			path = CustomTabBarPreservingState;
 			sourceTree = "<group>";
 		};
 		C47C44C5270262C1002A949A /* ShoeAppHeroAnimationCustomTabMenu's */ = {
@@ -348,8 +393,14 @@
 				C4BC34C02718D5E300948E89 /* ShareSheetSharingImage */,
 				C4BC34C32718DA1900948E89 /* AppleMiusicHeaderAnimation */,
 				C466E91A271E156900548F80 /* CircularAudioVisualizer */,
-				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C466E91F271E22ED00548F80 /* FileImporter&FileExporter */,
+				C466E922271F63B700548F80 /* RestApi'sUsingSailsjs */,
+				C466E9252720BBCE00548F80 /* StackedCarouselSlider */,
+				C4CA186A2721FEE2003A7080 /* AppleWalletCircular */,
+				C4CA186D272206A4003A7080 /* CustomnavigationMenu */,
+				C46A51892727476E0001B904 /* JSONParsingUsingOurOwn */,
+				C46A518C2727528A0001B904 /* CustomTabBarPreservingState */,
+				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DED26EFF77C001AF3F6 /* Info.plist */,
@@ -518,6 +569,22 @@
 			path = AppleMiusicHeaderAnimation;
 			sourceTree = "<group>";
 		};
+		C4CA186A2721FEE2003A7080 /* AppleWalletCircular */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA186B2721FF1E003A7080 /* ViewCircularSliderSeeker.swift */,
+			);
+			path = AppleWalletCircular;
+			sourceTree = "<group>";
+		};
+		C4CA186D272206A4003A7080 /* CustomnavigationMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA186E27220794003A7080 /* ViewCustomSideBarMenu.swift */,
+			);
+			path = CustomnavigationMenu;
+			sourceTree = "<group>";
+		};
 		C4D8DBEF26FD19D100AA3A91 /* IMessagePinnedViewSwipeActions */ = {
 			isa = PBXGroup;
 			children = (
@@ -678,12 +745,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C496851226F292580061949E /* HomeTabViewWithSwipeGesture.swift in Sources */,
+				C4CA186F27220794003A7080 /* ViewCustomSideBarMenu.swift in Sources */,
 				C4413C6C2706640E0029F129 /* ViewInstagramStory3DCube.swift in Sources */,
 				C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */,
 				C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
 				C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */,
+				C46A518B272747980001B904 /* ViewJSONParsingUsingOurOwn.swift in Sources */,
 				C4B92492270E4BAC000BBE8A /* ViewLoading3DObjects.swift in Sources */,
 				C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */,
 				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
@@ -695,10 +764,12 @@
 				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
 				C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */,
 				C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */,
+				C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */,
 				C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */,
 				C4A01DE726EFF77B001AF3F6 /* ContentView.swift in Sources */,
 				C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */,
 				C4B9248C270CED19000BBE8A /* CoreData.xcdatamodeld in Sources */,
+				C466E924271F640C00548F80 /* ViewRestfullApiSailsjs.swift in Sources */,
 				C4BC34BF2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift in Sources */,
 				C4A01DE526EFF77B001AF3F6 /* TutorialWWDC2020App.swift in Sources */,
 				C496851926F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift in Sources */,
@@ -708,9 +779,12 @@
 				C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */,
 				C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */,
 				C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */,
+				C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */,
+				C466E9272720BBF200548F80 /* ViewCustomCarouselListSlider.swift in Sources */,
 				C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */,
 				C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
+				C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
