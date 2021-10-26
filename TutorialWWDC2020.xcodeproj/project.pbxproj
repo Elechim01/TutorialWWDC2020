@@ -38,6 +38,8 @@
 		C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E1026EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift */; };
 		C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */; };
 		C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34AF2714DAC600948E89 /* ViewFacebookLogin.swift */; };
+		C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B924492728998600FB8AFF /* ViewAnalogClockApp.swift */; };
+		C4B9244D2728A37600FB8AFF /* ViewNikeShowUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9244C2728A37600FB8AFF /* ViewNikeShowUI.swift */; };
 		C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92482270B9FCB000BBE8A /* ViewGradientPickerAPI.swift */; };
 		C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92485270CE761000BBE8A /* ViewCustomTabPageIcons.swift */; };
 		C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B92488270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift */; };
@@ -116,6 +118,8 @@
 		C4A01E0326EFF77C001AF3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4A01E1026EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppleMiusicAnimations.swift; sourceTree = "<group>"; };
 		C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomGridsAndAnimations.swift; sourceTree = "<group>"; };
+		C4B924492728998600FB8AFF /* ViewAnalogClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnalogClockApp.swift; sourceTree = "<group>"; };
+		C4B9244C2728A37600FB8AFF /* ViewNikeShowUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNikeShowUI.swift; sourceTree = "<group>"; };
 		C4B92482270B9FCB000BBE8A /* ViewGradientPickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGradientPickerAPI.swift; sourceTree = "<group>"; };
 		C4B92485270CE761000BBE8A /* ViewCustomTabPageIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomTabPageIcons.swift; sourceTree = "<group>"; };
 		C4B92488270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCoreDataConnectionCRUD.swift; sourceTree = "<group>"; };
@@ -400,6 +404,8 @@
 				C4CA186D272206A4003A7080 /* CustomnavigationMenu */,
 				C46A51892727476E0001B904 /* JSONParsingUsingOurOwn */,
 				C46A518C2727528A0001B904 /* CustomTabBarPreservingState */,
+				C4B924482728997000FB8AFF /* AnalogClockApp */,
+				C4B9244B2728A34500FB8AFF /* NikeShoeUIApp */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
@@ -449,6 +455,22 @@
 				C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */,
 			);
 			path = CustomGridsAndAnimations;
+			sourceTree = "<group>";
+		};
+		C4B924482728997000FB8AFF /* AnalogClockApp */ = {
+			isa = PBXGroup;
+			children = (
+				C4B924492728998600FB8AFF /* ViewAnalogClockApp.swift */,
+			);
+			path = AnalogClockApp;
+			sourceTree = "<group>";
+		};
+		C4B9244B2728A34500FB8AFF /* NikeShoeUIApp */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9244C2728A37600FB8AFF /* ViewNikeShowUI.swift */,
+			);
+			path = NikeShoeUIApp;
 			sourceTree = "<group>";
 		};
 		C4B92481270B9F69000BBE8A /* GradientPickerAPI-Grids */ = {
@@ -747,6 +769,7 @@
 				C496851226F292580061949E /* HomeTabViewWithSwipeGesture.swift in Sources */,
 				C4CA186F27220794003A7080 /* ViewCustomSideBarMenu.swift in Sources */,
 				C4413C6C2706640E0029F129 /* ViewInstagramStory3DCube.swift in Sources */,
+				C4B9244D2728A37600FB8AFF /* ViewNikeShowUI.swift in Sources */,
 				C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */,
 				C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
@@ -783,6 +806,7 @@
 				C466E9272720BBF200548F80 /* ViewCustomCarouselListSlider.swift in Sources */,
 				C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */,
 				C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */,
+				C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
 				C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */,
 			);
