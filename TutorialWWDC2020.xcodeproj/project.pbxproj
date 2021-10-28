@@ -37,6 +37,9 @@
 		C4A01E0226EFF77C001AF3F6 /* TutorialWWDC2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E0126EFF77C001AF3F6 /* TutorialWWDC2020UITests.swift */; };
 		C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E1026EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift */; };
 		C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */; };
+		C4A551FD2729FE4200A2D512 /* GiphyUISDK in Frameworks */ = {isa = PBXBuildFile; productRef = C4A551FC2729FE4200A2D512 /* GiphyUISDK */; };
+		C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A551FF2729FE6900A2D512 /* ViewGif.swift */; };
+		C4A552022729FFBF00A2D512 /* GifController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A552012729FFBF00A2D512 /* GifController.swift */; };
 		C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34AF2714DAC600948E89 /* ViewFacebookLogin.swift */; };
 		C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B924492728998600FB8AFF /* ViewAnalogClockApp.swift */; };
 		C4B9244D2728A37600FB8AFF /* ViewNikeShowUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9244C2728A37600FB8AFF /* ViewNikeShowUI.swift */; };
@@ -61,6 +64,8 @@
 		C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34C42718DA4400948E89 /* ViewAppleMiusicAnimation.swift */; };
 		C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA186B2721FF1E003A7080 /* ViewCircularSliderSeeker.swift */; };
 		C4CA186F27220794003A7080 /* ViewCustomSideBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA186E27220794003A7080 /* ViewCustomSideBarMenu.swift */; };
+		C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB3DB9272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift */; };
+		C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB3DBC272B3C1A009330BD /* Recipe.swift */; };
 		C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +123,8 @@
 		C4A01E0326EFF77C001AF3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4A01E1026EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppleMiusicAnimations.swift; sourceTree = "<group>"; };
 		C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomGridsAndAnimations.swift; sourceTree = "<group>"; };
+		C4A551FF2729FE6900A2D512 /* ViewGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGif.swift; sourceTree = "<group>"; };
+		C4A552012729FFBF00A2D512 /* GifController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifController.swift; sourceTree = "<group>"; };
 		C4B924492728998600FB8AFF /* ViewAnalogClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnalogClockApp.swift; sourceTree = "<group>"; };
 		C4B9244C2728A37600FB8AFF /* ViewNikeShowUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNikeShowUI.swift; sourceTree = "<group>"; };
 		C4B92482270B9FCB000BBE8A /* ViewGradientPickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGradientPickerAPI.swift; sourceTree = "<group>"; };
@@ -142,6 +149,8 @@
 		C4CA186B2721FF1E003A7080 /* ViewCircularSliderSeeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCircularSliderSeeker.swift; sourceTree = "<group>"; };
 		C4CA186E27220794003A7080 /* ViewCustomSideBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomSideBarMenu.swift; sourceTree = "<group>"; };
 		C4D8DBF026FD1A0400AA3A91 /* iMessagePinnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessagePinnedView.swift; sourceTree = "<group>"; };
+		C4EB3DB9272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComplextUITutorialsRecipeUI.swift; sourceTree = "<group>"; };
+		C4EB3DBC272B3C1A009330BD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDragAndDropApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A551FD2729FE4200A2D512 /* GiphyUISDK in Frameworks */,
 				C4BC34B32714DD1000948E89 /* FacebookLogin in Frameworks */,
 				C4413D22270A50CE0029F129 /* SDWebImageSwiftUI in Frameworks */,
 			);
@@ -406,6 +416,8 @@
 				C46A518C2727528A0001B904 /* CustomTabBarPreservingState */,
 				C4B924482728997000FB8AFF /* AnalogClockApp */,
 				C4B9244B2728A34500FB8AFF /* NikeShoeUIApp */,
+				C4EB3DB8272B3793009330BD /* ComplexUiTutorialsRecipeUI */,
+				C4A551FE2729FE4C00A2D512 /* OpeningGifFiles */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
@@ -455,6 +467,15 @@
 				C4A01E1326EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift */,
 			);
 			path = CustomGridsAndAnimations;
+			sourceTree = "<group>";
+		};
+		C4A551FE2729FE4C00A2D512 /* OpeningGifFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C4A551FF2729FE6900A2D512 /* ViewGif.swift */,
+				C4A552012729FFBF00A2D512 /* GifController.swift */,
+			);
+			path = OpeningGifFiles;
 			sourceTree = "<group>";
 		};
 		C4B924482728997000FB8AFF /* AnalogClockApp */ = {
@@ -615,6 +636,23 @@
 			path = IMessagePinnedViewSwipeActions;
 			sourceTree = "<group>";
 		};
+		C4EB3DB8272B3793009330BD /* ComplexUiTutorialsRecipeUI */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB3DBB272B3BFD009330BD /* Model */,
+				C4EB3DB9272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift */,
+			);
+			path = ComplexUiTutorialsRecipeUI;
+			sourceTree = "<group>";
+		};
+		C4EB3DBB272B3BFD009330BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB3DBC272B3C1A009330BD /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C4F684F426FA814C00ED09A6 /* DragAndDropAPI */ = {
 			isa = PBXGroup;
 			children = (
@@ -642,6 +680,7 @@
 			packageProductDependencies = (
 				C4413D21270A50CE0029F129 /* SDWebImageSwiftUI */,
 				C4BC34B22714DD1000948E89 /* FacebookLogin */,
+				C4A551FC2729FE4200A2D512 /* GiphyUISDK */,
 			);
 			productName = TutorialWWDC2020;
 			productReference = C4A01DE126EFF77B001AF3F6 /* TutorialWWDC2020.app */;
@@ -717,6 +756,7 @@
 			packageReferences = (
 				C4413D20270A50CE0029F129 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				C4BC34B12714DD1000948E89 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				C4A551FB2729FE4200A2D512 /* XCRemoteSwiftPackageReference "giphy-ios-sdk" */,
 			);
 			productRefGroup = C4A01DE226EFF77B001AF3F6 /* Products */;
 			projectDirPath = "";
@@ -771,6 +811,7 @@
 				C4413C6C2706640E0029F129 /* ViewInstagramStory3DCube.swift in Sources */,
 				C4B9244D2728A37600FB8AFF /* ViewNikeShowUI.swift in Sources */,
 				C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */,
+				C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */,
 				C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
@@ -782,9 +823,11 @@
 				C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */,
 				C4BC34AC2714D35600948E89 /* ViewVerticalCarouselList.swift in Sources */,
 				C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */,
+				C4A552022729FFBF00A2D512 /* GifController.swift in Sources */,
 				C466E921271E231D00548F80 /* ViewDocumentPicker.swift in Sources */,
 				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
 				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
+				C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */,
 				C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */,
 				C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */,
 				C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */,
@@ -807,6 +850,7 @@
 				C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */,
 				C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */,
 				C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */,
+				C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
 				C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */,
 			);
@@ -1138,6 +1182,14 @@
 				kind = branch;
 			};
 		};
+		C4A551FB2729FE4200A2D512 /* XCRemoteSwiftPackageReference "giphy-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Giphy/giphy-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		C4BC34B12714DD1000948E89 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
@@ -1153,6 +1205,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C4413D20270A50CE0029F129 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		C4A551FC2729FE4200A2D512 /* GiphyUISDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4A551FB2729FE4200A2D512 /* XCRemoteSwiftPackageReference "giphy-ios-sdk" */;
+			productName = GiphyUISDK;
 		};
 		C4BC34B22714DD1000948E89 /* FacebookLogin */ = {
 			isa = XCSwiftPackageProductDependency;
