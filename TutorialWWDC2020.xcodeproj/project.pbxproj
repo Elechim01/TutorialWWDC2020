@@ -22,6 +22,8 @@
 		C46A518B272747980001B904 /* ViewJSONParsingUsingOurOwn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A518A272747980001B904 /* ViewJSONParsingUsingOurOwn.swift */; };
 		C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */; };
 		C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */; };
+		C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */; };
+		C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774CA27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift */; };
 		C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */; };
 		C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */; };
 		C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */; };
@@ -102,6 +104,8 @@
 		C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomTabBar.swift; sourceTree = "<group>"; };
 		C47C44C6270262F5002A949A /* ViewShoeAppHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShoeAppHeroAnimation.swift; sourceTree = "<group>"; };
 		C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeroAnimation.swift; sourceTree = "<group>"; };
+		C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOnBoardingCustomSlider.swift; sourceTree = "<group>"; };
+		C48774CA27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoginPageWithFaceAndTouchID.swift; sourceTree = "<group>"; };
 		C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParallaxScrolling.swift; sourceTree = "<group>"; };
 		C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomPathsSolidAnimations.swift; sourceTree = "<group>"; };
 		C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChatUIImagePicker.swift; sourceTree = "<group>"; };
@@ -294,6 +298,22 @@
 			path = CustomAnimationsHeroAnimation;
 			sourceTree = "<group>";
 		};
+		C48774C62730905000C90E6E /* OnBoardingScreenwidthCustomSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */,
+			);
+			path = OnBoardingScreenwidthCustomSlider;
+			sourceTree = "<group>";
+		};
+		C48774C927309BAA00C90E6E /* LoginPageWithFaceAndTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				C48774CA27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift */,
+			);
+			path = LoginPageWithFaceAndTouchID;
+			sourceTree = "<group>";
+		};
 		C491F7B226FBCE15000A58CF /* ParallxEffectParallaxScrolling */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +438,8 @@
 				C4B9244B2728A34500FB8AFF /* NikeShoeUIApp */,
 				C4EB3DB8272B3793009330BD /* ComplexUiTutorialsRecipeUI */,
 				C4A551FE2729FE4C00A2D512 /* OpeningGifFiles */,
+				C48774C62730905000C90E6E /* OnBoardingScreenwidthCustomSlider */,
+				C48774C927309BAA00C90E6E /* LoginPageWithFaceAndTouchID */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
@@ -844,6 +866,7 @@
 				C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */,
 				C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */,
 				C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */,
+				C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */,
 				C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */,
 				C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */,
 				C466E9272720BBF200548F80 /* ViewCustomCarouselListSlider.swift in Sources */,
@@ -852,6 +875,7 @@
 				C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */,
 				C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
+				C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */,
 				C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
