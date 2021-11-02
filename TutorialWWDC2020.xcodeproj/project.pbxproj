@@ -24,6 +24,10 @@
 		C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */; };
 		C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */; };
 		C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774CA27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift */; };
+		C48774CE2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774CD2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift */; };
+		C48774D32731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774D22731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift */; };
+		C48774D52731E16F00C90E6E /* HomeViewModelCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774D42731E16F00C90E6E /* HomeViewModelCircularSlider.swift */; };
+		C48774D72731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774D62731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift */; };
 		C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */; };
 		C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */; };
 		C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */; };
@@ -106,6 +110,10 @@
 		C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeroAnimation.swift; sourceTree = "<group>"; };
 		C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOnBoardingCustomSlider.swift; sourceTree = "<group>"; };
 		C48774CA27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoginPageWithFaceAndTouchID.swift; sourceTree = "<group>"; };
+		C48774CD2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomMusicPlayerCircularSlider.swift; sourceTree = "<group>"; };
+		C48774D22731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCustomMiusicPlayer.swift; sourceTree = "<group>"; };
+		C48774D42731E16F00C90E6E /* HomeViewModelCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelCircularSlider.swift; sourceTree = "<group>"; };
+		C48774D62731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCustomMusicPlayerCircularSlider.swift; sourceTree = "<group>"; };
 		C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParallaxScrolling.swift; sourceTree = "<group>"; };
 		C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomPathsSolidAnimations.swift; sourceTree = "<group>"; };
 		C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChatUIImagePicker.swift; sourceTree = "<group>"; };
@@ -314,6 +322,41 @@
 			path = LoginPageWithFaceAndTouchID;
 			sourceTree = "<group>";
 		};
+		C48774CC2731E05400C90E6E /* CustomMusicPlayerCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C48774D12731E10F00C90E6E /* ViewModel */,
+				C48774D02731E0F900C90E6E /* Model */,
+				C48774CF2731E0F000C90E6E /* View */,
+				C48774CD2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift */,
+			);
+			path = CustomMusicPlayerCircularSlider;
+			sourceTree = "<group>";
+		};
+		C48774CF2731E0F000C90E6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C48774D62731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48774D02731E0F900C90E6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C48774D22731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C48774D12731E10F00C90E6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C48774D42731E16F00C90E6E /* HomeViewModelCircularSlider.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		C491F7B226FBCE15000A58CF /* ParallxEffectParallaxScrolling */ = {
 			isa = PBXGroup;
 			children = (
@@ -440,6 +483,7 @@
 				C4A551FE2729FE4C00A2D512 /* OpeningGifFiles */,
 				C48774C62730905000C90E6E /* OnBoardingScreenwidthCustomSlider */,
 				C48774C927309BAA00C90E6E /* LoginPageWithFaceAndTouchID */,
+				C48774CC2731E05400C90E6E /* CustomMusicPlayerCircularSlider */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
@@ -835,6 +879,7 @@
 				C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */,
 				C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */,
 				C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */,
+				C48774D52731E16F00C90E6E /* HomeViewModelCircularSlider.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
 				C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */,
@@ -842,6 +887,7 @@
 				C4B92492270E4BAC000BBE8A /* ViewLoading3DObjects.swift in Sources */,
 				C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */,
 				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
+				C48774CE2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */,
 				C4BC34AC2714D35600948E89 /* ViewVerticalCarouselList.swift in Sources */,
 				C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */,
@@ -873,7 +919,9 @@
 				C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */,
 				C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */,
 				C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */,
+				C48774D32731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift in Sources */,
 				C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */,
+				C48774D72731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
 				C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */,
 				C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */,
