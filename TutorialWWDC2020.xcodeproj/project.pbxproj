@@ -28,6 +28,17 @@
 		C48774D32731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774D22731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift */; };
 		C48774D52731E16F00C90E6E /* HomeViewModelCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774D42731E16F00C90E6E /* HomeViewModelCircularSlider.swift */; };
 		C48774D72731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774D62731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift */; };
+		C48774DA273342C400C90E6E /* ViewWheelRadialPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774D9273342C400C90E6E /* ViewWheelRadialPicker.swift */; };
+		C48774DE2733434B00C90E6E /* HomeViewWhellRadialPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774DD2733434B00C90E6E /* HomeViewWhellRadialPicker.swift */; };
+		C48774E02733441F00C90E6E /* OptionViewWhellRadialPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774DF2733441F00C90E6E /* OptionViewWhellRadialPicker.swift */; };
+		C48774E2273347D000C90E6E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774E1273347D000C90E6E /* HomeViewModel.swift */; };
+		C48774E427334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774E327334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift */; };
+		C48774E727348C2500C90E6E /* ViewSmoothCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774E627348C2500C90E6E /* ViewSmoothCurves.swift */; };
+		C48774EA2734911A00C90E6E /* HomeSmoothCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774E92734911A00C90E6E /* HomeSmoothCurves.swift */; };
+		C48774EC2734915800C90E6E /* ItemViewSmoothCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774EB2734915800C90E6E /* ItemViewSmoothCurves.swift */; };
+		C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774EE2734919500C90E6E /* ItemSmoothCurves.swift */; };
+		C48774F1273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774F0273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift */; };
+		C48774F327349A5000C90E6E /* ViewDetailSmoothCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774F227349A5000C90E6E /* ViewDetailSmoothCurves.swift */; };
 		C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */; };
 		C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */; };
 		C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */; };
@@ -114,6 +125,17 @@
 		C48774D22731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCustomMiusicPlayer.swift; sourceTree = "<group>"; };
 		C48774D42731E16F00C90E6E /* HomeViewModelCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelCircularSlider.swift; sourceTree = "<group>"; };
 		C48774D62731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCustomMusicPlayerCircularSlider.swift; sourceTree = "<group>"; };
+		C48774D9273342C400C90E6E /* ViewWheelRadialPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWheelRadialPicker.swift; sourceTree = "<group>"; };
+		C48774DD2733434B00C90E6E /* HomeViewWhellRadialPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewWhellRadialPicker.swift; sourceTree = "<group>"; };
+		C48774DF2733441F00C90E6E /* OptionViewWhellRadialPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewWhellRadialPicker.swift; sourceTree = "<group>"; };
+		C48774E1273347D000C90E6E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C48774E327334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionButtonWheelRadialPicker.swift; sourceTree = "<group>"; };
+		C48774E627348C2500C90E6E /* ViewSmoothCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSmoothCurves.swift; sourceTree = "<group>"; };
+		C48774E92734911A00C90E6E /* HomeSmoothCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSmoothCurves.swift; sourceTree = "<group>"; };
+		C48774EB2734915800C90E6E /* ItemViewSmoothCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewSmoothCurves.swift; sourceTree = "<group>"; };
+		C48774EE2734919500C90E6E /* ItemSmoothCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSmoothCurves.swift; sourceTree = "<group>"; };
+		C48774F0273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerViewSmoothCurves.swift; sourceTree = "<group>"; };
+		C48774F227349A5000C90E6E /* ViewDetailSmoothCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailSmoothCurves.swift; sourceTree = "<group>"; };
 		C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParallaxScrolling.swift; sourceTree = "<group>"; };
 		C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomPathsSolidAnimations.swift; sourceTree = "<group>"; };
 		C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChatUIImagePicker.swift; sourceTree = "<group>"; };
@@ -357,6 +379,63 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		C48774D82733427C00C90E6E /* WhellRadialPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C48774DC2733432500C90E6E /* ViewModel */,
+				C48774DB2733431D00C90E6E /* View */,
+				C48774D9273342C400C90E6E /* ViewWheelRadialPicker.swift */,
+			);
+			path = WhellRadialPicker;
+			sourceTree = "<group>";
+		};
+		C48774DB2733431D00C90E6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C48774DD2733434B00C90E6E /* HomeViewWhellRadialPicker.swift */,
+				C48774DF2733441F00C90E6E /* OptionViewWhellRadialPicker.swift */,
+				C48774E327334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48774DC2733432500C90E6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C48774E1273347D000C90E6E /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C48774E527348B6B00C90E6E /* SmoothCurversFoodApp */ = {
+			isa = PBXGroup;
+			children = (
+				C48774ED2734916400C90E6E /* Model */,
+				C48774E8273490A100C90E6E /* View */,
+				C48774E627348C2500C90E6E /* ViewSmoothCurves.swift */,
+			);
+			path = SmoothCurversFoodApp;
+			sourceTree = "<group>";
+		};
+		C48774E8273490A100C90E6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C48774E92734911A00C90E6E /* HomeSmoothCurves.swift */,
+				C48774EB2734915800C90E6E /* ItemViewSmoothCurves.swift */,
+				C48774F0273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift */,
+				C48774F227349A5000C90E6E /* ViewDetailSmoothCurves.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48774ED2734916400C90E6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C48774EE2734919500C90E6E /* ItemSmoothCurves.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C491F7B226FBCE15000A58CF /* ParallxEffectParallaxScrolling */ = {
 			isa = PBXGroup;
 			children = (
@@ -484,6 +563,8 @@
 				C48774C62730905000C90E6E /* OnBoardingScreenwidthCustomSlider */,
 				C48774C927309BAA00C90E6E /* LoginPageWithFaceAndTouchID */,
 				C48774CC2731E05400C90E6E /* CustomMusicPlayerCircularSlider */,
+				C48774D82733427C00C90E6E /* WhellRadialPicker */,
+				C48774E527348B6B00C90E6E /* SmoothCurversFoodApp */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
@@ -877,13 +958,16 @@
 				C4413C6C2706640E0029F129 /* ViewInstagramStory3DCube.swift in Sources */,
 				C4B9244D2728A37600FB8AFF /* ViewNikeShowUI.swift in Sources */,
 				C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */,
+				C48774F1273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift in Sources */,
 				C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */,
 				C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */,
 				C48774D52731E16F00C90E6E /* HomeViewModelCircularSlider.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
+				C48774EC2734915800C90E6E /* ItemViewSmoothCurves.swift in Sources */,
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
 				C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */,
 				C46A518B272747980001B904 /* ViewJSONParsingUsingOurOwn.swift in Sources */,
+				C48774EA2734911A00C90E6E /* HomeSmoothCurves.swift in Sources */,
 				C4B92492270E4BAC000BBE8A /* ViewLoading3DObjects.swift in Sources */,
 				C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */,
 				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
@@ -891,16 +975,22 @@
 				C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */,
 				C4BC34AC2714D35600948E89 /* ViewVerticalCarouselList.swift in Sources */,
 				C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */,
+				C48774E2273347D000C90E6E /* HomeViewModel.swift in Sources */,
+				C48774F327349A5000C90E6E /* ViewDetailSmoothCurves.swift in Sources */,
 				C4A552022729FFBF00A2D512 /* GifController.swift in Sources */,
 				C466E921271E231D00548F80 /* ViewDocumentPicker.swift in Sources */,
+				C48774E727348C2500C90E6E /* ViewSmoothCurves.swift in Sources */,
 				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
 				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
+				C48774E427334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift in Sources */,
+				C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */,
 				C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */,
 				C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */,
 				C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */,
 				C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */,
 				C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */,
 				C4A01DE726EFF77B001AF3F6 /* ContentView.swift in Sources */,
+				C48774DE2733434B00C90E6E /* HomeViewWhellRadialPicker.swift in Sources */,
 				C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */,
 				C4B9248C270CED19000BBE8A /* CoreData.xcdatamodeld in Sources */,
 				C466E924271F640C00548F80 /* ViewRestfullApiSailsjs.swift in Sources */,
@@ -916,11 +1006,13 @@
 				C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */,
 				C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */,
 				C466E9272720BBF200548F80 /* ViewCustomCarouselListSlider.swift in Sources */,
+				C48774E02733441F00C90E6E /* OptionViewWhellRadialPicker.swift in Sources */,
 				C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */,
 				C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */,
 				C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */,
 				C48774D32731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift in Sources */,
 				C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */,
+				C48774DA273342C400C90E6E /* ViewWheelRadialPicker.swift in Sources */,
 				C48774D72731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
 				C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */,

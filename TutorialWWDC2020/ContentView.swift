@@ -26,7 +26,7 @@ struct ContentView: View {
 //                }))
 //        }
 //        MainView()
-        ViewCustomMusicPlayerCircularSlider()
+        ViewSmoothCurves()
       
        
     }
