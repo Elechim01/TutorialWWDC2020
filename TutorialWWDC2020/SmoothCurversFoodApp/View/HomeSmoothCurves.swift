@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeSmoothCurves: View {
     @State var search = ""
     @State var detail = false
+    @State var isSmallDevice = UIScreen.main.bounds.width < 750
     var body: some View{
         VStack{
             
@@ -66,11 +67,12 @@ struct HomeSmoothCurves: View {
                     HStack(alignment: .top) {
                         VStack(alignment: .leading, spacing: 10) {
                             Text("Party Donut")
-                                .font(.title)
+                                .font(isSmallDevice ? .title2 : .title)
                                 .fontWeight(.heavy)
                                 .foregroundColor(.white)
                             
                             Text("Every favourite donut in new glaze")
+                                .font(isSmallDevice ? .caption : .none)
                                 .fontWeight(.heavy)
                                 .foregroundColor(Color.black.opacity(0.6))
                                 
