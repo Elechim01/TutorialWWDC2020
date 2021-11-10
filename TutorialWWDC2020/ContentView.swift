@@ -26,8 +26,8 @@ struct ContentView: View {
 //                }))
 //        }
 //        MainView()
-        ViewSmoothCurves()
-      
+//        ViewSmoothCurves()
+        OnlineShopAppUIBag()
        
     }
 }

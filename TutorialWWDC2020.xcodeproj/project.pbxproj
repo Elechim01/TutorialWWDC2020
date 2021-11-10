@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4078B0A2739C7910026616B /* ViewApplyingFiltersToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B092739C7910026616B /* ViewApplyingFiltersToImage.swift */; };
+		C4078B0F2739C8190026616B /* ViewModelApplyingFiltersToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B0E2739C8190026616B /* ViewModelApplyingFiltersToImage.swift */; };
+		C4078B112739C8910026616B /* ImagePickerApplyingFiltersToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B102739C8910026616B /* ImagePickerApplyingFiltersToImage.swift */; };
+		C4078B132739CD6A0026616B /* FilteredImageApplyingFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B122739CD6A0026616B /* FilteredImageApplyingFilters.swift */; };
+		C4078B162739DD520026616B /* ViewTicTactoeGameWithCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B152739DD520026616B /* ViewTicTactoeGameWithCard.swift */; };
+		C4078B19273B21560026616B /* OnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B18273B21560026616B /* OnlineShopAppUIBag.swift */; };
+		C4078B1D273B23E10026616B /* ModelOnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B1C273B23E10026616B /* ModelOnlineShopAppUIBag.swift */; };
+		C4078B1F273B26280026616B /* TabButtonOnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B1E273B26280026616B /* TabButtonOnlineShopAppUIBag.swift */; };
+		C4078B21273B294C0026616B /* BagViewOnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B20273B294C0026616B /* BagViewOnlineShopAppUIBag.swift */; };
+		C4078B23273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B22273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift */; };
+		C4078B25273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B24273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift */; };
 		C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */; };
 		C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */; };
 		C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */; };
@@ -104,6 +115,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4078B092739C7910026616B /* ViewApplyingFiltersToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewApplyingFiltersToImage.swift; sourceTree = "<group>"; };
+		C4078B0E2739C8190026616B /* ViewModelApplyingFiltersToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelApplyingFiltersToImage.swift; sourceTree = "<group>"; };
+		C4078B102739C8910026616B /* ImagePickerApplyingFiltersToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerApplyingFiltersToImage.swift; sourceTree = "<group>"; };
+		C4078B122739CD6A0026616B /* FilteredImageApplyingFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredImageApplyingFilters.swift; sourceTree = "<group>"; };
+		C4078B152739DD520026616B /* ViewTicTactoeGameWithCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTicTactoeGameWithCard.swift; sourceTree = "<group>"; };
+		C4078B18273B21560026616B /* OnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineShopAppUIBag.swift; sourceTree = "<group>"; };
+		C4078B1C273B23E10026616B /* ModelOnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOnlineShopAppUIBag.swift; sourceTree = "<group>"; };
+		C4078B1E273B26280026616B /* TabButtonOnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonOnlineShopAppUIBag.swift; sourceTree = "<group>"; };
+		C4078B20273B294C0026616B /* BagViewOnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagViewOnlineShopAppUIBag.swift; sourceTree = "<group>"; };
+		C4078B22273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewOnlineShopAppUIBag.swift; sourceTree = "<group>"; };
+		C4078B24273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtonOnlineShopAppUIBag.swift; sourceTree = "<group>"; };
 		C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIPHPickerView.swift; sourceTree = "<group>"; };
 		C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTravelAppUI.swift; sourceTree = "<group>"; };
 		C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTranslucentBackgroudEffect.swift; sourceTree = "<group>"; };
@@ -216,6 +238,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4078B082739C73F0026616B /* ApplyingFiltersToImage */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B0D2739C7D30026616B /* ApplyingFiltersToImageViewModel */,
+				C4078B0C2739C7C70026616B /* ApplyingFiltersToImageModel */,
+				C4078B0B2739C7B80026616B /* ApplyingFiltersToImageView */,
+				C4078B092739C7910026616B /* ViewApplyingFiltersToImage.swift */,
+			);
+			path = ApplyingFiltersToImage;
+			sourceTree = "<group>";
+		};
+		C4078B0B2739C7B80026616B /* ApplyingFiltersToImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B102739C8910026616B /* ImagePickerApplyingFiltersToImage.swift */,
+			);
+			path = ApplyingFiltersToImageView;
+			sourceTree = "<group>";
+		};
+		C4078B0C2739C7C70026616B /* ApplyingFiltersToImageModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B122739CD6A0026616B /* FilteredImageApplyingFilters.swift */,
+			);
+			path = ApplyingFiltersToImageModel;
+			sourceTree = "<group>";
+		};
+		C4078B0D2739C7D30026616B /* ApplyingFiltersToImageViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B0E2739C8190026616B /* ViewModelApplyingFiltersToImage.swift */,
+			);
+			path = ApplyingFiltersToImageViewModel;
+			sourceTree = "<group>";
+		};
+		C4078B142739DD2C0026616B /* TicTactoeGameWithCard */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B152739DD520026616B /* ViewTicTactoeGameWithCard.swift */,
+			);
+			path = TicTactoeGameWithCard;
+			sourceTree = "<group>";
+		};
+		C4078B17273B20DF0026616B /* OnlineShopAppUIBag */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B1B273B21770026616B /* Model */,
+				C4078B1A273B216D0026616B /* View */,
+				C4078B18273B21560026616B /* OnlineShopAppUIBag.swift */,
+			);
+			path = OnlineShopAppUIBag;
+			sourceTree = "<group>";
+		};
+		C4078B1A273B216D0026616B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B1E273B26280026616B /* TabButtonOnlineShopAppUIBag.swift */,
+				C4078B20273B294C0026616B /* BagViewOnlineShopAppUIBag.swift */,
+				C4078B22273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift */,
+				C4078B24273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4078B1B273B21770026616B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B1C273B23E10026616B /* ModelOnlineShopAppUIBag.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C4204E0E26FD2D410006554B /* NewPHPickerAPIPhotosUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,6 +659,9 @@
 				C48774CC2731E05400C90E6E /* CustomMusicPlayerCircularSlider */,
 				C48774D82733427C00C90E6E /* WhellRadialPicker */,
 				C48774E527348B6B00C90E6E /* SmoothCurversFoodApp */,
+				C4078B082739C73F0026616B /* ApplyingFiltersToImage */,
+				C4078B142739DD2C0026616B /* TicTactoeGameWithCard */,
+				C4078B17273B20DF0026616B /* OnlineShopAppUIBag */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
@@ -960,6 +1057,8 @@
 				C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */,
 				C48774F1273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift in Sources */,
 				C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */,
+				C4078B0F2739C8190026616B /* ViewModelApplyingFiltersToImage.swift in Sources */,
+				C4078B162739DD520026616B /* ViewTicTactoeGameWithCard.swift in Sources */,
 				C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */,
 				C48774D52731E16F00C90E6E /* HomeViewModelCircularSlider.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
@@ -968,16 +1067,21 @@
 				C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */,
 				C46A518B272747980001B904 /* ViewJSONParsingUsingOurOwn.swift in Sources */,
 				C48774EA2734911A00C90E6E /* HomeSmoothCurves.swift in Sources */,
+				C4078B23273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift in Sources */,
 				C4B92492270E4BAC000BBE8A /* ViewLoading3DObjects.swift in Sources */,
 				C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */,
+				C4078B21273B294C0026616B /* BagViewOnlineShopAppUIBag.swift in Sources */,
 				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
 				C48774CE2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */,
 				C4BC34AC2714D35600948E89 /* ViewVerticalCarouselList.swift in Sources */,
+				C4078B112739C8910026616B /* ImagePickerApplyingFiltersToImage.swift in Sources */,
 				C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */,
+				C4078B1D273B23E10026616B /* ModelOnlineShopAppUIBag.swift in Sources */,
 				C48774E2273347D000C90E6E /* HomeViewModel.swift in Sources */,
 				C48774F327349A5000C90E6E /* ViewDetailSmoothCurves.swift in Sources */,
 				C4A552022729FFBF00A2D512 /* GifController.swift in Sources */,
+				C4078B0A2739C7910026616B /* ViewApplyingFiltersToImage.swift in Sources */,
 				C466E921271E231D00548F80 /* ViewDocumentPicker.swift in Sources */,
 				C48774E727348C2500C90E6E /* ViewSmoothCurves.swift in Sources */,
 				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
@@ -990,8 +1094,10 @@
 				C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */,
 				C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */,
 				C4A01DE726EFF77B001AF3F6 /* ContentView.swift in Sources */,
+				C4078B132739CD6A0026616B /* FilteredImageApplyingFilters.swift in Sources */,
 				C48774DE2733434B00C90E6E /* HomeViewWhellRadialPicker.swift in Sources */,
 				C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */,
+				C4078B1F273B26280026616B /* TabButtonOnlineShopAppUIBag.swift in Sources */,
 				C4B9248C270CED19000BBE8A /* CoreData.xcdatamodeld in Sources */,
 				C466E924271F640C00548F80 /* ViewRestfullApiSailsjs.swift in Sources */,
 				C4BC34BF2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift in Sources */,
@@ -1005,6 +1111,7 @@
 				C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */,
 				C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */,
 				C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */,
+				C4078B19273B21560026616B /* OnlineShopAppUIBag.swift in Sources */,
 				C466E9272720BBF200548F80 /* ViewCustomCarouselListSlider.swift in Sources */,
 				C48774E02733441F00C90E6E /* OptionViewWhellRadialPicker.swift in Sources */,
 				C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */,
@@ -1013,6 +1120,7 @@
 				C48774D32731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift in Sources */,
 				C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */,
 				C48774DA273342C400C90E6E /* ViewWheelRadialPicker.swift in Sources */,
+				C4078B25273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift in Sources */,
 				C48774D72731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
 				C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */,
