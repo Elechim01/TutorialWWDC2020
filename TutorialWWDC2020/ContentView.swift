@@ -27,7 +27,7 @@ struct ContentView: View {
 //        }
 //        MainView()
 //        ViewSmoothCurves()
-        OnlineShopAppUIBag()
+        ViewParallaxScrollingEffectWithStickyTopHeader()
        
     }
 }

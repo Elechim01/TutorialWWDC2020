@@ -18,6 +18,21 @@
 		C4078B21273B294C0026616B /* BagViewOnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B20273B294C0026616B /* BagViewOnlineShopAppUIBag.swift */; };
 		C4078B23273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B22273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift */; };
 		C4078B25273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B24273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift */; };
+		C4078B27273C7BA30026616B /* CustomCornerOnlineShopAppUIBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B26273C7BA30026616B /* CustomCornerOnlineShopAppUIBag.swift */; };
+		C4078B2A273C81230026616B /* ViewComposingFBComplexUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B29273C81230026616B /* ViewComposingFBComplexUI.swift */; };
+		C4078B32273C83670026616B /* wow.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4078B2C273C83660026616B /* wow.gif */; };
+		C4078B33273C83670026616B /* sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4078B2D273C83660026616B /* sad.gif */; };
+		C4078B34273C83670026616B /* angry.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4078B2E273C83670026616B /* angry.gif */; };
+		C4078B35273C83670026616B /* love.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4078B2F273C83670026616B /* love.gif */; };
+		C4078B36273C83670026616B /* haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4078B30273C83670026616B /* haha.gif */; };
+		C4078B37273C83670026616B /* like.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4078B31273C83670026616B /* like.gif */; };
+		C4078B3B273C854B0026616B /* PostComposingFBComplexUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B3A273C854B0026616B /* PostComposingFBComplexUI.swift */; };
+		C4078B3D273DBD660026616B /* PostViewComposingFBComplexUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B3C273DBD660026616B /* PostViewComposingFBComplexUI.swift */; };
+		C4078B3F273DC29A0026616B /* ReactionViewComposingFBComplexUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B3E273DC29A0026616B /* ReactionViewComposingFBComplexUI.swift */; };
+		C4078B42273DCD530026616B /* ViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B41273DCD530026616B /* ViewParallaxScrollingEffectWithStickyTopHeader.swift */; };
+		C4078B46273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B45273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift */; };
+		C4078B48273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B47273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift */; };
+		C4078B4A273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B49273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift */; };
 		C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */; };
 		C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */; };
 		C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */; };
@@ -126,6 +141,21 @@
 		C4078B20273B294C0026616B /* BagViewOnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagViewOnlineShopAppUIBag.swift; sourceTree = "<group>"; };
 		C4078B22273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewOnlineShopAppUIBag.swift; sourceTree = "<group>"; };
 		C4078B24273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtonOnlineShopAppUIBag.swift; sourceTree = "<group>"; };
+		C4078B26273C7BA30026616B /* CustomCornerOnlineShopAppUIBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerOnlineShopAppUIBag.swift; sourceTree = "<group>"; };
+		C4078B29273C81230026616B /* ViewComposingFBComplexUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposingFBComplexUI.swift; sourceTree = "<group>"; };
+		C4078B2C273C83660026616B /* wow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wow.gif; sourceTree = "<group>"; };
+		C4078B2D273C83660026616B /* sad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sad.gif; sourceTree = "<group>"; };
+		C4078B2E273C83670026616B /* angry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = angry.gif; sourceTree = "<group>"; };
+		C4078B2F273C83670026616B /* love.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = love.gif; sourceTree = "<group>"; };
+		C4078B30273C83670026616B /* haha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haha.gif; sourceTree = "<group>"; };
+		C4078B31273C83670026616B /* like.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = like.gif; sourceTree = "<group>"; };
+		C4078B3A273C854B0026616B /* PostComposingFBComplexUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComposingFBComplexUI.swift; sourceTree = "<group>"; };
+		C4078B3C273DBD660026616B /* PostViewComposingFBComplexUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewComposingFBComplexUI.swift; sourceTree = "<group>"; };
+		C4078B3E273DC29A0026616B /* ReactionViewComposingFBComplexUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionViewComposingFBComplexUI.swift; sourceTree = "<group>"; };
+		C4078B41273DCD530026616B /* ViewParallaxScrollingEffectWithStickyTopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewParallaxScrollingEffectWithStickyTopHeader.swift; sourceTree = "<group>"; };
+		C4078B45273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumParallaxScrollingEffectWithStickyTopHeader.swift; sourceTree = "<group>"; };
+		C4078B47273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift; sourceTree = "<group>"; };
+		C4078B49273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewParallaxScrollingEffectWithStickyTopHeader.swift; sourceTree = "<group>"; };
 		C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIPHPickerView.swift; sourceTree = "<group>"; };
 		C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTravelAppUI.swift; sourceTree = "<group>"; };
 		C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTranslucentBackgroudEffect.swift; sourceTree = "<group>"; };
@@ -298,6 +328,7 @@
 				C4078B20273B294C0026616B /* BagViewOnlineShopAppUIBag.swift */,
 				C4078B22273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift */,
 				C4078B24273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift */,
+				C4078B26273C7BA30026616B /* CustomCornerOnlineShopAppUIBag.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +339,74 @@
 				C4078B1C273B23E10026616B /* ModelOnlineShopAppUIBag.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C4078B28273C80EF0026616B /* ComposingFBComplexUI */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B2B273C83460026616B /* reactions */,
+				C4078B39273C83D80026616B /* Model */,
+				C4078B38273C83CC0026616B /* View */,
+			);
+			path = ComposingFBComplexUI;
+			sourceTree = "<group>";
+		};
+		C4078B2B273C83460026616B /* reactions */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B31273C83670026616B /* like.gif */,
+				C4078B2C273C83660026616B /* wow.gif */,
+				C4078B2D273C83660026616B /* sad.gif */,
+				C4078B30273C83670026616B /* haha.gif */,
+				C4078B2E273C83670026616B /* angry.gif */,
+				C4078B2F273C83670026616B /* love.gif */,
+			);
+			path = reactions;
+			sourceTree = "<group>";
+		};
+		C4078B38273C83CC0026616B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B29273C81230026616B /* ViewComposingFBComplexUI.swift */,
+				C4078B3C273DBD660026616B /* PostViewComposingFBComplexUI.swift */,
+				C4078B3E273DC29A0026616B /* ReactionViewComposingFBComplexUI.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4078B39273C83D80026616B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B3A273C854B0026616B /* PostComposingFBComplexUI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4078B40273DCD120026616B /* ParallaxScrollingEffectWithStickyTopHeader */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B44273DCD6E0026616B /* View */,
+				C4078B43273DCD640026616B /* Model */,
+			);
+			path = ParallaxScrollingEffectWithStickyTopHeader;
+			sourceTree = "<group>";
+		};
+		C4078B43273DCD640026616B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B45273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4078B44273DCD6E0026616B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4078B41273DCD530026616B /* ViewParallaxScrollingEffectWithStickyTopHeader.swift */,
+				C4078B47273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift */,
+				C4078B49273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C4204E0E26FD2D410006554B /* NewPHPickerAPIPhotosUI */ = {
@@ -662,6 +761,8 @@
 				C4078B082739C73F0026616B /* ApplyingFiltersToImage */,
 				C4078B142739DD2C0026616B /* TicTactoeGameWithCard */,
 				C4078B17273B20DF0026616B /* OnlineShopAppUIBag */,
+				C4078B28273C80EF0026616B /* ComposingFBComplexUI */,
+				C4078B40273DCD120026616B /* ParallaxScrollingEffectWithStickyTopHeader */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
@@ -1018,14 +1119,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4078B32273C83670026616B /* wow.gif in Resources */,
 				C466E91E271E163200548F80 /* audio.mp3 in Resources */,
 				C4B92498270E4DBC000BBE8A /* Earth.usdz in Resources */,
+				C4078B33273C83670026616B /* sad.gif in Resources */,
 				C4B92499270E4DBC000BBE8A /* Venus.usdz in Resources */,
 				C4B9249A270E4DBC000BBE8A /* Pluto.usdz in Resources */,
 				C4B9249B270E4DBC000BBE8A /* Jupiter.usdz in Resources */,
+				C4078B34273C83670026616B /* angry.gif in Resources */,
 				C4B9249C270E4DBC000BBE8A /* Mars.usdz in Resources */,
 				C4A01DEC26EFF77C001AF3F6 /* Preview Assets.xcassets in Resources */,
+				C4078B35273C83670026616B /* love.gif in Resources */,
+				C4078B36273C83670026616B /* haha.gif in Resources */,
 				C4A01DE926EFF77C001AF3F6 /* Assets.xcassets in Resources */,
+				C4078B37273C83670026616B /* like.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1063,7 +1170,10 @@
 				C48774D52731E16F00C90E6E /* HomeViewModelCircularSlider.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
 				C48774EC2734915800C90E6E /* ItemViewSmoothCurves.swift in Sources */,
+				C4078B4A273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
+				C4078B3F273DC29A0026616B /* ReactionViewComposingFBComplexUI.swift in Sources */,
+				C4078B48273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
 				C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */,
 				C46A518B272747980001B904 /* ViewJSONParsingUsingOurOwn.swift in Sources */,
 				C48774EA2734911A00C90E6E /* HomeSmoothCurves.swift in Sources */,
@@ -1081,11 +1191,13 @@
 				C48774E2273347D000C90E6E /* HomeViewModel.swift in Sources */,
 				C48774F327349A5000C90E6E /* ViewDetailSmoothCurves.swift in Sources */,
 				C4A552022729FFBF00A2D512 /* GifController.swift in Sources */,
+				C4078B27273C7BA30026616B /* CustomCornerOnlineShopAppUIBag.swift in Sources */,
 				C4078B0A2739C7910026616B /* ViewApplyingFiltersToImage.swift in Sources */,
 				C466E921271E231D00548F80 /* ViewDocumentPicker.swift in Sources */,
 				C48774E727348C2500C90E6E /* ViewSmoothCurves.swift in Sources */,
 				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
 				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
+				C4078B42273DCD530026616B /* ViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
 				C48774E427334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift in Sources */,
 				C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */,
 				C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */,
@@ -1115,11 +1227,15 @@
 				C466E9272720BBF200548F80 /* ViewCustomCarouselListSlider.swift in Sources */,
 				C48774E02733441F00C90E6E /* OptionViewWhellRadialPicker.swift in Sources */,
 				C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */,
+				C4078B3B273C854B0026616B /* PostComposingFBComplexUI.swift in Sources */,
 				C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */,
 				C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */,
 				C48774D32731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift in Sources */,
 				C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */,
 				C48774DA273342C400C90E6E /* ViewWheelRadialPicker.swift in Sources */,
+				C4078B2A273C81230026616B /* ViewComposingFBComplexUI.swift in Sources */,
+				C4078B46273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
+				C4078B3D273DBD660026616B /* PostViewComposingFBComplexUI.swift in Sources */,
 				C4078B25273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift in Sources */,
 				C48774D72731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
