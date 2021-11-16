@@ -33,6 +33,12 @@
 		C4078B46273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B45273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift */; };
 		C4078B48273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B47273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift */; };
 		C4078B4A273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4078B49273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift */; };
+		C419EBA927430630003B3B36 /* ViewCustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBA827430630003B3B36 /* ViewCustomSearchBar.swift */; };
+		C419EBAE2743067A003B3B36 /* UserCustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBAD2743067A003B3B36 /* UserCustomSearchBar.swift */; };
+		C419EBB027430858003B3B36 /* SearchUserCustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBAF27430858003B3B36 /* SearchUserCustomSearchBar.swift */; };
+		C419EBB227430929003B3B36 /* CustomSearchBarD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBB127430929003B3B36 /* CustomSearchBarD.swift */; };
+		C419EBB52743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBB42743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift */; };
+		C419EBB727431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBB627431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift */; };
 		C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */; };
 		C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */; };
 		C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */; };
@@ -156,6 +162,12 @@
 		C4078B45273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumParallaxScrollingEffectWithStickyTopHeader.swift; sourceTree = "<group>"; };
 		C4078B47273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift; sourceTree = "<group>"; };
 		C4078B49273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewParallaxScrollingEffectWithStickyTopHeader.swift; sourceTree = "<group>"; };
+		C419EBA827430630003B3B36 /* ViewCustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomSearchBar.swift; sourceTree = "<group>"; };
+		C419EBAD2743067A003B3B36 /* UserCustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCustomSearchBar.swift; sourceTree = "<group>"; };
+		C419EBAF27430858003B3B36 /* SearchUserCustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCustomSearchBar.swift; sourceTree = "<group>"; };
+		C419EBB127430929003B3B36 /* CustomSearchBarD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBarD.swift; sourceTree = "<group>"; };
+		C419EBB42743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoginPageUIWithCustomViewModifiers.swift; sourceTree = "<group>"; };
+		C419EBB627431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFeldLoginPageUIWithCustomViewModifiers.swift; sourceTree = "<group>"; };
 		C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIPHPickerView.swift; sourceTree = "<group>"; };
 		C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTravelAppUI.swift; sourceTree = "<group>"; };
 		C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTranslucentBackgroudEffect.swift; sourceTree = "<group>"; };
@@ -407,6 +419,50 @@
 				C4078B49273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C419EBA727430614003B3B36 /* CustomSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBAC2743065E003B3B36 /* ViewModel */,
+				C419EBAB27430650003B3B36 /* View */,
+				C419EBAA27430642003B3B36 /* Model */,
+			);
+			path = CustomSearchBar;
+			sourceTree = "<group>";
+		};
+		C419EBAA27430642003B3B36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBAD2743067A003B3B36 /* UserCustomSearchBar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C419EBAB27430650003B3B36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBA827430630003B3B36 /* ViewCustomSearchBar.swift */,
+				C419EBB127430929003B3B36 /* CustomSearchBarD.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C419EBAC2743065E003B3B36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBAF27430858003B3B36 /* SearchUserCustomSearchBar.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C419EBB3274314FC003B3B36 /* LoginPageUIWithCustomViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBB42743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift */,
+				C419EBB627431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift */,
+			);
+			path = LoginPageUIWithCustomViewModifiers;
 			sourceTree = "<group>";
 		};
 		C4204E0E26FD2D410006554B /* NewPHPickerAPIPhotosUI */ = {
@@ -763,6 +819,8 @@
 				C4078B17273B20DF0026616B /* OnlineShopAppUIBag */,
 				C4078B28273C80EF0026616B /* ComposingFBComplexUI */,
 				C4078B40273DCD120026616B /* ParallaxScrollingEffectWithStickyTopHeader */,
+				C419EBA727430614003B3B36 /* CustomSearchBar */,
+				C419EBB3274314FC003B3B36 /* LoginPageUIWithCustomViewModifiers */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
@@ -1167,6 +1225,7 @@
 				C4078B0F2739C8190026616B /* ViewModelApplyingFiltersToImage.swift in Sources */,
 				C4078B162739DD520026616B /* ViewTicTactoeGameWithCard.swift in Sources */,
 				C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */,
+				C419EBB027430858003B3B36 /* SearchUserCustomSearchBar.swift in Sources */,
 				C48774D52731E16F00C90E6E /* HomeViewModelCircularSlider.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
 				C48774EC2734915800C90E6E /* ItemViewSmoothCurves.swift in Sources */,
@@ -1174,14 +1233,17 @@
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
 				C4078B3F273DC29A0026616B /* ReactionViewComposingFBComplexUI.swift in Sources */,
 				C4078B48273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
+				C419EBB52743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift in Sources */,
 				C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */,
 				C46A518B272747980001B904 /* ViewJSONParsingUsingOurOwn.swift in Sources */,
+				C419EBA927430630003B3B36 /* ViewCustomSearchBar.swift in Sources */,
 				C48774EA2734911A00C90E6E /* HomeSmoothCurves.swift in Sources */,
 				C4078B23273B2C920026616B /* DetailViewOnlineShopAppUIBag.swift in Sources */,
 				C4B92492270E4BAC000BBE8A /* ViewLoading3DObjects.swift in Sources */,
 				C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */,
 				C4078B21273B294C0026616B /* BagViewOnlineShopAppUIBag.swift in Sources */,
 				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
+				C419EBB227430929003B3B36 /* CustomSearchBarD.swift in Sources */,
 				C48774CE2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */,
 				C4BC34AC2714D35600948E89 /* ViewVerticalCarouselList.swift in Sources */,
@@ -1198,12 +1260,14 @@
 				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
 				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
 				C4078B42273DCD530026616B /* ViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
+				C419EBAE2743067A003B3B36 /* UserCustomSearchBar.swift in Sources */,
 				C48774E427334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift in Sources */,
 				C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */,
 				C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */,
 				C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */,
 				C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */,
 				C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */,
+				C419EBB727431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift in Sources */,
 				C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */,
 				C4A01DE726EFF77B001AF3F6 /* ContentView.swift in Sources */,
 				C4078B132739CD6A0026616B /* FilteredImageApplyingFilters.swift in Sources */,

@@ -27,7 +27,8 @@ struct ContentView: View {
 //        }
 //        MainView()
 //        ViewSmoothCurves()
-        ViewParallaxScrollingEffectWithStickyTopHeader()
+//          ViewCustomSearchBar()
+        ViewLoginPageUIWithCustomViewModifiers()
        
     }
 }
@@ -37,3 +38,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
