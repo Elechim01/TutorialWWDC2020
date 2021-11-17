@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct ViewLoginPageUIWithCustomViewModifiers: View {
+    
     var body: some View {
-       LoginViewLoginPageUIWithCustomViewModifiers()
+        
+        NavigationView{
+            LoginViewLoginPageUIWithCustomViewModifiers()
+                .navigationBarHidden(true)
+                .navigationBarBackButtonHidden(true)
+        }
     }
 }
 
@@ -25,8 +31,12 @@ struct LoginViewLoginPageUIWithCustomViewModifiers: View {
     @State var password = ""
     @Namespace var animation
     
+    @State var show = false
+    
     var body: some View {
         VStack{
+            
+            Spacer(minLength: 0)
             
             HStack {
                 VStack(alignment: .leading, spacing: 10) {
@@ -43,6 +53,7 @@ struct LoginViewLoginPageUIWithCustomViewModifiers: View {
                 Spacer(minLength: 0)
             }
             .padding()
+            .padding(.leading)
             
             CustomTextFeldLoginPageUIWithCustomViewModifiers(image: "envelope", title: "EMAIL", value: $email, animation: animation)
             
@@ -61,30 +72,45 @@ struct LoginViewLoginPageUIWithCustomViewModifiers: View {
                             .fontWeight(.heavy)
                             .foregroundColor(Color("yellow"))
                     }
-                    
                     Button {
                         
                     } label: {
-                        Text("LOGIN")
-                            .fontWeight(.heavy)
-                        
-                        Image(systemName: "arrow.right")
-                            .font(.title2)
+                        HStack{
+                            Text("SIGN UP ")
+                                .fontWeight(.heavy)
+                            
+                            Image(systemName: "arrow.right")
+                                .font(.title2)
+                        }
+                        .modifier(CustomButtonModifierLoginPageUIWithCustomViewModifiers())
                     }
-                    .foregroundColor(.white)
-                    .padding(.vertical)
-                    .padding(.horizontal,35)
-                    .background(
-                        LinearGradient(gradient: .init(colors: [Color("yellow-light"),Color("yellow")]), startPoint: .leading, endPoint: .trailing)
-                    )
-                    .clipShape(Capsule())
+                    
 
 
                 }
             }
             .padding()
             .padding(.top,10)
-            .padding(.leading)
+            .padding(.trailing)
+            
+            Spacer(minLength: 0)
+            
+            HStack(spacing: 8){
+                Text("Don't have an account?")
+                    .fontWeight(.heavy)
+                    .foregroundColor(.gray)
+
+                
+                NavigationLink(isActive: $show) {
+                    RegisterLoginPageUIWithCustomViewModifiers(show: $show)
+                } label: {
+                    Text("sign up")
+                        .fontWeight(.heavy)
+                        .foregroundColor(Color("yellow"))
+                }
+
+            }
+            .padding()
         }
     }
 }

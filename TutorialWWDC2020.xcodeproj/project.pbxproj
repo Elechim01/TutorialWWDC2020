@@ -39,6 +39,9 @@
 		C419EBB227430929003B3B36 /* CustomSearchBarD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBB127430929003B3B36 /* CustomSearchBarD.swift */; };
 		C419EBB52743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBB42743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift */; };
 		C419EBB727431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBB627431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift */; };
+		C419EBB927445886003B3B36 /* RegisterLoginPageUIWithCustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBB827445886003B3B36 /* RegisterLoginPageUIWithCustomViewModifiers.swift */; };
+		C419EBBB27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBBA27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift */; };
+		C419EBBE274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBBD274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift */; };
 		C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */; };
 		C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */; };
 		C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */; };
@@ -168,6 +171,9 @@
 		C419EBB127430929003B3B36 /* CustomSearchBarD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBarD.swift; sourceTree = "<group>"; };
 		C419EBB42743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoginPageUIWithCustomViewModifiers.swift; sourceTree = "<group>"; };
 		C419EBB627431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFeldLoginPageUIWithCustomViewModifiers.swift; sourceTree = "<group>"; };
+		C419EBB827445886003B3B36 /* RegisterLoginPageUIWithCustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterLoginPageUIWithCustomViewModifiers.swift; sourceTree = "<group>"; };
+		C419EBBA27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift; sourceTree = "<group>"; };
+		C419EBBD274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSwiftUICustoisingnativeTabbar.swift; sourceTree = "<group>"; };
 		C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIPHPickerView.swift; sourceTree = "<group>"; };
 		C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTravelAppUI.swift; sourceTree = "<group>"; };
 		C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTranslucentBackgroudEffect.swift; sourceTree = "<group>"; };
@@ -461,8 +467,18 @@
 			children = (
 				C419EBB42743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift */,
 				C419EBB627431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift */,
+				C419EBB827445886003B3B36 /* RegisterLoginPageUIWithCustomViewModifiers.swift */,
+				C419EBBA27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift */,
 			);
 			path = LoginPageUIWithCustomViewModifiers;
+			sourceTree = "<group>";
+		};
+		C419EBBC2744627C003B3B36 /* SwiftUICustoisingnativeTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBBD274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift */,
+			);
+			path = SwiftUICustoisingnativeTabbar;
 			sourceTree = "<group>";
 		};
 		C4204E0E26FD2D410006554B /* NewPHPickerAPIPhotosUI */ = {
@@ -821,9 +837,10 @@
 				C4078B40273DCD120026616B /* ParallaxScrollingEffectWithStickyTopHeader */,
 				C419EBA727430614003B3B36 /* CustomSearchBar */,
 				C419EBB3274314FC003B3B36 /* LoginPageUIWithCustomViewModifiers */,
+				C419EBBC2744627C003B3B36 /* SwiftUICustoisingnativeTabbar */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
-				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
+				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DED26EFF77C001AF3F6 /* Info.plist */,
 				C4A01DEA26EFF77C001AF3F6 /* Preview Content */,
 			);
@@ -1215,6 +1232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C419EBB927445886003B3B36 /* RegisterLoginPageUIWithCustomViewModifiers.swift in Sources */,
 				C496851226F292580061949E /* HomeTabViewWithSwipeGesture.swift in Sources */,
 				C4CA186F27220794003A7080 /* ViewCustomSideBarMenu.swift in Sources */,
 				C4413C6C2706640E0029F129 /* ViewInstagramStory3DCube.swift in Sources */,
@@ -1263,6 +1281,7 @@
 				C419EBAE2743067A003B3B36 /* UserCustomSearchBar.swift in Sources */,
 				C48774E427334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift in Sources */,
 				C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */,
+				C419EBBE274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift in Sources */,
 				C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */,
 				C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */,
 				C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */,
@@ -1283,6 +1302,7 @@
 				C4BC34C22718D69000948E89 /* ViewSharingImages.swift in Sources */,
 				C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */,
 				C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */,
+				C419EBBB27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift in Sources */,
 				C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */,
 				C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */,
 				C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */,

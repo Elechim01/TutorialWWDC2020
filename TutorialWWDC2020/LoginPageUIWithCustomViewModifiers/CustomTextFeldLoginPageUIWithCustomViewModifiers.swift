@@ -24,7 +24,7 @@ struct CustomTextFeldLoginPageUIWithCustomViewModifiers: View {
                 
                 Image(systemName: image)
                     .font(.system(size: 22))
-                    .foregroundColor(.primary)
+                    .foregroundColor(value == "" ? .gray :  .primary)
                     .frame(width: 35)
                 
                 
@@ -70,8 +70,8 @@ struct CustomTextFeldLoginPageUIWithCustomViewModifiers: View {
         .padding(.vertical,10)
         .background(Color("txt").opacity(value != "" ? 1 : 0))
         .cornerRadius(8)
-        .shadow(color: Color.black.opacity(0.1), radius: 5, x: 5, y: 5)
-        .shadow(color: Color.black.opacity(0.05), radius: 5, x: -5, y: -5)
+        .shadow(color: Color.black.opacity(value == "" ? 0 : 0.1), radius: 5, x: 5, y: 5)
+        .shadow(color: Color.black.opacity(value == "" ? 0 : 0.05), radius: 5, x: -5, y: -5)
         .padding(.horizontal)
         .padding(.top)
         .animation(.linear)
