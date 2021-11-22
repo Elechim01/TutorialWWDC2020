@@ -42,6 +42,14 @@
 		C419EBB927445886003B3B36 /* RegisterLoginPageUIWithCustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBB827445886003B3B36 /* RegisterLoginPageUIWithCustomViewModifiers.swift */; };
 		C419EBBB27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBBA27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift */; };
 		C419EBBE274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBBD274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift */; };
+		C419EBC127466BFB003B3B36 /* ViewViewBuilderCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBC027466BFB003B3B36 /* ViewViewBuilderCustomViews.swift */; };
+		C419EBC327466C2A003B3B36 /* AlbumviewBuilderCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBC227466C2A003B3B36 /* AlbumviewBuilderCustomViews.swift */; };
+		C419EBC727466D55003B3B36 /* HomeViewModelBuilderCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBC627466D55003B3B36 /* HomeViewModelBuilderCustomViews.swift */; };
+		C419EBC927466ECE003B3B36 /* CustomViewViewBuilderCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBC827466ECE003B3B36 /* CustomViewViewBuilderCustomView.swift */; };
+		C419EBCC2746FE6D003B3B36 /* ViewCurrencyExchargeAppWithJSONAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBCB2746FE6D003B3B36 /* ViewCurrencyExchargeAppWithJSONAPi.swift */; };
+		C419EBD12746FF89003B3B36 /* ConversionCurrencyExchargeAppWithJSONAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBD02746FF89003B3B36 /* ConversionCurrencyExchargeAppWithJSONAPi.swift */; };
+		C419EBD327470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBD227470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift */; };
+		C419EBD627470C50003B3B36 /* ViewSideTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBD527470C50003B3B36 /* ViewSideTabBarView.swift */; };
 		C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */; };
 		C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */; };
 		C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */; };
@@ -56,6 +64,8 @@
 		C466E9272720BBF200548F80 /* ViewCustomCarouselListSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466E9262720BBF200548F80 /* ViewCustomCarouselListSlider.swift */; };
 		C46A518B272747980001B904 /* ViewJSONParsingUsingOurOwn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A518A272747980001B904 /* ViewJSONParsingUsingOurOwn.swift */; };
 		C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */; };
+		C470FC26274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470FC25274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift */; };
+		C470FC29274C4FB6009DDDCB /* ViewCustomTabbedPickerNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470FC28274C4FB6009DDDCB /* ViewCustomTabbedPickerNavBar.swift */; };
 		C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */; };
 		C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */; };
 		C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774CA27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift */; };
@@ -174,6 +184,14 @@
 		C419EBB827445886003B3B36 /* RegisterLoginPageUIWithCustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterLoginPageUIWithCustomViewModifiers.swift; sourceTree = "<group>"; };
 		C419EBBA27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift; sourceTree = "<group>"; };
 		C419EBBD274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSwiftUICustoisingnativeTabbar.swift; sourceTree = "<group>"; };
+		C419EBC027466BFB003B3B36 /* ViewViewBuilderCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewViewBuilderCustomViews.swift; sourceTree = "<group>"; };
+		C419EBC227466C2A003B3B36 /* AlbumviewBuilderCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumviewBuilderCustomViews.swift; sourceTree = "<group>"; };
+		C419EBC627466D55003B3B36 /* HomeViewModelBuilderCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelBuilderCustomViews.swift; sourceTree = "<group>"; };
+		C419EBC827466ECE003B3B36 /* CustomViewViewBuilderCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewViewBuilderCustomView.swift; sourceTree = "<group>"; };
+		C419EBCB2746FE6D003B3B36 /* ViewCurrencyExchargeAppWithJSONAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCurrencyExchargeAppWithJSONAPi.swift; sourceTree = "<group>"; };
+		C419EBD02746FF89003B3B36 /* ConversionCurrencyExchargeAppWithJSONAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCurrencyExchargeAppWithJSONAPi.swift; sourceTree = "<group>"; };
+		C419EBD227470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataCurrencyExchargeAppWithJSONAPi.swift; sourceTree = "<group>"; };
+		C419EBD527470C50003B3B36 /* ViewSideTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSideTabBarView.swift; sourceTree = "<group>"; };
 		C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIPHPickerView.swift; sourceTree = "<group>"; };
 		C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTravelAppUI.swift; sourceTree = "<group>"; };
 		C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTranslucentBackgroudEffect.swift; sourceTree = "<group>"; };
@@ -187,6 +205,8 @@
 		C466E9262720BBF200548F80 /* ViewCustomCarouselListSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomCarouselListSlider.swift; sourceTree = "<group>"; };
 		C46A518A272747980001B904 /* ViewJSONParsingUsingOurOwn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewJSONParsingUsingOurOwn.swift; sourceTree = "<group>"; };
 		C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomTabBar.swift; sourceTree = "<group>"; };
+		C470FC25274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNotificationsWithCategoryActions.swift; sourceTree = "<group>"; };
+		C470FC28274C4FB6009DDDCB /* ViewCustomTabbedPickerNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomTabbedPickerNavBar.swift; sourceTree = "<group>"; };
 		C47C44C6270262F5002A949A /* ViewShoeAppHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShoeAppHeroAnimation.swift; sourceTree = "<group>"; };
 		C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeroAnimation.swift; sourceTree = "<group>"; };
 		C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOnBoardingCustomSlider.swift; sourceTree = "<group>"; };
@@ -481,6 +501,75 @@
 			path = SwiftUICustoisingnativeTabbar;
 			sourceTree = "<group>";
 		};
+		C419EBBF27466BBA003B3B36 /* ViewBuilderCustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBC527466D37003B3B36 /* ViewModel */,
+				C419EBC427466D18003B3B36 /* View */,
+				C419EBC027466BFB003B3B36 /* ViewViewBuilderCustomViews.swift */,
+				C419EBC227466C2A003B3B36 /* AlbumviewBuilderCustomViews.swift */,
+			);
+			path = ViewBuilderCustomViews;
+			sourceTree = "<group>";
+		};
+		C419EBC427466D18003B3B36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBC827466ECE003B3B36 /* CustomViewViewBuilderCustomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C419EBC527466D37003B3B36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBC627466D55003B3B36 /* HomeViewModelBuilderCustomViews.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C419EBCA2746FE40003B3B36 /* CurrencyExchargeAppWithJSONAPi */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBCF2746FE89003B3B36 /* ViewModel */,
+				C419EBCE2746FE82003B3B36 /* Model */,
+				C419EBCD2746FE7C003B3B36 /* View */,
+			);
+			path = CurrencyExchargeAppWithJSONAPi;
+			sourceTree = "<group>";
+		};
+		C419EBCD2746FE7C003B3B36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBCB2746FE6D003B3B36 /* ViewCurrencyExchargeAppWithJSONAPi.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C419EBCE2746FE82003B3B36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBD02746FF89003B3B36 /* ConversionCurrencyExchargeAppWithJSONAPi.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C419EBCF2746FE89003B3B36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBD227470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C419EBD427470C36003B3B36 /* SideTabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				C419EBD527470C50003B3B36 /* ViewSideTabBarView.swift */,
+			);
+			path = SideTabBarView;
+			sourceTree = "<group>";
+		};
 		C4204E0E26FD2D410006554B /* NewPHPickerAPIPhotosUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +664,30 @@
 				C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */,
 			);
 			path = CustomTabBarPreservingState;
+			sourceTree = "<group>";
+		};
+		C470FC24274C4A43009DDDCB /* NotificationsWithCategoryActions */ = {
+			isa = PBXGroup;
+			children = (
+				C470FC25274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift */,
+			);
+			path = NotificationsWithCategoryActions;
+			sourceTree = "<group>";
+		};
+		C470FC27274C4F8D009DDDCB /* CustomTabbedPickerNavBar  */ = {
+			isa = PBXGroup;
+			children = (
+				C470FC2A274C4FFB009DDDCB /* View */,
+				C470FC28274C4FB6009DDDCB /* ViewCustomTabbedPickerNavBar.swift */,
+			);
+			path = "CustomTabbedPickerNavBar ";
+			sourceTree = "<group>";
+		};
+		C470FC2A274C4FFB009DDDCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C47C44C5270262C1002A949A /* ShoeAppHeroAnimationCustomTabMenu's */ = {
@@ -838,6 +951,11 @@
 				C419EBA727430614003B3B36 /* CustomSearchBar */,
 				C419EBB3274314FC003B3B36 /* LoginPageUIWithCustomViewModifiers */,
 				C419EBBC2744627C003B3B36 /* SwiftUICustoisingnativeTabbar */,
+				C419EBBF27466BBA003B3B36 /* ViewBuilderCustomViews */,
+				C419EBCA2746FE40003B3B36 /* CurrencyExchargeAppWithJSONAPi */,
+				C419EBD427470C36003B3B36 /* SideTabBarView */,
+				C470FC24274C4A43009DDDCB /* NotificationsWithCategoryActions */,
+				C470FC27274C4F8D009DDDCB /* CustomTabbedPickerNavBar  */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
@@ -1247,8 +1365,10 @@
 				C48774D52731E16F00C90E6E /* HomeViewModelCircularSlider.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
 				C48774EC2734915800C90E6E /* ItemViewSmoothCurves.swift in Sources */,
+				C419EBD327470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift in Sources */,
 				C4078B4A273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
+				C419EBCC2746FE6D003B3B36 /* ViewCurrencyExchargeAppWithJSONAPi.swift in Sources */,
 				C4078B3F273DC29A0026616B /* ReactionViewComposingFBComplexUI.swift in Sources */,
 				C4078B48273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
 				C419EBB52743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift in Sources */,
@@ -1270,10 +1390,13 @@
 				C4078B1D273B23E10026616B /* ModelOnlineShopAppUIBag.swift in Sources */,
 				C48774E2273347D000C90E6E /* HomeViewModel.swift in Sources */,
 				C48774F327349A5000C90E6E /* ViewDetailSmoothCurves.swift in Sources */,
+				C419EBC327466C2A003B3B36 /* AlbumviewBuilderCustomViews.swift in Sources */,
 				C4A552022729FFBF00A2D512 /* GifController.swift in Sources */,
 				C4078B27273C7BA30026616B /* CustomCornerOnlineShopAppUIBag.swift in Sources */,
 				C4078B0A2739C7910026616B /* ViewApplyingFiltersToImage.swift in Sources */,
+				C470FC29274C4FB6009DDDCB /* ViewCustomTabbedPickerNavBar.swift in Sources */,
 				C466E921271E231D00548F80 /* ViewDocumentPicker.swift in Sources */,
+				C419EBC127466BFB003B3B36 /* ViewViewBuilderCustomViews.swift in Sources */,
 				C48774E727348C2500C90E6E /* ViewSmoothCurves.swift in Sources */,
 				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
 				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
@@ -1283,6 +1406,7 @@
 				C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */,
 				C419EBBE274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift in Sources */,
 				C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */,
+				C419EBC927466ECE003B3B36 /* CustomViewViewBuilderCustomView.swift in Sources */,
 				C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */,
 				C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */,
 				C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */,
@@ -1299,6 +1423,7 @@
 				C4A01DE526EFF77B001AF3F6 /* TutorialWWDC2020App.swift in Sources */,
 				C496851926F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift in Sources */,
 				C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */,
+				C419EBC727466D55003B3B36 /* HomeViewModelBuilderCustomViews.swift in Sources */,
 				C4BC34C22718D69000948E89 /* ViewSharingImages.swift in Sources */,
 				C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */,
 				C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */,
@@ -1315,14 +1440,17 @@
 				C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */,
 				C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */,
 				C48774D32731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift in Sources */,
+				C419EBD627470C50003B3B36 /* ViewSideTabBarView.swift in Sources */,
 				C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */,
 				C48774DA273342C400C90E6E /* ViewWheelRadialPicker.swift in Sources */,
 				C4078B2A273C81230026616B /* ViewComposingFBComplexUI.swift in Sources */,
+				C470FC26274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift in Sources */,
 				C4078B46273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
 				C4078B3D273DBD660026616B /* PostViewComposingFBComplexUI.swift in Sources */,
 				C4078B25273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift in Sources */,
 				C48774D72731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
+				C419EBD12746FF89003B3B36 /* ConversionCurrencyExchargeAppWithJSONAPi.swift in Sources */,
 				C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */,
 				C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */,
 			);
