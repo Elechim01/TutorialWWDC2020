@@ -66,6 +66,11 @@
 		C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */; };
 		C470FC26274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470FC25274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift */; };
 		C470FC29274C4FB6009DDDCB /* ViewCustomTabbedPickerNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470FC28274C4FB6009DDDCB /* ViewCustomTabbedPickerNavBar.swift */; };
+		C470FC2D274D8EAB009DDDCB /* ViewLottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470FC2C274D8EAB009DDDCB /* ViewLottieAnimationView.swift */; };
+		C470FC2F274D8F3D009DDDCB /* emptycart.json in Resources */ = {isa = PBXBuildFile; fileRef = C470FC2E274D8F3D009DDDCB /* emptycart.json */; };
+		C470FC32274D8FCA009DDDCB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C470FC31274D8FCA009DDDCB /* Lottie */; };
+		C470FC36274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470FC35274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift */; };
+		C470FC39274D9F20009DDDCB /* ViewCustomActionSheetsWithCheckBoxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470FC38274D9F20009DDDCB /* ViewCustomActionSheetsWithCheckBoxes.swift */; };
 		C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */; };
 		C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */; };
 		C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774CA27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift */; };
@@ -207,6 +212,10 @@
 		C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomTabBar.swift; sourceTree = "<group>"; };
 		C470FC25274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNotificationsWithCategoryActions.swift; sourceTree = "<group>"; };
 		C470FC28274C4FB6009DDDCB /* ViewCustomTabbedPickerNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomTabbedPickerNavBar.swift; sourceTree = "<group>"; };
+		C470FC2C274D8EAB009DDDCB /* ViewLottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLottieAnimationView.swift; sourceTree = "<group>"; };
+		C470FC2E274D8F3D009DDDCB /* emptycart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emptycart.json; sourceTree = "<group>"; };
+		C470FC35274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomPullToRefreshControl.swift; sourceTree = "<group>"; };
+		C470FC38274D9F20009DDDCB /* ViewCustomActionSheetsWithCheckBoxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomActionSheetsWithCheckBoxes.swift; sourceTree = "<group>"; };
 		C47C44C6270262F5002A949A /* ViewShoeAppHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShoeAppHeroAnimation.swift; sourceTree = "<group>"; };
 		C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeroAnimation.swift; sourceTree = "<group>"; };
 		C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOnBoardingCustomSlider.swift; sourceTree = "<group>"; };
@@ -286,6 +295,7 @@
 				C4A551FD2729FE4200A2D512 /* GiphyUISDK in Frameworks */,
 				C4BC34B32714DD1000948E89 /* FacebookLogin in Frameworks */,
 				C4413D22270A50CE0029F129 /* SDWebImageSwiftUI in Frameworks */,
+				C470FC32274D8FCA009DDDCB /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,6 +700,39 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C470FC2B274D8E8A009DDDCB /* LottieAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				C470FC33274D8FE8009DDDCB /* Animation */,
+				C470FC2C274D8EAB009DDDCB /* ViewLottieAnimationView.swift */,
+				C470FC2E274D8F3D009DDDCB /* emptycart.json */,
+			);
+			path = LottieAnimationView;
+			sourceTree = "<group>";
+		};
+		C470FC33274D8FE8009DDDCB /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		C470FC34274D95BA009DDDCB /* CustomPullToRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				C470FC35274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift */,
+			);
+			path = CustomPullToRefreshControl;
+			sourceTree = "<group>";
+		};
+		C470FC37274D9EF6009DDDCB /* CustomActionSheetsWithCheckBoxes */ = {
+			isa = PBXGroup;
+			children = (
+				C470FC38274D9F20009DDDCB /* ViewCustomActionSheetsWithCheckBoxes.swift */,
+			);
+			path = CustomActionSheetsWithCheckBoxes;
+			sourceTree = "<group>";
+		};
 		C47C44C5270262C1002A949A /* ShoeAppHeroAnimationCustomTabMenu's */ = {
 			isa = PBXGroup;
 			children = (
@@ -956,8 +999,11 @@
 				C419EBD427470C36003B3B36 /* SideTabBarView */,
 				C470FC24274C4A43009DDDCB /* NotificationsWithCategoryActions */,
 				C470FC27274C4F8D009DDDCB /* CustomTabbedPickerNavBar  */,
+				C470FC2B274D8E8A009DDDCB /* LottieAnimationView */,
+				C470FC34274D95BA009DDDCB /* CustomPullToRefreshControl */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
+				C470FC37274D9EF6009DDDCB /* CustomActionSheetsWithCheckBoxes */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DED26EFF77C001AF3F6 /* Info.plist */,
 				C4A01DEA26EFF77C001AF3F6 /* Preview Content */,
@@ -1219,6 +1265,7 @@
 				C4413D21270A50CE0029F129 /* SDWebImageSwiftUI */,
 				C4BC34B22714DD1000948E89 /* FacebookLogin */,
 				C4A551FC2729FE4200A2D512 /* GiphyUISDK */,
+				C470FC31274D8FCA009DDDCB /* Lottie */,
 			);
 			productName = TutorialWWDC2020;
 			productReference = C4A01DE126EFF77B001AF3F6 /* TutorialWWDC2020.app */;
@@ -1295,6 +1342,7 @@
 				C4413D20270A50CE0029F129 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				C4BC34B12714DD1000948E89 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 				C4A551FB2729FE4200A2D512 /* XCRemoteSwiftPackageReference "giphy-ios-sdk" */,
+				C470FC30274D8FCA009DDDCB /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = C4A01DE226EFF77B001AF3F6 /* Products */;
 			projectDirPath = "";
@@ -1315,6 +1363,7 @@
 				C4078B32273C83670026616B /* wow.gif in Resources */,
 				C466E91E271E163200548F80 /* audio.mp3 in Resources */,
 				C4B92498270E4DBC000BBE8A /* Earth.usdz in Resources */,
+				C470FC2F274D8F3D009DDDCB /* emptycart.json in Resources */,
 				C4078B33273C83670026616B /* sad.gif in Resources */,
 				C4B92499270E4DBC000BBE8A /* Venus.usdz in Resources */,
 				C4B9249A270E4DBC000BBE8A /* Pluto.usdz in Resources */,
@@ -1357,6 +1406,7 @@
 				C4B9244D2728A37600FB8AFF /* ViewNikeShowUI.swift in Sources */,
 				C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */,
 				C48774F1273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift in Sources */,
+				C470FC2D274D8EAB009DDDCB /* ViewLottieAnimationView.swift in Sources */,
 				C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */,
 				C4078B0F2739C8190026616B /* ViewModelApplyingFiltersToImage.swift in Sources */,
 				C4078B162739DD520026616B /* ViewTicTactoeGameWithCard.swift in Sources */,
@@ -1399,6 +1449,7 @@
 				C419EBC127466BFB003B3B36 /* ViewViewBuilderCustomViews.swift in Sources */,
 				C48774E727348C2500C90E6E /* ViewSmoothCurves.swift in Sources */,
 				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
+				C470FC39274D9F20009DDDCB /* ViewCustomActionSheetsWithCheckBoxes.swift in Sources */,
 				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
 				C4078B42273DCD530026616B /* ViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
 				C419EBAE2743067A003B3B36 /* UserCustomSearchBar.swift in Sources */,
@@ -1421,6 +1472,7 @@
 				C466E924271F640C00548F80 /* ViewRestfullApiSailsjs.swift in Sources */,
 				C4BC34BF2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift in Sources */,
 				C4A01DE526EFF77B001AF3F6 /* TutorialWWDC2020App.swift in Sources */,
+				C470FC36274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift in Sources */,
 				C496851926F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift in Sources */,
 				C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */,
 				C419EBC727466D55003B3B36 /* HomeViewModelBuilderCustomViews.swift in Sources */,
@@ -1782,6 +1834,14 @@
 				kind = branch;
 			};
 		};
+		C470FC30274D8FCA009DDDCB /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		C4A551FB2729FE4200A2D512 /* XCRemoteSwiftPackageReference "giphy-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Giphy/giphy-ios-sdk";
@@ -1805,6 +1865,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C4413D20270A50CE0029F129 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		C470FC31274D8FCA009DDDCB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C470FC30274D8FCA009DDDCB /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 		C4A551FC2729FE4200A2D512 /* GiphyUISDK */ = {
 			isa = XCSwiftPackageProductDependency;
