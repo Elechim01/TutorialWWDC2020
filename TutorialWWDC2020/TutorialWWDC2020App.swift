@@ -8,14 +8,20 @@
 import SwiftUI
 import CoreData
 import FBSDKCoreKit
+import Firebase
 
 @main
 struct TutorialWWDC2020App: App {
     @UIApplicationDelegateAdaptor(Delegate.self) var delegate
+//            Usato per ParsingJSONAndStoringToCoreData
+    let persistenceJSON = PersistenceJSON.shared
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistentContainer.viewContext)
+//            SCOMMENTARE ANCHE QUESTO PER CoreDataConnectionCRUDOperation
+//                .environment(\.managedObjectContext, persistentContainer.viewContext)
+//            Usato per ParsingJSONAndStoringToCoreData
+                .environment(\.managedObjectContext, persistenceJSON.container.viewContext)
         }
     }
 }
@@ -30,7 +36,7 @@ class Delegate: NSObject,UIApplicationDelegate {
                 application,
                 didFinishLaunchingWithOptions: launchOptions
             )
-
+            FirebaseApp.configure()
             return true
         }
               
@@ -50,25 +56,27 @@ class Delegate: NSObject,UIApplicationDelegate {
     }
 
 
-//Core data
-var persistentContainer: NSPersistentContainer = {
-    let container = NSPersistentContainer(name: "CoreData")
-    container.loadPersistentStores { storeDescription, eror in
-        if let error = eror  as NSError? {
-            fatalError("Uresolved error\(error), \(error.userInfo)")
-        }
-    }
-    return container
-}()
+//PARTE DI CORE DATACoreDataConnectionCRUDOperation
+//Core data da scommentare se si vuole provare il  NSMVVM
 
-func savecontext(){
-    let contex = persistentContainer.viewContext
-    if contex.hasChanges{
-        do {
-            try contex.save()
-        } catch {
-            let nserror = error as NSError
-            fatalError("Uresolved error\(nserror), \(nserror.userInfo)")
-        }
-    }
-}
+//var persistentContainer: NSPersistentContainer = {
+//    let container = NSPersistentContainer(name: "CoreData")
+//    container.loadPersistentStores { storeDescription, eror in
+//        if let error = eror  as NSError? {
+//            fatalError("Uresolved error\(error), \(error.userInfo)")
+//        }
+//    }
+//    return container
+//}()
+//
+//func savecontext(){
+//    let contex = persistentContainer.viewContext
+//    if contex.hasChanges{
+//        do {
+//            try contex.save()
+//        } catch {
+//            let nserror = error as NSError
+//            fatalError("Uresolved error\(nserror), \(nserror.userInfo)")
+//        }
+//    }
+//}

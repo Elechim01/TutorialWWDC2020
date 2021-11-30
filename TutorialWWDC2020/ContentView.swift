@@ -28,7 +28,7 @@ struct ContentView: View {
 //        MainView()
 //        ViewSmoothCurves()
 //          ViewCustomSearchBar()
-        ViewComplexShapesCurvesCustomBottomSheet()
+        ViewParsingJSONAndStoringToCoreData()
        
     }
 }
