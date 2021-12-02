@@ -84,6 +84,15 @@
 		C470FC32274D8FCA009DDDCB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C470FC31274D8FCA009DDDCB /* Lottie */; };
 		C470FC36274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470FC35274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift */; };
 		C470FC39274D9F20009DDDCB /* ViewCustomActionSheetsWithCheckBoxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470FC38274D9F20009DDDCB /* ViewCustomActionSheetsWithCheckBoxes.swift */; };
+		C477B26A27596EFF000EEF30 /* TodayItemAppStoreAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B26927596EFF000EEF30 /* TodayItemAppStoreAnimations.swift */; };
+		C477B26C27597049000EEF30 /* TodayCardViewAppStoreAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B26B27597049000EEF30 /* TodayCardViewAppStoreAnimations.swift */; };
+		C477B26E27597544000EEF30 /* DetailAppStoreAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B26D27597544000EEF30 /* DetailAppStoreAnimations.swift */; };
+		C477B271275976B6000EEF30 /* DetailViewModelAppStoreAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B270275976B6000EEF30 /* DetailViewModelAppStoreAnimations.swift */; };
+		C477B27427597EC1000EEF30 /* ViewAppleMusicAnimationsMiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B27327597EC1000EEF30 /* ViewAppleMusicAnimationsMiniPlayer.swift */; };
+		C477B27727597EF1000EEF30 /* TabBarAppleMusicAnimationsMiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B27627597EF1000EEF30 /* TabBarAppleMusicAnimationsMiniPlayer.swift */; };
+		C477B2792759807E000EEF30 /* BlurViewAppleMusicAnimationsMiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B2782759807E000EEF30 /* BlurViewAppleMusicAnimationsMiniPlayer.swift */; };
+		C477B27B2759817B000EEF30 /* MiniplayerAppleMusicAnimationsMiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B27A2759817B000EEF30 /* MiniplayerAppleMusicAnimationsMiniPlayer.swift */; };
+		C477B27D275983D8000EEF30 /* SearchAppleMusicAnimationsMiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477B27C275983D8000EEF30 /* SearchAppleMusicAnimationsMiniPlayer.swift */; };
 		C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */; };
 		C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */; };
 		C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774CA27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift */; };
@@ -162,6 +171,9 @@
 		C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB3DB9272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift */; };
 		C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB3DBC272B3C1A009330BD /* Recipe.swift */; };
 		C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */; };
+		C4FCC88B275828630098A4F7 /* ViewAppStoreAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCC88A275828630098A4F7 /* ViewAppStoreAnimations.swift */; };
+		C4FCC88E275828850098A4F7 /* TabBarAppStoreAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCC88D275828850098A4F7 /* TabBarAppStoreAnimations.swift */; };
+		C4FCC890275829B20098A4F7 /* TodayAppStoreAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FCC88F275829B20098A4F7 /* TodayAppStoreAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -257,6 +269,15 @@
 		C470FC2E274D8F3D009DDDCB /* emptycart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emptycart.json; sourceTree = "<group>"; };
 		C470FC35274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomPullToRefreshControl.swift; sourceTree = "<group>"; };
 		C470FC38274D9F20009DDDCB /* ViewCustomActionSheetsWithCheckBoxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomActionSheetsWithCheckBoxes.swift; sourceTree = "<group>"; };
+		C477B26927596EFF000EEF30 /* TodayItemAppStoreAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayItemAppStoreAnimations.swift; sourceTree = "<group>"; };
+		C477B26B27597049000EEF30 /* TodayCardViewAppStoreAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCardViewAppStoreAnimations.swift; sourceTree = "<group>"; };
+		C477B26D27597544000EEF30 /* DetailAppStoreAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAppStoreAnimations.swift; sourceTree = "<group>"; };
+		C477B270275976B6000EEF30 /* DetailViewModelAppStoreAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelAppStoreAnimations.swift; sourceTree = "<group>"; };
+		C477B27327597EC1000EEF30 /* ViewAppleMusicAnimationsMiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAppleMusicAnimationsMiniPlayer.swift; sourceTree = "<group>"; };
+		C477B27627597EF1000EEF30 /* TabBarAppleMusicAnimationsMiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppleMusicAnimationsMiniPlayer.swift; sourceTree = "<group>"; };
+		C477B2782759807E000EEF30 /* BlurViewAppleMusicAnimationsMiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewAppleMusicAnimationsMiniPlayer.swift; sourceTree = "<group>"; };
+		C477B27A2759817B000EEF30 /* MiniplayerAppleMusicAnimationsMiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniplayerAppleMusicAnimationsMiniPlayer.swift; sourceTree = "<group>"; };
+		C477B27C275983D8000EEF30 /* SearchAppleMusicAnimationsMiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAppleMusicAnimationsMiniPlayer.swift; sourceTree = "<group>"; };
 		C47C44C6270262F5002A949A /* ViewShoeAppHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShoeAppHeroAnimation.swift; sourceTree = "<group>"; };
 		C4857EB926F9369600FD4939 /* ViewHeroAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeroAnimation.swift; sourceTree = "<group>"; };
 		C48774C72730908000C90E6E /* ViewOnBoardingCustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOnBoardingCustomSlider.swift; sourceTree = "<group>"; };
@@ -337,6 +358,9 @@
 		C4EB3DB9272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComplextUITutorialsRecipeUI.swift; sourceTree = "<group>"; };
 		C4EB3DBC272B3C1A009330BD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDragAndDropApi.swift; sourceTree = "<group>"; };
+		C4FCC88A275828630098A4F7 /* ViewAppStoreAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAppStoreAnimations.swift; sourceTree = "<group>"; };
+		C4FCC88D275828850098A4F7 /* TabBarAppStoreAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppStoreAnimations.swift; sourceTree = "<group>"; };
+		C4FCC88F275829B20098A4F7 /* TodayAppStoreAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayAppStoreAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -868,6 +892,34 @@
 			path = CustomActionSheetsWithCheckBoxes;
 			sourceTree = "<group>";
 		};
+		C477B26F2759769F000EEF30 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C477B270275976B6000EEF30 /* DetailViewModelAppStoreAnimations.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C477B27227597E6F000EEF30 /* AppleMusicAnimationsMiniPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C477B27527597ED8000EEF30 /* View */,
+				C477B27327597EC1000EEF30 /* ViewAppleMusicAnimationsMiniPlayer.swift */,
+			);
+			path = AppleMusicAnimationsMiniPlayer;
+			sourceTree = "<group>";
+		};
+		C477B27527597ED8000EEF30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C477B27627597EF1000EEF30 /* TabBarAppleMusicAnimationsMiniPlayer.swift */,
+				C477B2782759807E000EEF30 /* BlurViewAppleMusicAnimationsMiniPlayer.swift */,
+				C477B27A2759817B000EEF30 /* MiniplayerAppleMusicAnimationsMiniPlayer.swift */,
+				C477B27C275983D8000EEF30 /* SearchAppleMusicAnimationsMiniPlayer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C47C44C5270262C1002A949A /* ShoeAppHeroAnimationCustomTabMenu's */ = {
 			isa = PBXGroup;
 			children = (
@@ -1178,6 +1230,8 @@
 				C44DBBEB275033AC00042F32 /* ComplexShapesCurvesCustomBottomSheet  */,
 				C46DD05527542FA10017F779 /* LoginPageWithFirebase */,
 				C49A21E02756CC67002FCCD3 /* ParsingJSONAndStoringToCoreData */,
+				C4FCC889275828170098A4F7 /* AppStoreAnimations */,
+				C477B27227597E6F000EEF30 /* AppleMusicAnimationsMiniPlayer */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
@@ -1421,6 +1475,36 @@
 			path = DragAndDropAPI;
 			sourceTree = "<group>";
 		};
+		C4FCC889275828170098A4F7 /* AppStoreAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C477B26F2759769F000EEF30 /* ViewModel */,
+				C4FCC89127582AA80098A4F7 /* Model */,
+				C4FCC88C275828780098A4F7 /* ViewAppStoreAnimations */,
+				C4FCC88A275828630098A4F7 /* ViewAppStoreAnimations.swift */,
+			);
+			path = AppStoreAnimations;
+			sourceTree = "<group>";
+		};
+		C4FCC88C275828780098A4F7 /* ViewAppStoreAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C4FCC88D275828850098A4F7 /* TabBarAppStoreAnimations.swift */,
+				C4FCC88F275829B20098A4F7 /* TodayAppStoreAnimations.swift */,
+				C477B26B27597049000EEF30 /* TodayCardViewAppStoreAnimations.swift */,
+				C477B26D27597544000EEF30 /* DetailAppStoreAnimations.swift */,
+			);
+			path = ViewAppStoreAnimations;
+			sourceTree = "<group>";
+		};
+		C4FCC89127582AA80098A4F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C477B26927596EFF000EEF30 /* TodayItemAppStoreAnimations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1603,6 +1687,7 @@
 				C48774D52731E16F00C90E6E /* HomeViewModelCircularSlider.swift in Sources */,
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
 				C48774EC2734915800C90E6E /* ItemViewSmoothCurves.swift in Sources */,
+				C4FCC890275829B20098A4F7 /* TodayAppStoreAnimations.swift in Sources */,
 				C419EBD327470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift in Sources */,
 				C4078B4A273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
@@ -1626,6 +1711,7 @@
 				C4078B21273B294C0026616B /* BagViewOnlineShopAppUIBag.swift in Sources */,
 				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
 				C419EBB227430929003B3B36 /* CustomSearchBarD.swift in Sources */,
+				C4FCC88E275828850098A4F7 /* TabBarAppStoreAnimations.swift in Sources */,
 				C48774CE2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */,
 				C49A22172756D04B002FCCD3 /* HomeViewParsingJSONAndStoringToCoreData.swift in Sources */,
@@ -1656,10 +1742,13 @@
 				C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */,
 				C419EBBE274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift in Sources */,
 				C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */,
+				C477B26A27596EFF000EEF30 /* TodayItemAppStoreAnimations.swift in Sources */,
 				C419EBC927466ECE003B3B36 /* CustomViewViewBuilderCustomView.swift in Sources */,
+				C477B27727597EF1000EEF30 /* TabBarAppleMusicAnimationsMiniPlayer.swift in Sources */,
 				C4413D1C270A41480029F129 /* ViewMuisicPlayerUiNeumorphism.swift in Sources */,
 				C4A01E1426EFFF0A001AF3F6 /* HomeCustomGridsAndAnimations.swift in Sources */,
 				C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */,
+				C477B27B2759817B000EEF30 /* MiniplayerAppleMusicAnimationsMiniPlayer.swift in Sources */,
 				C419EBB727431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift in Sources */,
 				C49A22192756D09E002FCCD3 /* VideoModelParsingJSONAndStoringToCoreData.swift in Sources */,
 				C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */,
@@ -1674,6 +1763,7 @@
 				C4BC34BF2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift in Sources */,
 				C4A01DE526EFF77B001AF3F6 /* TutorialWWDC2020App.swift in Sources */,
 				C470FC36274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift in Sources */,
+				C477B27D275983D8000EEF30 /* SearchAppleMusicAnimationsMiniPlayer.swift in Sources */,
 				C496851926F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift in Sources */,
 				C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */,
 				C419EBC727466D55003B3B36 /* HomeViewModelBuilderCustomViews.swift in Sources */,
@@ -1682,6 +1772,7 @@
 				C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */,
 				C49A22122756CE99002FCCD3 /* PersistanceJSON.swift in Sources */,
 				C419EBBB27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift in Sources */,
+				C477B27427597EC1000EEF30 /* ViewAppleMusicAnimationsMiniPlayer.swift in Sources */,
 				C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */,
 				C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */,
 				C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */,
@@ -1692,15 +1783,19 @@
 				C4413D1F270A50650029F129 /* ViewJSONParsing.swift in Sources */,
 				C4078B3B273C854B0026616B /* PostComposingFBComplexUI.swift in Sources */,
 				C4B9248F270E3AE7000BBE8A /* ViewCrossPlatformUI.swift in Sources */,
+				C477B271275976B6000EEF30 /* DetailViewModelAppStoreAnimations.swift in Sources */,
 				C4B9244A2728998600FB8AFF /* ViewAnalogClockApp.swift in Sources */,
 				C48774D32731E14C00C90E6E /* AlbumCustomMiusicPlayer.swift in Sources */,
 				C419EBD627470C50003B3B36 /* ViewSideTabBarView.swift in Sources */,
 				C46DD05D275431C40017F779 /* LoginViewModelLoginPageWithFirebase.swift in Sources */,
+				C4FCC88B275828630098A4F7 /* ViewAppStoreAnimations.swift in Sources */,
 				C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */,
 				C48774DA273342C400C90E6E /* ViewWheelRadialPicker.swift in Sources */,
+				C477B26E27597544000EEF30 /* DetailAppStoreAnimations.swift in Sources */,
 				C4078B2A273C81230026616B /* ViewComposingFBComplexUI.swift in Sources */,
 				C470FC26274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift in Sources */,
 				C4078B46273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
+				C477B2792759807E000EEF30 /* BlurViewAppleMusicAnimationsMiniPlayer.swift in Sources */,
 				C4078B3D273DBD660026616B /* PostViewComposingFBComplexUI.swift in Sources */,
 				C4078B25273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift in Sources */,
 				C48774D72731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift in Sources */,
@@ -1710,6 +1805,7 @@
 				C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */,
 				C46B6FA827527FDF00753C7C /* CustomCornerComplexShapesCurvesCustomBottomSheet.swift in Sources */,
 				C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */,
+				C477B26C27597049000EEF30 /* TodayCardViewAppStoreAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
