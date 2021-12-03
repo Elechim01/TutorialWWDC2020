@@ -11,6 +11,11 @@ struct TabBarAppleMusicAnimationsMiniPlayer: View {
 //    Selected Tab Index...
 //    Default is third...
     @State var current = 2
+//    Miniplayer Properties...
+    @State var expand = false
+    
+    @Namespace var animation 
+    
     var body: some View {
         
 //        Bottom Minu Player....
@@ -34,7 +39,7 @@ struct TabBarAppleMusicAnimationsMiniPlayer: View {
                         
                         Text("Radio")
                     }
-                Text("Search")
+                SearchAppleMusicAnimationsMiniPlayer()
                     .tag(2)
                     .tabItem {
                         
@@ -44,7 +49,7 @@ struct TabBarAppleMusicAnimationsMiniPlayer: View {
                     }
             }
             
-            MiniplayerAppleMusicAnimationsMiniPlayer()
+            MiniplayerAppleMusicAnimationsMiniPlayer(animation: animation, expand: $expand)
         }
         
     }
