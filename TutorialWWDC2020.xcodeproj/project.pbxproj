@@ -111,6 +111,7 @@
 		C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774EE2734919500C90E6E /* ItemSmoothCurves.swift */; };
 		C48774F1273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774F0273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift */; };
 		C48774F327349A5000C90E6E /* ViewDetailSmoothCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48774F227349A5000C90E6E /* ViewDetailSmoothCurves.swift */; };
+		C48A819F275D603900EE8715 /* HoneyCombGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A819E275D603900EE8715 /* HoneyCombGridView.swift */; };
 		C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */; };
 		C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */; };
 		C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */; };
@@ -297,6 +298,7 @@
 		C48774EE2734919500C90E6E /* ItemSmoothCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSmoothCurves.swift; sourceTree = "<group>"; };
 		C48774F0273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerViewSmoothCurves.swift; sourceTree = "<group>"; };
 		C48774F227349A5000C90E6E /* ViewDetailSmoothCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailSmoothCurves.swift; sourceTree = "<group>"; };
+		C48A819E275D603900EE8715 /* HoneyCombGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyCombGridView.swift; sourceTree = "<group>"; };
 		C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParallaxScrolling.swift; sourceTree = "<group>"; };
 		C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomPathsSolidAnimations.swift; sourceTree = "<group>"; };
 		C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChatUIImagePicker.swift; sourceTree = "<group>"; };
@@ -1044,6 +1046,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		C48A819D275D601D00EE8715 /* HoneyCombGridView */ = {
+			isa = PBXGroup;
+			children = (
+				C48A819E275D603900EE8715 /* HoneyCombGridView.swift */,
+			);
+			path = HoneyCombGridView;
+			sourceTree = "<group>";
+		};
 		C491F7B226FBCE15000A58CF /* ParallxEffectParallaxScrolling */ = {
 			isa = PBXGroup;
 			children = (
@@ -1232,6 +1242,7 @@
 				C49A21E02756CC67002FCCD3 /* ParsingJSONAndStoringToCoreData */,
 				C4FCC889275828170098A4F7 /* AppStoreAnimations */,
 				C477B27227597E6F000EEF30 /* AppleMusicAnimationsMiniPlayer */,
+				C48A819D275D601D00EE8715 /* HoneyCombGridView */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
@@ -1750,6 +1761,7 @@
 				C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */,
 				C477B27B2759817B000EEF30 /* MiniplayerAppleMusicAnimationsMiniPlayer.swift in Sources */,
 				C419EBB727431655003B3B36 /* CustomTextFeldLoginPageUIWithCustomViewModifiers.swift in Sources */,
+				C48A819F275D603900EE8715 /* HoneyCombGridView.swift in Sources */,
 				C49A22192756D09E002FCCD3 /* VideoModelParsingJSONAndStoringToCoreData.swift in Sources */,
 				C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */,
 				C4A01DE726EFF77B001AF3F6 /* ContentView.swift in Sources */,
