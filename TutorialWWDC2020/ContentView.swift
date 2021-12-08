@@ -28,7 +28,9 @@ struct ContentView: View {
 //        MainView()
 //        ViewSmoothCurves()
 //          ViewCustomSearchBar()
-        ViewAppleMusicAnimationsMiniPlayer()
+//        CustomSwipeToActionCustomTabBar CustomCarouselSliderParallaxEffect
+        ViewSearchBarInNavigationBar()
+        
        
     }
 }

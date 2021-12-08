@@ -51,6 +51,13 @@
 		C419EBD327470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBD227470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift */; };
 		C419EBD627470C50003B3B36 /* ViewSideTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBD527470C50003B3B36 /* ViewSideTabBarView.swift */; };
 		C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */; };
+		C4227ADE275EB0E9007FE576 /* E-CommerceAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4227ADD275EB0E9007FE576 /* E-CommerceAppView.swift */; };
+		C4227AE2275EB396007FE576 /* TabButtonE-CommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4227AE1275EB396007FE576 /* TabButtonE-CommerceApp.swift */; };
+		C4227AE4275EB5DC007FE576 /* ItemE-Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4227AE3275EB5DC007FE576 /* ItemE-Commerce.swift */; };
+		C4227AE6275EB78F007FE576 /* CardViewE-CommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4227AE5275EB78F007FE576 /* CardViewE-CommerceApp.swift */; };
+		C4227AE8275EBB20007FE576 /* DetailE-CommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4227AE7275EBB20007FE576 /* DetailE-CommerceApp.swift */; };
+		C4227AEA275EC039007FE576 /* CustomShapeE-CommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4227AE9275EC039007FE576 /* CustomShapeE-CommerceApp.swift */; };
+		C4227AEF275ECA1E007FE576 /* splash1.json in Resources */ = {isa = PBXBuildFile; fileRef = C4227AEE275ECA1D007FE576 /* splash1.json */; };
 		C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */; };
 		C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */; };
 		C4413C6C2706640E0029F129 /* ViewInstagramStory3DCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4413C6B2706640E0029F129 /* ViewInstagramStory3DCube.swift */; };
@@ -114,6 +121,20 @@
 		C48A819F275D603900EE8715 /* HoneyCombGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A819E275D603900EE8715 /* HoneyCombGridView.swift */; };
 		C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */; };
 		C491F7B726FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */; };
+		C49627F027600F3E005A0C8C /* ViewCustomSwipeToActionCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49627EF27600F3E005A0C8C /* ViewCustomSwipeToActionCustomTabBar.swift */; };
+		C49627F427600F75005A0C8C /* TabBarCustomSwipeToActionCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49627F327600F75005A0C8C /* TabBarCustomSwipeToActionCustomTabBar.swift */; };
+		C49627F6276010C4005A0C8C /* TabButtonCustomSwipeToActionCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49627F5276010C4005A0C8C /* TabButtonCustomSwipeToActionCustomTabBar.swift */; };
+		C49627F827601336005A0C8C /* HomeCustomSwipeToActionCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49627F727601336005A0C8C /* HomeCustomSwipeToActionCustomTabBar.swift */; };
+		C49627FA27601834005A0C8C /* ItemCustomSwipeToActionCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49627F927601834005A0C8C /* ItemCustomSwipeToActionCustomTabBar.swift */; };
+		C49627FC2760194D005A0C8C /* CardViewCustomSwipeToActionCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49627FB2760194D005A0C8C /* CardViewCustomSwipeToActionCustomTabBar.swift */; };
+		C49627FF2760FF2D005A0C8C /* ViewQuizAppUsingFirebaseFirestore .swift in Sources */ = {isa = PBXBuildFile; fileRef = C49627FE2760FF2D005A0C8C /* ViewQuizAppUsingFirebaseFirestore .swift */; };
+		C4962803276101F3005A0C8C /* QAQuizAppUsingFirebaseFirestore .swift in Sources */ = {isa = PBXBuildFile; fileRef = C4962802276101F3005A0C8C /* QAQuizAppUsingFirebaseFirestore .swift */; };
+		C49628052761062F005A0C8C /* QuestionQuizAppUsingFirebaseFirestore .swift in Sources */ = {isa = PBXBuildFile; fileRef = C49628042761062F005A0C8C /* QuestionQuizAppUsingFirebaseFirestore .swift */; };
+		C4962808276107B1005A0C8C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C4962807276107B1005A0C8C /* FirebaseFirestore */; };
+		C496280A276107BE005A0C8C /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C4962809276107BE005A0C8C /* FirebaseFirestoreSwift-Beta */; };
+		C496280D27610874005A0C8C /* QuestionViewModelQuizAppUsingFirebaseFirestore .swift in Sources */ = {isa = PBXBuildFile; fileRef = C496280C27610874005A0C8C /* QuestionViewModelQuizAppUsingFirebaseFirestore .swift */; };
+		C496280F27611242005A0C8C /* QuestionViewQuizAppUsingFirebaseFirestore .swift in Sources */ = {isa = PBXBuildFile; fileRef = C496280E27611242005A0C8C /* QuestionViewQuizAppUsingFirebaseFirestore .swift */; };
+		C4962812276124EA005A0C8C /* ViewSearchBarInNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4962811276124EA005A0C8C /* ViewSearchBarInNavigationBar.swift */; };
 		C49684D826F1447E0061949E /* HomeChatUIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */; };
 		C496851226F292580061949E /* HomeTabViewWithSwipeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496851126F292580061949E /* HomeTabViewWithSwipeGesture.swift */; };
 		C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496851426F29FC40061949E /* HomeDepthStacksGestures.swift */; };
@@ -169,6 +190,9 @@
 		C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC34C42718DA4400948E89 /* ViewAppleMiusicAnimation.swift */; };
 		C4CA186C2721FF1E003A7080 /* ViewCircularSliderSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA186B2721FF1E003A7080 /* ViewCircularSliderSeeker.swift */; };
 		C4CA186F27220794003A7080 /* ViewCustomSideBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA186E27220794003A7080 /* ViewCustomSideBarMenu.swift */; };
+		C4D54C862761264E00AD0294 /* AppItemSearchBarInNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D54C852761264E00AD0294 /* AppItemSearchBarInNavigationBar.swift */; };
+		C4D54C8827612A1700AD0294 /* CardViewSearchBarInNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D54C8727612A1700AD0294 /* CardViewSearchBarInNavigationBar.swift */; };
+		C4D54C8A27612BAA00AD0294 /* CustomNavigationViewSearchBarInNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D54C8927612BAA00AD0294 /* CustomNavigationViewSearchBarInNavigationBar.swift */; };
 		C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB3DB9272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift */; };
 		C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB3DBC272B3C1A009330BD /* Recipe.swift */; };
 		C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */; };
@@ -239,6 +263,14 @@
 		C419EBD227470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataCurrencyExchargeAppWithJSONAPi.swift; sourceTree = "<group>"; };
 		C419EBD527470C50003B3B36 /* ViewSideTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSideTabBarView.swift; sourceTree = "<group>"; };
 		C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIPHPickerView.swift; sourceTree = "<group>"; };
+		C4227ADD275EB0E9007FE576 /* E-CommerceAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "E-CommerceAppView.swift"; sourceTree = "<group>"; };
+		C4227AE1275EB396007FE576 /* TabButtonE-CommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabButtonE-CommerceApp.swift"; sourceTree = "<group>"; };
+		C4227AE3275EB5DC007FE576 /* ItemE-Commerce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemE-Commerce.swift"; sourceTree = "<group>"; };
+		C4227AE5275EB78F007FE576 /* CardViewE-CommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardViewE-CommerceApp.swift"; sourceTree = "<group>"; };
+		C4227AE7275EBB20007FE576 /* DetailE-CommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailE-CommerceApp.swift"; sourceTree = "<group>"; };
+		C4227AE9275EC039007FE576 /* CustomShapeE-CommerceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomShapeE-CommerceApp.swift"; sourceTree = "<group>"; };
+		C4227AEC275EC992007FE576 /* AnimatedSplashScreenWithLoginPageUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSplashScreenWithLoginPageUIView.swift; sourceTree = "<group>"; };
+		C4227AEE275ECA1D007FE576 /* splash1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash1.json; sourceTree = "<group>"; };
 		C429334B270F8CF300313A75 /* ViewTravelAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTravelAppUI.swift; sourceTree = "<group>"; };
 		C43C3FBE27051523004142C0 /* ViewTranslucentBackgroudEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTranslucentBackgroudEffect.swift; sourceTree = "<group>"; };
 		C4413C6B2706640E0029F129 /* ViewInstagramStory3DCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInstagramStory3DCube.swift; sourceTree = "<group>"; };
@@ -301,6 +333,18 @@
 		C48A819E275D603900EE8715 /* HoneyCombGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyCombGridView.swift; sourceTree = "<group>"; };
 		C491F7B326FBCE46000A58CF /* HomeParallaxScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParallaxScrolling.swift; sourceTree = "<group>"; };
 		C491F7B626FBD39A000A58CF /* HomeCustomPathsSolidAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomPathsSolidAnimations.swift; sourceTree = "<group>"; };
+		C49627EF27600F3E005A0C8C /* ViewCustomSwipeToActionCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomSwipeToActionCustomTabBar.swift; sourceTree = "<group>"; };
+		C49627F327600F75005A0C8C /* TabBarCustomSwipeToActionCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCustomSwipeToActionCustomTabBar.swift; sourceTree = "<group>"; };
+		C49627F5276010C4005A0C8C /* TabButtonCustomSwipeToActionCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonCustomSwipeToActionCustomTabBar.swift; sourceTree = "<group>"; };
+		C49627F727601336005A0C8C /* HomeCustomSwipeToActionCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomSwipeToActionCustomTabBar.swift; sourceTree = "<group>"; };
+		C49627F927601834005A0C8C /* ItemCustomSwipeToActionCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCustomSwipeToActionCustomTabBar.swift; sourceTree = "<group>"; };
+		C49627FB2760194D005A0C8C /* CardViewCustomSwipeToActionCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCustomSwipeToActionCustomTabBar.swift; sourceTree = "<group>"; };
+		C49627FE2760FF2D005A0C8C /* ViewQuizAppUsingFirebaseFirestore .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewQuizAppUsingFirebaseFirestore .swift"; sourceTree = "<group>"; };
+		C4962802276101F3005A0C8C /* QAQuizAppUsingFirebaseFirestore .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QAQuizAppUsingFirebaseFirestore .swift"; sourceTree = "<group>"; };
+		C49628042761062F005A0C8C /* QuestionQuizAppUsingFirebaseFirestore .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionQuizAppUsingFirebaseFirestore .swift"; sourceTree = "<group>"; };
+		C496280C27610874005A0C8C /* QuestionViewModelQuizAppUsingFirebaseFirestore .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionViewModelQuizAppUsingFirebaseFirestore .swift"; sourceTree = "<group>"; };
+		C496280E27611242005A0C8C /* QuestionViewQuizAppUsingFirebaseFirestore .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionViewQuizAppUsingFirebaseFirestore .swift"; sourceTree = "<group>"; };
+		C4962811276124EA005A0C8C /* ViewSearchBarInNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSearchBarInNavigationBar.swift; sourceTree = "<group>"; };
 		C49684D726F1447E0061949E /* HomeChatUIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChatUIImagePicker.swift; sourceTree = "<group>"; };
 		C496851126F292580061949E /* HomeTabViewWithSwipeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewWithSwipeGesture.swift; sourceTree = "<group>"; };
 		C496851426F29FC40061949E /* HomeDepthStacksGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDepthStacksGestures.swift; sourceTree = "<group>"; };
@@ -356,6 +400,9 @@
 		C4BC34C42718DA4400948E89 /* ViewAppleMiusicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAppleMiusicAnimation.swift; sourceTree = "<group>"; };
 		C4CA186B2721FF1E003A7080 /* ViewCircularSliderSeeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCircularSliderSeeker.swift; sourceTree = "<group>"; };
 		C4CA186E27220794003A7080 /* ViewCustomSideBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomSideBarMenu.swift; sourceTree = "<group>"; };
+		C4D54C852761264E00AD0294 /* AppItemSearchBarInNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItemSearchBarInNavigationBar.swift; sourceTree = "<group>"; };
+		C4D54C8727612A1700AD0294 /* CardViewSearchBarInNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewSearchBarInNavigationBar.swift; sourceTree = "<group>"; };
+		C4D54C8927612BAA00AD0294 /* CustomNavigationViewSearchBarInNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewSearchBarInNavigationBar.swift; sourceTree = "<group>"; };
 		C4D8DBF026FD1A0400AA3A91 /* iMessagePinnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessagePinnedView.swift; sourceTree = "<group>"; };
 		C4EB3DB9272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComplextUITutorialsRecipeUI.swift; sourceTree = "<group>"; };
 		C4EB3DBC272B3C1A009330BD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
@@ -375,7 +422,9 @@
 				C4BC34B32714DD1000948E89 /* FacebookLogin in Frameworks */,
 				C4413D22270A50CE0029F129 /* SDWebImageSwiftUI in Frameworks */,
 				C49A21D727558BE8002FCCD3 /* FirebaseAnalytics in Frameworks */,
+				C4962808276107B1005A0C8C /* FirebaseFirestore in Frameworks */,
 				C49A21DB27558BE8002FCCD3 /* FirebaseAuth in Frameworks */,
+				C496280A276107BE005A0C8C /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				C470FC32274D8FCA009DDDCB /* Lottie in Frameworks */,
 				C49A21DD27558BE8002FCCD3 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
@@ -668,6 +717,44 @@
 				C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */,
 			);
 			path = NewPHPickerAPIPhotosUI;
+			sourceTree = "<group>";
+		};
+		C4227ADC275EB0D3007FE576 /* E-CommerceApp */ = {
+			isa = PBXGroup;
+			children = (
+				C4227AE0275EB118007FE576 /* Model */,
+				C4227ADF275EB10E007FE576 /* View */,
+				C4227ADD275EB0E9007FE576 /* E-CommerceAppView.swift */,
+			);
+			path = "E-CommerceApp";
+			sourceTree = "<group>";
+		};
+		C4227ADF275EB10E007FE576 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4227AE1275EB396007FE576 /* TabButtonE-CommerceApp.swift */,
+				C4227AE5275EB78F007FE576 /* CardViewE-CommerceApp.swift */,
+				C4227AE7275EBB20007FE576 /* DetailE-CommerceApp.swift */,
+				C4227AE9275EC039007FE576 /* CustomShapeE-CommerceApp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4227AE0275EB118007FE576 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4227AE3275EB5DC007FE576 /* ItemE-Commerce.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4227AEB275EC95F007FE576 /* AnimatedSplashScreenWithLoginPageUI  */ = {
+			isa = PBXGroup;
+			children = (
+				C4227AEE275ECA1D007FE576 /* splash1.json */,
+				C4227AEC275EC992007FE576 /* AnimatedSplashScreenWithLoginPageUIView.swift */,
+			);
+			path = "AnimatedSplashScreenWithLoginPageUI ";
 			sourceTree = "<group>";
 		};
 		C429334A270F8CC400313A75 /* TravelAppUI */ = {
@@ -1070,6 +1157,88 @@
 			path = CurvedTabBarSolidAnimations;
 			sourceTree = "<group>";
 		};
+		C49627EE27600F25005A0C8C /* CustomSwipeToActionCustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C49627F227600F5C005A0C8C /* Model */,
+				C49627F127600F54005A0C8C /* View */,
+				C49627EF27600F3E005A0C8C /* ViewCustomSwipeToActionCustomTabBar.swift */,
+			);
+			path = CustomSwipeToActionCustomTabBar;
+			sourceTree = "<group>";
+		};
+		C49627F127600F54005A0C8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C49627F327600F75005A0C8C /* TabBarCustomSwipeToActionCustomTabBar.swift */,
+				C49627F5276010C4005A0C8C /* TabButtonCustomSwipeToActionCustomTabBar.swift */,
+				C49627F727601336005A0C8C /* HomeCustomSwipeToActionCustomTabBar.swift */,
+				C49627FB2760194D005A0C8C /* CardViewCustomSwipeToActionCustomTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C49627F227600F5C005A0C8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C49627F927601834005A0C8C /* ItemCustomSwipeToActionCustomTabBar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C49627FD2760FEF9005A0C8C /* QuizAppUsingFirebaseFirestore  */ = {
+			isa = PBXGroup;
+			children = (
+				C496280B27610858005A0C8C /* ViewModel */,
+				C49628012760FF42005A0C8C /* Model */,
+				C49628002760FF39005A0C8C /* View */,
+				C49627FE2760FF2D005A0C8C /* ViewQuizAppUsingFirebaseFirestore .swift */,
+			);
+			path = "QuizAppUsingFirebaseFirestore ";
+			sourceTree = "<group>";
+		};
+		C49628002760FF39005A0C8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4962802276101F3005A0C8C /* QAQuizAppUsingFirebaseFirestore .swift */,
+				C496280E27611242005A0C8C /* QuestionViewQuizAppUsingFirebaseFirestore .swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C49628012760FF42005A0C8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C49628042761062F005A0C8C /* QuestionQuizAppUsingFirebaseFirestore .swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4962806276107B1005A0C8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C496280B27610858005A0C8C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C496280C27610874005A0C8C /* QuestionViewModelQuizAppUsingFirebaseFirestore .swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4962810276124B1005A0C8C /* SearchBarInNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C4D54C84276125D300AD0294 /* Model */,
+				C4D54C83276125C900AD0294 /* View */,
+				C4962811276124EA005A0C8C /* ViewSearchBarInNavigationBar.swift */,
+			);
+			path = SearchBarInNavigationBar;
+			sourceTree = "<group>";
+		};
 		C49684D626F144520061949E /* ChatUIImagePicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -1156,6 +1325,7 @@
 				C4A01DF526EFF77C001AF3F6 /* TutorialWWDC2020Tests */,
 				C4A01E0026EFF77C001AF3F6 /* TutorialWWDC2020UITests */,
 				C4A01DE226EFF77B001AF3F6 /* Products */,
+				C4962806276107B1005A0C8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1243,6 +1413,12 @@
 				C4FCC889275828170098A4F7 /* AppStoreAnimations */,
 				C477B27227597E6F000EEF30 /* AppleMusicAnimationsMiniPlayer */,
 				C48A819D275D601D00EE8715 /* HoneyCombGridView */,
+				C4227ADC275EB0D3007FE576 /* E-CommerceApp */,
+				C4227AEB275EC95F007FE576 /* AnimatedSplashScreenWithLoginPageUI  */,
+				C49627EE27600F25005A0C8C /* CustomSwipeToActionCustomTabBar */,
+				C49627FD2760FEF9005A0C8C /* QuizAppUsingFirebaseFirestore  */,
+				C4962810276124B1005A0C8C /* SearchBarInNavigationBar */,
+				C4D54C8C2761359900AD0294 /* CustomCarouselSliderParallaxEffect */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
@@ -1453,6 +1629,30 @@
 			path = CustomnavigationMenu;
 			sourceTree = "<group>";
 		};
+		C4D54C83276125C900AD0294 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4D54C8727612A1700AD0294 /* CardViewSearchBarInNavigationBar.swift */,
+				C4D54C8927612BAA00AD0294 /* CustomNavigationViewSearchBarInNavigationBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4D54C84276125D300AD0294 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4D54C852761264E00AD0294 /* AppItemSearchBarInNavigationBar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4D54C8C2761359900AD0294 /* CustomCarouselSliderParallaxEffect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCarouselSliderParallaxEffect;
+			sourceTree = "<group>";
+		};
 		C4D8DBEF26FD19D100AA3A91 /* IMessagePinnedViewSwipeActions */ = {
 			isa = PBXGroup;
 			children = (
@@ -1541,6 +1741,8 @@
 				C49A21D827558BE8002FCCD3 /* FirebaseAnalyticsSwift-Beta */,
 				C49A21DA27558BE8002FCCD3 /* FirebaseAuth */,
 				C49A21DC27558BE8002FCCD3 /* FirebaseAuthCombine-Community */,
+				C4962807276107B1005A0C8C /* FirebaseFirestore */,
+				C4962809276107BE005A0C8C /* FirebaseFirestoreSwift-Beta */,
 			);
 			productName = TutorialWWDC2020;
 			productReference = C4A01DE126EFF77B001AF3F6 /* TutorialWWDC2020.app */;
@@ -1640,6 +1842,7 @@
 				C4078B32273C83670026616B /* wow.gif in Resources */,
 				C466E91E271E163200548F80 /* audio.mp3 in Resources */,
 				C4B92498270E4DBC000BBE8A /* Earth.usdz in Resources */,
+				C4227AEF275ECA1E007FE576 /* splash1.json in Resources */,
 				C470FC2F274D8F3D009DDDCB /* emptycart.json in Resources */,
 				C4078B33273C83670026616B /* sad.gif in Resources */,
 				C4B92499270E4DBC000BBE8A /* Venus.usdz in Resources */,
@@ -1676,6 +1879,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49627F827601336005A0C8C /* HomeCustomSwipeToActionCustomTabBar.swift in Sources */,
+				C49627F6276010C4005A0C8C /* TabButtonCustomSwipeToActionCustomTabBar.swift in Sources */,
+				C4227ADE275EB0E9007FE576 /* E-CommerceAppView.swift in Sources */,
 				C46DD05727542FF90017F779 /* ViewLoginPageWithFirebase.swift in Sources */,
 				C419EBB927445886003B3B36 /* RegisterLoginPageUIWithCustomViewModifiers.swift in Sources */,
 				C44DBBF42750385C00042F32 /* CustomShapeComplexShapesCurvesCustomBottomSheet.swift in Sources */,
@@ -1699,8 +1905,10 @@
 				C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */,
 				C48774EC2734915800C90E6E /* ItemViewSmoothCurves.swift in Sources */,
 				C4FCC890275829B20098A4F7 /* TodayAppStoreAnimations.swift in Sources */,
+				C4227AE2275EB396007FE576 /* TabButtonE-CommerceApp.swift in Sources */,
 				C419EBD327470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift in Sources */,
 				C4078B4A273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
+				C4227AE6275EB78F007FE576 /* CardViewE-CommerceApp.swift in Sources */,
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
 				C419EBCC2746FE6D003B3B36 /* ViewCurrencyExchargeAppWithJSONAPi.swift in Sources */,
 				C49A21E22756CC8F002FCCD3 /* ViewParsingJSONAndStoringToCoreData.swift in Sources */,
@@ -1717,19 +1925,27 @@
 				C49A21D22755880D002FCCD3 /* CustomNumberPadLoginPageWidthFirebase.swift in Sources */,
 				C4B92492270E4BAC000BBE8A /* ViewLoading3DObjects.swift in Sources */,
 				C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */,
+				C49627FA27601834005A0C8C /* ItemCustomSwipeToActionCustomTabBar.swift in Sources */,
 				C44DBBF827503BCD00042F32 /* ServerComplexShapesCurvesCustomBottomSheet.swift in Sources */,
 				C49A221D2756D39A002FCCD3 /* CardViewParsingJSONAndStoringToCoreData.swift in Sources */,
+				C496280F27611242005A0C8C /* QuestionViewQuizAppUsingFirebaseFirestore .swift in Sources */,
+				C49627F027600F3E005A0C8C /* ViewCustomSwipeToActionCustomTabBar.swift in Sources */,
+				C4D54C8827612A1700AD0294 /* CardViewSearchBarInNavigationBar.swift in Sources */,
 				C4078B21273B294C0026616B /* BagViewOnlineShopAppUIBag.swift in Sources */,
 				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
+				C49627F427600F75005A0C8C /* TabBarCustomSwipeToActionCustomTabBar.swift in Sources */,
 				C419EBB227430929003B3B36 /* CustomSearchBarD.swift in Sources */,
 				C4FCC88E275828850098A4F7 /* TabBarAppStoreAnimations.swift in Sources */,
+				C4962803276101F3005A0C8C /* QAQuizAppUsingFirebaseFirestore .swift in Sources */,
 				C48774CE2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C496851C26F3F3EE0061949E /* HomeLoginPageCustomCurvesShapes.swift in Sources */,
 				C49A22172756D04B002FCCD3 /* HomeViewParsingJSONAndStoringToCoreData.swift in Sources */,
+				C49627FF2760FF2D005A0C8C /* ViewQuizAppUsingFirebaseFirestore .swift in Sources */,
 				C4BC34AC2714D35600948E89 /* ViewVerticalCarouselList.swift in Sources */,
 				C4078B112739C8910026616B /* ImagePickerApplyingFiltersToImage.swift in Sources */,
 				C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */,
 				C4078B1D273B23E10026616B /* ModelOnlineShopAppUIBag.swift in Sources */,
+				C49628052761062F005A0C8C /* QuestionQuizAppUsingFirebaseFirestore .swift in Sources */,
 				C44DBBF627503B7200042F32 /* ServerViewModelComplexShapesCurvesCustomBottomSheet.swift in Sources */,
 				C48774E2273347D000C90E6E /* HomeViewModel.swift in Sources */,
 				C48774F327349A5000C90E6E /* ViewDetailSmoothCurves.swift in Sources */,
@@ -1745,6 +1961,7 @@
 				C48774E727348C2500C90E6E /* ViewSmoothCurves.swift in Sources */,
 				C4BC34B92716391F00948E89 /* StylishDashboardAppUIView.swift in Sources */,
 				C470FC39274D9F20009DDDCB /* ViewCustomActionSheetsWithCheckBoxes.swift in Sources */,
+				C496280D27610874005A0C8C /* QuestionViewModelQuizAppUsingFirebaseFirestore .swift in Sources */,
 				C44DBBFE275040BD00042F32 /* BottomSheetComplexShapesCurvesCustomBottomSheet.swift in Sources */,
 				C4BC34B62716278600948E89 /* ViewSlideOutMenu.swift in Sources */,
 				C4078B42273DCD530026616B /* ViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
@@ -1752,7 +1969,9 @@
 				C48774E427334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift in Sources */,
 				C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */,
 				C419EBBE274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift in Sources */,
+				C4227AEA275EC039007FE576 /* CustomShapeE-CommerceApp.swift in Sources */,
 				C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */,
+				C4962812276124EA005A0C8C /* ViewSearchBarInNavigationBar.swift in Sources */,
 				C477B26A27596EFF000EEF30 /* TodayItemAppStoreAnimations.swift in Sources */,
 				C419EBC927466ECE003B3B36 /* CustomViewViewBuilderCustomView.swift in Sources */,
 				C477B27727597EF1000EEF30 /* TabBarAppleMusicAnimationsMiniPlayer.swift in Sources */,
@@ -1804,15 +2023,20 @@
 				C4A552002729FE6900A2D512 /* ViewGif.swift in Sources */,
 				C48774DA273342C400C90E6E /* ViewWheelRadialPicker.swift in Sources */,
 				C477B26E27597544000EEF30 /* DetailAppStoreAnimations.swift in Sources */,
+				C4227AE8275EBB20007FE576 /* DetailE-CommerceApp.swift in Sources */,
 				C4078B2A273C81230026616B /* ViewComposingFBComplexUI.swift in Sources */,
 				C470FC26274C4A79009DDDCB /* ViewNotificationsWithCategoryActions.swift in Sources */,
 				C4078B46273DCD880026616B /* AlbumParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
 				C477B2792759807E000EEF30 /* BlurViewAppleMusicAnimationsMiniPlayer.swift in Sources */,
 				C4078B3D273DBD660026616B /* PostViewComposingFBComplexUI.swift in Sources */,
 				C4078B25273B31D10026616B /* ColorButtonOnlineShopAppUIBag.swift in Sources */,
+				C4D54C8A27612BAA00AD0294 /* CustomNavigationViewSearchBarInNavigationBar.swift in Sources */,
+				C4227AE4275EB5DC007FE576 /* ItemE-Commerce.swift in Sources */,
 				C48774D72731E2C400C90E6E /* HomeViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C4BC34BC2717891E00948E89 /* ViewAppLockUsingAppStorage.swift in Sources */,
 				C419EBD12746FF89003B3B36 /* ConversionCurrencyExchargeAppWithJSONAPi.swift in Sources */,
+				C49627FC2760194D005A0C8C /* CardViewCustomSwipeToActionCustomTabBar.swift in Sources */,
+				C4D54C862761264E00AD0294 /* AppItemSearchBarInNavigationBar.swift in Sources */,
 				C49A21DF27558DDB002FCCD3 /* AlertViewLoginPageWithFirebasePhoneAuth.swift in Sources */,
 				C48774C82730908000C90E6E /* ViewOnBoardingCustomSlider.swift in Sources */,
 				C46B6FA827527FDF00753C7C /* CustomCornerComplexShapesCurvesCustomBottomSheet.swift in Sources */,
@@ -2191,6 +2415,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C470FC30274D8FCA009DDDCB /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		C4962807276107B1005A0C8C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C49A21D527558BE8002FCCD3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C4962809276107BE005A0C8C /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C49A21D527558BE8002FCCD3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
 		};
 		C49A21D627558BE8002FCCD3 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;

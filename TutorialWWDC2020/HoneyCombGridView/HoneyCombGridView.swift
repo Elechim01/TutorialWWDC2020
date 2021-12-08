@@ -137,8 +137,7 @@ struct HomeHoneyCombGridView:View {
             count += 1
 //            for exhaust data or single data...
             
-            if count == sampleData.count && !
-                generated.isEmpty{
+            if count == sampleData.count && !generated.isEmpty{
                 rows.append(generated)
             }
         }
