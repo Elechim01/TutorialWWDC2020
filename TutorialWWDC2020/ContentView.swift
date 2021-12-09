@@ -28,9 +28,9 @@ struct ContentView: View {
 //        MainView()
 //        ViewSmoothCurves()
 //          ViewCustomSearchBar()
-//        CustomSwipeToActionCustomTabBar CustomCarouselSliderParallaxEffect
-        ViewSearchBarInNavigationBar()
-        
+//        CustomSwipeToActionCustomTabBar 
+        ViewCustomCarouselSliderParallaxEffect()
+    
        
     }
 }

@@ -193,6 +193,8 @@
 		C4D54C862761264E00AD0294 /* AppItemSearchBarInNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D54C852761264E00AD0294 /* AppItemSearchBarInNavigationBar.swift */; };
 		C4D54C8827612A1700AD0294 /* CardViewSearchBarInNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D54C8727612A1700AD0294 /* CardViewSearchBarInNavigationBar.swift */; };
 		C4D54C8A27612BAA00AD0294 /* CustomNavigationViewSearchBarInNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D54C8927612BAA00AD0294 /* CustomNavigationViewSearchBarInNavigationBar.swift */; };
+		C4D54C8E2761653400AD0294 /* ViewCustomCarouselSliderParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D54C8D2761653400AD0294 /* ViewCustomCarouselSliderParallaxEffect.swift */; };
+		C4D54C912762A87500AD0294 /* ViewCustomShapesAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D54C902762A87500AD0294 /* ViewCustomShapesAnimation.swift */; };
 		C4EB3DBA272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB3DB9272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift */; };
 		C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB3DBC272B3C1A009330BD /* Recipe.swift */; };
 		C4F684F626FA817800ED09A6 /* ViewDragAndDropApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F684F526FA817800ED09A6 /* ViewDragAndDropApi.swift */; };
@@ -403,6 +405,8 @@
 		C4D54C852761264E00AD0294 /* AppItemSearchBarInNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItemSearchBarInNavigationBar.swift; sourceTree = "<group>"; };
 		C4D54C8727612A1700AD0294 /* CardViewSearchBarInNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewSearchBarInNavigationBar.swift; sourceTree = "<group>"; };
 		C4D54C8927612BAA00AD0294 /* CustomNavigationViewSearchBarInNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewSearchBarInNavigationBar.swift; sourceTree = "<group>"; };
+		C4D54C8D2761653400AD0294 /* ViewCustomCarouselSliderParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomCarouselSliderParallaxEffect.swift; sourceTree = "<group>"; };
+		C4D54C902762A87500AD0294 /* ViewCustomShapesAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomShapesAnimation.swift; sourceTree = "<group>"; };
 		C4D8DBF026FD1A0400AA3A91 /* iMessagePinnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMessagePinnedView.swift; sourceTree = "<group>"; };
 		C4EB3DB9272B37FB009330BD /* ViewComplextUITutorialsRecipeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComplextUITutorialsRecipeUI.swift; sourceTree = "<group>"; };
 		C4EB3DBC272B3C1A009330BD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
@@ -1419,6 +1423,7 @@
 				C49627FD2760FEF9005A0C8C /* QuizAppUsingFirebaseFirestore  */,
 				C4962810276124B1005A0C8C /* SearchBarInNavigationBar */,
 				C4D54C8C2761359900AD0294 /* CustomCarouselSliderParallaxEffect */,
+				C4D54C8F2762A83600AD0294 /* CustomShapesAnimation */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
@@ -1649,8 +1654,17 @@
 		C4D54C8C2761359900AD0294 /* CustomCarouselSliderParallaxEffect */ = {
 			isa = PBXGroup;
 			children = (
+				C4D54C8D2761653400AD0294 /* ViewCustomCarouselSliderParallaxEffect.swift */,
 			);
 			path = CustomCarouselSliderParallaxEffect;
+			sourceTree = "<group>";
+		};
+		C4D54C8F2762A83600AD0294 /* CustomShapesAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C4D54C902762A87500AD0294 /* ViewCustomShapesAnimation.swift */,
+			);
+			path = CustomShapesAnimation;
 			sourceTree = "<group>";
 		};
 		C4D8DBEF26FD19D100AA3A91 /* IMessagePinnedViewSwipeActions */ = {
@@ -1999,7 +2013,9 @@
 				C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */,
 				C419EBC727466D55003B3B36 /* HomeViewModelBuilderCustomViews.swift in Sources */,
 				C4BC34C22718D69000948E89 /* ViewSharingImages.swift in Sources */,
+				C4D54C8E2761653400AD0294 /* ViewCustomCarouselSliderParallaxEffect.swift in Sources */,
 				C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */,
+				C4D54C912762A87500AD0294 /* ViewCustomShapesAnimation.swift in Sources */,
 				C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */,
 				C49A22122756CE99002FCCD3 /* PersistanceJSON.swift in Sources */,
 				C419EBBB27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift in Sources */,
