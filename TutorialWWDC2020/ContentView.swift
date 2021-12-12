@@ -28,8 +28,9 @@ struct ContentView: View {
 //        MainView()
 //        ViewSmoothCurves()
 //          ViewCustomSearchBar()
-//        CustomSwipeToActionCustomTabBar 
-        ViewCustomCarouselSliderParallaxEffect()
+//        
+//        
+        ViewInstagramFeedLayout()
     
        
     }
