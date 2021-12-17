@@ -28,9 +28,9 @@ struct ContentView: View {
 //        MainView()
 //        ViewSmoothCurves()
 //          ViewCustomSearchBar()
-//        
-//        
-        ViewInstagramFeedLayout()
+//         
+//
+        View_RealmDBCRUDOperationsf()
     
        
     }
