@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVKit
 
 class VideoPlayerViewModelSnapchatDiscoveryPageTransitions: ObservableObject {
     

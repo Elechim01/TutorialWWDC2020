@@ -38,8 +38,8 @@ struct StickyViewSquareSpaceWebUIParallaxEffect: View {
             let imageOffset = imageScale > 0 ? (1 - imageScale) * 200 : 20
             
             DispatchQueue.main.async {
-                if self.firstMiniY == 0{
-                    self.firstMiniY = minY
+                if self.firstMinY == 0{
+                    self.firstMinY = minY
                 }
                 self.minY = minY
                 
@@ -58,7 +58,7 @@ struct StickyViewSquareSpaceWebUIParallaxEffect: View {
                 Image("p1")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: getScreen().width, height: getScreen().height - firstMiniY)
+                    .frame(width: getScreen().width, height: getScreen().height - firstMinY)
                     .cornerRadius(1)
                     .scaleEffect(scale < 0.6 ? imageScale : 1)
                     .offset(y: scale < 0.6 ? imageOffset : 0)
@@ -126,13 +126,13 @@ struct StickyViewSquareSpaceWebUIParallaxEffect: View {
 //                Limiting...
                     .scaleEffect(scale > 0.6 ? scale : 0.6)
 //                Logic to move view Up when It Reaches Button...
-                    .offset(y: minY > 0 ?   minY > lastMinY + 60 &6 lastMinY != 0 ? lastMinY + 60 : minY : 0)
+                    .offset(y: minY > 0 ? minY > lastMinY + 60 && lastMinY != 0 ? lastMinY + 60 : minY : 0)
 //                Offset...
                     .offset(y:scale > 0.6 ? (scale - 1) * 200 : -80)
             )
             
         }
-        .frame(width: getScreen().width, height: getScreen().height - firstMiniY)
+        .frame(width: getScreen().width, height: getScreen().height - firstMinY)
         .overlay(
 //            Bottom Details...
             
@@ -157,7 +157,7 @@ struct StickyViewSquareSpaceWebUIParallaxEffect: View {
             }
             .padding(.bottom,70)
 //            Disabiling Scroll...
-                .offset(y: minY > 0 ?   minY > lastMinY + 60 &6 lastMinY != 0 ? lastMinY + 60 : minY : 0)
+                .offset(y: minY > 0 ? minY > lastMinY + 60 && lastMinY != 0 ? lastMinY + 60 : minY : 0)
 //            thas all the logic when evere the scroll reached button it will enable full scroll...
             ,
             alignment:.bottom

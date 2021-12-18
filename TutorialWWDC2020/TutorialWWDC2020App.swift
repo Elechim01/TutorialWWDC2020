@@ -16,6 +16,7 @@ struct TutorialWWDC2020App: App {
 //            Usato per ParsingJSONAndStoringToCoreData
     let persistenceJSON = PersistenceJSON.shared
     var body: some Scene {
+        
         WindowGroup {
             ContentView()
 //            SCOMMENTARE ANCHE QUESTO PER CoreDataConnectionCRUDOperation

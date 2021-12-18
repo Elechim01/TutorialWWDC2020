@@ -31,7 +31,7 @@ struct VideoPlayerViewYouTubeMiniPlayerTransition: UIViewControllerRepresentable
     }
     
     func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {
-        <#code#>
+        
     }
     
 }

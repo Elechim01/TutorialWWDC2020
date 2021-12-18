@@ -29,7 +29,7 @@ struct FooterViewMediumAppStickyFooterAnimation: View {
             Group{
                 
                 Button {
-                    <#code#>
+                    
                 } label: {
                     Image(systemName: "square.and.arrow.up")
                         .font(.title2)
@@ -40,7 +40,7 @@ struct FooterViewMediumAppStickyFooterAnimation: View {
                 .offset(x: offset == 0 ? 0 : 50 * (offset / 120))
 
                 Button {
-                    <#code#>
+                    
                 } label: {
                     Image(systemName: "bookmark")
                         .font(.title2)
@@ -105,6 +105,6 @@ struct FooterViewMediumAppStickyFooterAnimation: View {
 
 struct FooterViewMediumAppStickyFooterAnimation_Previews: PreviewProvider {
     static var previews: some View {
-       HomeViewMediumAppStickyFooterAnimation()
+       HomeMediumAppStickyFooterAnimation()
     }
 }

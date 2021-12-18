@@ -51,6 +51,6 @@ struct MenuButtonNavigationDrawerWithSavingPageState: View {
 
 struct MenuButtonNavigationDrawerWithSavingPageState_Previews: PreviewProvider {
     static var previews: some View {
-        HomeNavigationDrawerWithSavingPageState()
+        HomeViewNavigationDrawerWithSavingPageState()
     }
 }

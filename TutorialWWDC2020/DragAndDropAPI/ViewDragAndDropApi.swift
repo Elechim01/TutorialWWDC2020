@@ -95,7 +95,7 @@ struct ViewDragAndDropApi: View {
 
 struct ViewDragAndDropApi_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ViewDragAndDropApi()
     }
 }
 

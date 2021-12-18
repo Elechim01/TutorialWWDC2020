@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
+//import Giphy_iOS
 import GiphyUISDK
-import GiphyUISDKWrapper
+//import GiphyUISDKWrapper
 //import GiphyCoreSDK
 
 struct GIFController: UIViewControllerRepresentable {

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
 //        NavigationView{
 //            ViewDragAndDropApi()
@@ -28,11 +29,11 @@ struct ContentView: View {
 //        MainView()
 //        ViewSmoothCurves()
 //          ViewCustomSearchBar()
-//         
-//
-        View_RealmDBCRUDOperationsf()
+//         SwipeableInstagramViewLayout
+//   
+//        SwipeUpToHideSwipeDownRevealHeader
     
-       
+       Text("Ciao")
     }
 }
 

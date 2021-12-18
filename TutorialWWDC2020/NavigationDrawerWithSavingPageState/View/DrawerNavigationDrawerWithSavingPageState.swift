@@ -82,7 +82,7 @@ struct DrawerNavigationDrawerWithSavingPageState: View {
 
 struct DrawerNavigationDrawerWithSavingPageState_Previews: PreviewProvider {
     static var previews: some View {
-        HomeNavigationDrawerWithSavingPageState()
+        HomeViewNavigationDrawerWithSavingPageState()
     }
 }
 

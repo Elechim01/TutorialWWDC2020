@@ -14,11 +14,11 @@ class PageViewModelReorderingGridViewItems: ObservableObject {
     @Published var selectedTab = "tabs"
     
    @Published var urlsReorderingGridViewItems = [
-        PageReorderingGridViewItems(url: URL(string: "https://www.google.com")),
-        PageReorderingGridViewItems(url: URL(string: "https://www.facebook.com")),
-        PageReorderingGridViewItems(url: URL(string: "https://www.apple.com")),
-        PageReorderingGridViewItems(url: URL(string: "https://www.twitter.com")),
-        PageReorderingGridViewItems(url: URL(string: "https://www.gmail.com")),
+       PageReorderingGridViewItems(url: URL(string: "https://www.google.com")!),
+        PageReorderingGridViewItems(url: URL(string: "https://www.facebook.com")!),
+        PageReorderingGridViewItems(url: URL(string: "https://www.apple.com")!),
+        PageReorderingGridViewItems(url: URL(string: "https://www.twitter.com")!),
+        PageReorderingGridViewItems(url: URL(string: "https://www.gmail.com")!),
 
     ]
     

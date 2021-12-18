@@ -124,7 +124,7 @@ struct HomeMediumAppStickyFooterAnimation: View {
                     .fontWeight(.heavy)
                     .foregroundColor(.primary)
                     .padding(.horizontal)
-                    .frame(maxWidth: .infinit, alignment: .leading)
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 
 //                Feature Rows...
                 

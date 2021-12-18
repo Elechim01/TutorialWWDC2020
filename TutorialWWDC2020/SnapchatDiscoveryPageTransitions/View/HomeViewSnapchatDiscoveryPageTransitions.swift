@@ -95,7 +95,7 @@ struct HomeViewSnapchatDiscoveryPageTransitions: View {
                     .scaleEffect(playerModel.scale)
                     .matchedGeometryEffect(id: playerModel.selectedVideo.id, in: animation)
                     .offset(playerModel.offset)
-                    .gesture(DragGesture().onChanged(onChanged(value: )).onEnded(onEnd(value:))
+                    .gesture(DragGesture().onChanged(onChanged(value:)).onEnded(onEnd(value:)))
 //        Playing video When Opens...
                     .onAppear{
                         playerModel.selectedVideo.player.play()
@@ -110,7 +110,7 @@ struct HomeViewSnapchatDiscoveryPageTransitions: View {
     func onChanged(value: DragGesture.Value){
         
 //       Only Moving View When Swipes Down...
-        if value.translation.height >0 {
+        if value.translation.height > 0 {
             playerModel.offset = value.translation
             
 //            Scaling View...

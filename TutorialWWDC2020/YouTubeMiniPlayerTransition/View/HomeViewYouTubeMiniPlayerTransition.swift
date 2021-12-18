@@ -36,8 +36,8 @@ struct HomeViewYouTubeMiniPlayerTransition: View {
                     .offset(y: player.offset)
                     .gesture(DragGesture().updating($gestureOffset, body: { value, state, _ in
                         state = value.translation.height
-                    }))
-                                .onEnded(onEnd(value:)))
+                    })
+                    .onEnded(onEnd(value:)))
             }
         }
         .onChange(of: gestureOffset) { newValue in

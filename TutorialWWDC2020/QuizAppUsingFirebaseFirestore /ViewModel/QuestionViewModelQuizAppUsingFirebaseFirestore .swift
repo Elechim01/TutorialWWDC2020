@@ -22,7 +22,7 @@ class QuestionViewModelQuizAppUsingFirebaseFirestore_: ObservableObject {
             guard let data = snap else { return }
             print(data.documents)
             DispatchQueue.main.async {
-                self.questions = data.documents.compactMap({ doc in
+                self.questions = data.documents.compactMap({ doc -> QuestionQuizAppUsingFirebaseFirestore_? in
                     return try? doc.data(as: QuestionQuizAppUsingFirebaseFirestore_.self)
                 })
             }
