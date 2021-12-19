@@ -63,6 +63,20 @@
 		C419EBD12746FF89003B3B36 /* ConversionCurrencyExchargeAppWithJSONAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBD02746FF89003B3B36 /* ConversionCurrencyExchargeAppWithJSONAPi.swift */; };
 		C419EBD327470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBD227470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift */; };
 		C419EBD627470C50003B3B36 /* ViewSideTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EBD527470C50003B3B36 /* ViewSideTabBarView.swift */; };
+		C41FF4E5276F7EE5008D2374 /* MovieModelMovieBookingAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4E4276F7EE5008D2374 /* MovieModelMovieBookingAppUI.swift */; };
+		C41FF4E7276F81F3008D2374 /* BookingViewMovieBookingAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4E6276F81F3008D2374 /* BookingViewMovieBookingAppUI.swift */; };
+		C41FF4EA276F8E39008D2374 /* ViewWalkthroughScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4E9276F8E39008D2374 /* ViewWalkthroughScreens.swift */; };
+		C41FF4ED276FA1DA008D2374 /* ViewVerticalPageTabViewCarouselList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4EC276FA1DA008D2374 /* ViewVerticalPageTabViewCarouselList.swift */; };
+		C41FF4F0276FA234008D2374 /* HomeViewVerticalPageTabViewCarouselList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4EF276FA234008D2374 /* HomeViewVerticalPageTabViewCarouselList.swift */; };
+		C41FF4F3276FD5C2008D2374 /* ViewMultipleImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4F2276FD5C2008D2374 /* ViewMultipleImageViewer.swift */; };
+		C41FF4F7276FD627008D2374 /* HomeViewMultipleImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4F6276FD627008D2374 /* HomeViewMultipleImageViewer.swift */; };
+		C41FF4F9276FD775008D2374 /* HomeViewModelMultipleImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4F8276FD775008D2374 /* HomeViewModelMultipleImageViewer.swift */; };
+		C41FF4FB276FD8B8008D2374 /* GridImageViewMultipleImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4FA276FD8B8008D2374 /* GridImageViewMultipleImageViewer.swift */; };
+		C41FF4FD276FDD09008D2374 /* ImageViewMultipleImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF4FC276FDD09008D2374 /* ImageViewMultipleImageViewer.swift */; };
+		C41FF503276FE69D008D2374 /* ViewCustomShapesAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF502276FE69D008D2374 /* ViewCustomShapesAndAnimations.swift */; };
+		C41FF505276FE6B1008D2374 /* HomeViewCustomShapesAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF504276FE6B1008D2374 /* HomeViewCustomShapesAndAnimations.swift */; };
+		C41FF507276FE70A008D2374 /* CustomTabBarCustomShapesAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF506276FE70A008D2374 /* CustomTabBarCustomShapesAndAnimations.swift */; };
+		C41FF509276FEA34008D2374 /* TabCurveCustomShapesAndAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FF508276FEA34008D2374 /* TabCurveCustomShapesAndAnimations.swift */; };
 		C4204E1026FD2D950006554B /* PhotosUIPHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */; };
 		C4222277276E943300F1AA24 /* ViewSwipeUpToHideSwipeDownRevealHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4222276276E943300F1AA24 /* ViewSwipeUpToHideSwipeDownRevealHeader.swift */; };
 		C422227B276E945B00F1AA24 /* HomeViewSwipeUpToHideSwipeDownRevealHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422227A276E945B00F1AA24 /* HomeViewSwipeUpToHideSwipeDownRevealHeader.swift */; };
@@ -102,6 +116,9 @@
 		C44DBBFA27503DCA00042F32 /* CardViewComplexShapesCurvesCustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44DBBF927503DCA00042F32 /* CardViewComplexShapesCurvesCustomBottomSheet.swift */; };
 		C44DBBFC27503ED400042F32 /* BlurViewComplexShapesCurvesCustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44DBBFB27503ED400042F32 /* BlurViewComplexShapesCurvesCustomBottomSheet.swift */; };
 		C44DBBFE275040BD00042F32 /* BottomSheetComplexShapesCurvesCustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44DBBFD275040BD00042F32 /* BottomSheetComplexShapesCurvesCustomBottomSheet.swift */; };
+		C459219C276F74A300AB0F7A /* ViewCustomAnimatedSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C459219B276F74A300AB0F7A /* ViewCustomAnimatedSlider.swift */; };
+		C459219F276F7A7500AB0F7A /* ViewMovieBookingAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C459219E276F7A7500AB0F7A /* ViewMovieBookingAppUI.swift */; };
+		C45921A2276F7B1100AB0F7A /* HomeViewMovieBookingAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45921A1276F7B1100AB0F7A /* HomeViewMovieBookingAppUI.swift */; };
 		C466E91C271E159A00548F80 /* ViewCustomAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466E91B271E159A00548F80 /* ViewCustomAudioPlayer.swift */; };
 		C466E91E271E163200548F80 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C466E91D271E163200548F80 /* audio.mp3 */; };
 		C466E921271E231D00548F80 /* ViewDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C466E920271E231D00548F80 /* ViewDocumentPicker.swift */; };
@@ -326,6 +343,20 @@
 		C419EBD02746FF89003B3B36 /* ConversionCurrencyExchargeAppWithJSONAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCurrencyExchargeAppWithJSONAPi.swift; sourceTree = "<group>"; };
 		C419EBD227470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataCurrencyExchargeAppWithJSONAPi.swift; sourceTree = "<group>"; };
 		C419EBD527470C50003B3B36 /* ViewSideTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSideTabBarView.swift; sourceTree = "<group>"; };
+		C41FF4E4276F7EE5008D2374 /* MovieModelMovieBookingAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModelMovieBookingAppUI.swift; sourceTree = "<group>"; };
+		C41FF4E6276F81F3008D2374 /* BookingViewMovieBookingAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewMovieBookingAppUI.swift; sourceTree = "<group>"; };
+		C41FF4E9276F8E39008D2374 /* ViewWalkthroughScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWalkthroughScreens.swift; sourceTree = "<group>"; };
+		C41FF4EC276FA1DA008D2374 /* ViewVerticalPageTabViewCarouselList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewVerticalPageTabViewCarouselList.swift; sourceTree = "<group>"; };
+		C41FF4EF276FA234008D2374 /* HomeViewVerticalPageTabViewCarouselList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewVerticalPageTabViewCarouselList.swift; sourceTree = "<group>"; };
+		C41FF4F2276FD5C2008D2374 /* ViewMultipleImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMultipleImageViewer.swift; sourceTree = "<group>"; };
+		C41FF4F6276FD627008D2374 /* HomeViewMultipleImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewMultipleImageViewer.swift; sourceTree = "<group>"; };
+		C41FF4F8276FD775008D2374 /* HomeViewModelMultipleImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelMultipleImageViewer.swift; sourceTree = "<group>"; };
+		C41FF4FA276FD8B8008D2374 /* GridImageViewMultipleImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridImageViewMultipleImageViewer.swift; sourceTree = "<group>"; };
+		C41FF4FC276FDD09008D2374 /* ImageViewMultipleImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewMultipleImageViewer.swift; sourceTree = "<group>"; };
+		C41FF502276FE69D008D2374 /* ViewCustomShapesAndAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomShapesAndAnimations.swift; sourceTree = "<group>"; };
+		C41FF504276FE6B1008D2374 /* HomeViewCustomShapesAndAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCustomShapesAndAnimations.swift; sourceTree = "<group>"; };
+		C41FF506276FE70A008D2374 /* CustomTabBarCustomShapesAndAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarCustomShapesAndAnimations.swift; sourceTree = "<group>"; };
+		C41FF508276FEA34008D2374 /* TabCurveCustomShapesAndAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCurveCustomShapesAndAnimations.swift; sourceTree = "<group>"; };
 		C4204E0F26FD2D950006554B /* PhotosUIPHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIPHPickerView.swift; sourceTree = "<group>"; };
 		C4222276276E943300F1AA24 /* ViewSwipeUpToHideSwipeDownRevealHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSwipeUpToHideSwipeDownRevealHeader.swift; sourceTree = "<group>"; };
 		C422227A276E945B00F1AA24 /* HomeViewSwipeUpToHideSwipeDownRevealHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewSwipeUpToHideSwipeDownRevealHeader.swift; sourceTree = "<group>"; };
@@ -366,6 +397,9 @@
 		C44DBBF927503DCA00042F32 /* CardViewComplexShapesCurvesCustomBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewComplexShapesCurvesCustomBottomSheet.swift; sourceTree = "<group>"; };
 		C44DBBFB27503ED400042F32 /* BlurViewComplexShapesCurvesCustomBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewComplexShapesCurvesCustomBottomSheet.swift; sourceTree = "<group>"; };
 		C44DBBFD275040BD00042F32 /* BottomSheetComplexShapesCurvesCustomBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetComplexShapesCurvesCustomBottomSheet.swift; sourceTree = "<group>"; };
+		C459219B276F74A300AB0F7A /* ViewCustomAnimatedSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomAnimatedSlider.swift; sourceTree = "<group>"; };
+		C459219E276F7A7500AB0F7A /* ViewMovieBookingAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMovieBookingAppUI.swift; sourceTree = "<group>"; };
+		C45921A1276F7B1100AB0F7A /* HomeViewMovieBookingAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewMovieBookingAppUI.swift; sourceTree = "<group>"; };
 		C466E91B271E159A00548F80 /* ViewCustomAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomAudioPlayer.swift; sourceTree = "<group>"; };
 		C466E91D271E163200548F80 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		C466E920271E231D00548F80 /* ViewDocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDocumentPicker.swift; sourceTree = "<group>"; };
@@ -908,6 +942,86 @@
 			path = SideTabBarView;
 			sourceTree = "<group>";
 		};
+		C41FF4E3276F7ECA008D2374 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF4E4276F7EE5008D2374 /* MovieModelMovieBookingAppUI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C41FF4E8276F8E2C008D2374 /* WalkthroughScreens */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF4E9276F8E39008D2374 /* ViewWalkthroughScreens.swift */,
+			);
+			path = WalkthroughScreens;
+			sourceTree = "<group>";
+		};
+		C41FF4EB276FA1B6008D2374 /* VerticalPageTabViewCarouselList */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF4EE276FA222008D2374 /* View */,
+				C41FF4EC276FA1DA008D2374 /* ViewVerticalPageTabViewCarouselList.swift */,
+			);
+			path = VerticalPageTabViewCarouselList;
+			sourceTree = "<group>";
+		};
+		C41FF4EE276FA222008D2374 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF4EF276FA234008D2374 /* HomeViewVerticalPageTabViewCarouselList.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C41FF4F1276FD597008D2374 /* MultipleImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF4F5276FD616008D2374 /* ViewModel */,
+				C41FF4F4276FD609008D2374 /* View */,
+				C41FF4F2276FD5C2008D2374 /* ViewMultipleImageViewer.swift */,
+			);
+			path = MultipleImageViewer;
+			sourceTree = "<group>";
+		};
+		C41FF4F4276FD609008D2374 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF4F6276FD627008D2374 /* HomeViewMultipleImageViewer.swift */,
+				C41FF4FA276FD8B8008D2374 /* GridImageViewMultipleImageViewer.swift */,
+				C41FF4FC276FDD09008D2374 /* ImageViewMultipleImageViewer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C41FF4F5276FD616008D2374 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF4F8276FD775008D2374 /* HomeViewModelMultipleImageViewer.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C41FF4FE276FE605008D2374 /* CustomShapesAndAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF501276FE67E008D2374 /* View */,
+				C41FF502276FE69D008D2374 /* ViewCustomShapesAndAnimations.swift */,
+			);
+			path = CustomShapesAndAnimations;
+			sourceTree = "<group>";
+		};
+		C41FF501276FE67E008D2374 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF504276FE6B1008D2374 /* HomeViewCustomShapesAndAnimations.swift */,
+				C41FF506276FE70A008D2374 /* CustomTabBarCustomShapesAndAnimations.swift */,
+				C41FF508276FEA34008D2374 /* TabCurveCustomShapesAndAnimations.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C4204E0E26FD2D410006554B /* NewPHPickerAPIPhotosUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -1158,6 +1272,33 @@
 				C44DBBF727503BCD00042F32 /* ServerComplexShapesCurvesCustomBottomSheet.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C459219A276F748300AB0F7A /* CustomAnimatedSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C459219B276F74A300AB0F7A /* ViewCustomAnimatedSlider.swift */,
+			);
+			path = CustomAnimatedSlider;
+			sourceTree = "<group>";
+		};
+		C459219D276F7A6800AB0F7A /* MovieBookingAppUI */ = {
+			isa = PBXGroup;
+			children = (
+				C41FF4E3276F7ECA008D2374 /* Model */,
+				C45921A0276F7AF900AB0F7A /* View */,
+				C459219E276F7A7500AB0F7A /* ViewMovieBookingAppUI.swift */,
+			);
+			path = MovieBookingAppUI;
+			sourceTree = "<group>";
+		};
+		C45921A0276F7AF900AB0F7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C45921A1276F7B1100AB0F7A /* HomeViewMovieBookingAppUI.swift */,
+				C41FF4E6276F81F3008D2374 /* BookingViewMovieBookingAppUI.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C466E91A271E156900548F80 /* CircularAudioVisualizer */ = {
@@ -1759,6 +1900,12 @@
 				C4F17F4E276CFC1E00A555C7 /* SwipeableInstagramViewLayout */,
 				C4F17F63276E36DC00A555C7 /* CustomImageVideoPicker */,
 				C4222275276E93FA00F1AA24 /* SwipeUpToHideSwipeDownRevealHeader */,
+				C459219A276F748300AB0F7A /* CustomAnimatedSlider */,
+				C459219D276F7A6800AB0F7A /* MovieBookingAppUI */,
+				C41FF4E8276F8E2C008D2374 /* WalkthroughScreens */,
+				C41FF4EB276FA1B6008D2374 /* VerticalPageTabViewCarouselList */,
+				C41FF4F1276FD597008D2374 /* MultipleImageViewer */,
+				C41FF4FE276FE605008D2374 /* CustomShapesAndAnimations */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
@@ -2486,6 +2633,7 @@
 			files = (
 				C49627F827601336005A0C8C /* HomeCustomSwipeToActionCustomTabBar.swift in Sources */,
 				C49627F6276010C4005A0C8C /* TabButtonCustomSwipeToActionCustomTabBar.swift in Sources */,
+				C45921A2276F7B1100AB0F7A /* HomeViewMovieBookingAppUI.swift in Sources */,
 				C4227ADE275EB0E9007FE576 /* E-CommerceAppView.swift in Sources */,
 				C41782F62768B49F00DC67B1 /* HomeViewAnimatedStickyHeaderWithScrollableTabs.swift in Sources */,
 				C46DD05727542FF90017F779 /* ViewLoginPageWithFirebase.swift in Sources */,
@@ -2497,6 +2645,7 @@
 				C41782E72767F1FE00DC67B1 /* HomeViewRealmDBCRUDOperations.swift in Sources */,
 				C41783002768BC5600DC67B1 /* HomeViewModelAnimatedStickyHeaderWithScrollableTabs.swift in Sources */,
 				C49A21E52756CCBA002FCCD3 /* CoreJSON.xcdatamodeld in Sources */,
+				C41FF503276FE69D008D2374 /* ViewCustomShapesAndAnimations.swift in Sources */,
 				C46DD060275433AE0017F779 /* CountriesLoginPageWithFirebase.swift in Sources */,
 				C4CA186F27220794003A7080 /* ViewCustomSideBarMenu.swift in Sources */,
 				C4413C6C2706640E0029F129 /* ViewInstagramStory3DCube.swift in Sources */,
@@ -2505,6 +2654,7 @@
 				C48774F1273496AC00C90E6E /* CustomCornerViewSmoothCurves.swift in Sources */,
 				C470FC2D274D8EAB009DDDCB /* ViewLottieAnimationView.swift in Sources */,
 				C41782E22767F1B900DC67B1 /* View RealmDBCRUDOperations.swift in Sources */,
+				C459219F276F7A7500AB0F7A /* ViewMovieBookingAppUI.swift in Sources */,
 				C4EB3DBD272B3C1A009330BD /* Recipe.swift in Sources */,
 				C4078B0F2739C8190026616B /* ViewModelApplyingFiltersToImage.swift in Sources */,
 				C4A80DF1276E994D00A9730E /* HeaderViewModelSwipeUpToHideSwipeDownRevealHeader.swift in Sources */,
@@ -2532,6 +2682,7 @@
 				C4F17F70276E41B300A555C7 /* AssetCustomImageVideoPicker.swift in Sources */,
 				C4FCC890275829B20098A4F7 /* TodayAppStoreAnimations.swift in Sources */,
 				C422227B276E945B00F1AA24 /* HomeViewSwipeUpToHideSwipeDownRevealHeader.swift in Sources */,
+				C41FF4F9276FD775008D2374 /* HomeViewModelMultipleImageViewer.swift in Sources */,
 				C4227AE2275EB396007FE576 /* TabButtonE-CommerceApp.swift in Sources */,
 				C419EBD327470051003B3B36 /* FetchDataCurrencyExchargeAppWithJSONAPi.swift in Sources */,
 				C4078B4A273DD5820026616B /* BlurViewParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
@@ -2539,9 +2690,11 @@
 				C4B92489270CECBE000BBE8A /* ViewCoreDataConnectionCRUD.swift in Sources */,
 				C419EBCC2746FE6D003B3B36 /* ViewCurrencyExchargeAppWithJSONAPi.swift in Sources */,
 				C49A21E22756CC8F002FCCD3 /* ViewParsingJSONAndStoringToCoreData.swift in Sources */,
+				C41FF4E7276F81F3008D2374 /* BookingViewMovieBookingAppUI.swift in Sources */,
 				C4078B3F273DC29A0026616B /* ReactionViewComposingFBComplexUI.swift in Sources */,
 				C4EB5617276951410045D983 /* VideoPlayerViewSnapchatDiscoveryPageTransitions.swift in Sources */,
 				C4078B48273DCF660026616B /* AlbumRowParallaxScrollingEffectWithStickyTopHeader.swift in Sources */,
+				C41FF4FB276FD8B8008D2374 /* GridImageViewMultipleImageViewer.swift in Sources */,
 				C419EBB52743153A003B3B36 /* ViewLoginPageUIWithCustomViewModifiers.swift in Sources */,
 				C44DBBED275033C700042F32 /* ViewComplexShapesCurvesCustomBottomSheet.swift in Sources */,
 				C4B92486270CE761000BBE8A /* ViewCustomTabPageIcons.swift in Sources */,
@@ -2564,6 +2717,7 @@
 				C44DBBF827503BCD00042F32 /* ServerComplexShapesCurvesCustomBottomSheet.swift in Sources */,
 				C437872227664A34002FA890 /* DetailViewCustomCarouselSliderWithHeroAnimations.swift in Sources */,
 				C49A221D2756D39A002FCCD3 /* CardViewParsingJSONAndStoringToCoreData.swift in Sources */,
+				C41FF4F7276FD627008D2374 /* HomeViewMultipleImageViewer.swift in Sources */,
 				C496280F27611242005A0C8C /* QuestionViewQuizAppUsingFirebaseFirestore .swift in Sources */,
 				C49627F027600F3E005A0C8C /* ViewCustomSwipeToActionCustomTabBar.swift in Sources */,
 				C4F53AB9276A3E410063AF88 /* PageViewModelReorderingGridViewItems.swift in Sources */,
@@ -2577,6 +2731,8 @@
 				C4F53ACD276BEE4F0063AF88 /* StickyViewSquareSpaceWebUIParallaxEffect.swift in Sources */,
 				C4FCC88E275828850098A4F7 /* TabBarAppStoreAnimations.swift in Sources */,
 				C4962803276101F3005A0C8C /* QAQuizAppUsingFirebaseFirestore .swift in Sources */,
+				C41FF509276FEA34008D2374 /* TabCurveCustomShapesAndAnimations.swift in Sources */,
+				C41FF507276FE70A008D2374 /* CustomTabBarCustomShapesAndAnimations.swift in Sources */,
 				C48774CE2731E0DB00C90E6E /* ViewCustomMusicPlayerCircularSlider.swift in Sources */,
 				C4EB56012768E7590045D983 /* videoYouTubeMiniPlayerTransition.swift in Sources */,
 				C4EB56092768EA450045D983 /* VideoPlayerViewYouTubeMiniPlayerTransition.swift in Sources */,
@@ -2599,6 +2755,7 @@
 				C4A552022729FFBF00A2D512 /* GifController.swift in Sources */,
 				C43787312766986B002FA890 /* JSONViewModelInstagramFeedLayout.swift in Sources */,
 				C4FC5C60276C912700CC29DB /* CartNavigationDrawerWithSavingPageState.swift in Sources */,
+				C41FF4ED276FA1DA008D2374 /* ViewVerticalPageTabViewCarouselList.swift in Sources */,
 				C41782E92767F2C400DC67B1 /* AddPageViewRealmDBCRUDOperations.swift in Sources */,
 				C4078B27273C7BA30026616B /* CustomCornerOnlineShopAppUIBag.swift in Sources */,
 				C4078B0A2739C7910026616B /* ViewApplyingFiltersToImage.swift in Sources */,
@@ -2625,6 +2782,7 @@
 				C48774E427334B8E00C90E6E /* FunctionButtonWheelRadialPicker.swift in Sources */,
 				C48774EF2734919500C90E6E /* ItemSmoothCurves.swift in Sources */,
 				C419EBBE274462D2003B3B36 /* ViewSwiftUICustoisingnativeTabbar.swift in Sources */,
+				C459219C276F74A300AB0F7A /* ViewCustomAnimatedSlider.swift in Sources */,
 				C41782EB2767F36600DC67B1 /* DBViewModelRealmDBCRUDOperations.swift in Sources */,
 				C437871A27655A90002FA890 /* HomeViewCustomCarouselSliderWithHeroAnimations.swift in Sources */,
 				C4227AEA275EC039007FE576 /* CustomShapeE-CommerceApp.swift in Sources */,
@@ -2646,6 +2804,7 @@
 				C49A22192756D09E002FCCD3 /* VideoModelParsingJSONAndStoringToCoreData.swift in Sources */,
 				C4BC34C52718DA4400948E89 /* ViewAppleMiusicAnimation.swift in Sources */,
 				C437872527669070002FA890 /* ViewTextShimmerEffect.swift in Sources */,
+				C41FF4E5276F7EE5008D2374 /* MovieModelMovieBookingAppUI.swift in Sources */,
 				C4A01DE726EFF77B001AF3F6 /* ContentView.swift in Sources */,
 				C4078B132739CD6A0026616B /* FilteredImageApplyingFilters.swift in Sources */,
 				C4FC5C6B276C9DB800CC29DB /* ArticleMediumAppStickyFooterAnimation.swift in Sources */,
@@ -2660,6 +2819,7 @@
 				C4BC34BF2718CB9400948E89 /* ViewBottomSheetMapsBottomSheet.swift in Sources */,
 				C4A01DE526EFF77B001AF3F6 /* TutorialWWDC2020App.swift in Sources */,
 				C470FC36274D95D2009DDDCB /* ViewCustomPullToRefreshControl.swift in Sources */,
+				C41FF4EA276F8E39008D2374 /* ViewWalkthroughScreens.swift in Sources */,
 				C477B27D275983D8000EEF30 /* SearchAppleMusicAnimationsMiniPlayer.swift in Sources */,
 				C496851926F3E38C0061949E /* HomeFitnessDashboardBarCharts.swift in Sources */,
 				C43C3FBF27051523004142C0 /* ViewTranslucentBackgroudEffect.swift in Sources */,
@@ -2670,12 +2830,15 @@
 				C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */,
 				C4D54C912762A87500AD0294 /* ViewCustomShapesAnimation.swift in Sources */,
 				C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */,
+				C41FF4FD276FDD09008D2374 /* ImageViewMultipleImageViewer.swift in Sources */,
 				C49A22122756CE99002FCCD3 /* PersistanceJSON.swift in Sources */,
 				C4EB561527694F070045D983 /* HomeViewSnapchatDiscoveryPageTransitions.swift in Sources */,
 				C419EBBB27445E21003B3B36 /* CustomButtonModifierLoginPageUIWithCustomViewModifiers.swift in Sources */,
 				C4EB560F27694D970045D983 /* ViewSnapchatDiscoveryPageTransitions.swift in Sources */,
 				C477B27427597EC1000EEF30 /* ViewAppleMusicAnimationsMiniPlayer.swift in Sources */,
+				C41FF4F3276FD5C2008D2374 /* ViewMultipleImageViewer.swift in Sources */,
 				C429334C270F8CF300313A75 /* ViewTravelAppUI.swift in Sources */,
+				C41FF4F0276FA234008D2374 /* HomeViewVerticalPageTabViewCarouselList.swift in Sources */,
 				C48774CB27309BD900C90E6E /* ViewLoginPageWithFaceAndTouchID.swift in Sources */,
 				C4A01E1126EFF85F001AF3F6 /* HomeAppleMiusicAnimations.swift in Sources */,
 				C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */,
@@ -2726,6 +2889,7 @@
 				C46B6FA827527FDF00753C7C /* CustomCornerComplexShapesCurvesCustomBottomSheet.swift in Sources */,
 				C4B7C1FE2722D70A005A95E1 /* ViewFacebookLogin.swift in Sources */,
 				C477B26C27597049000EEF30 /* TodayCardViewAppStoreAnimations.swift in Sources */,
+				C41FF505276FE6B1008D2374 /* HomeViewCustomShapesAndAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

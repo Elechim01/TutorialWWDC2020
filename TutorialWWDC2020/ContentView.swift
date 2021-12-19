@@ -31,8 +31,8 @@ struct ContentView: View {
 //          ViewCustomSearchBar()
 //         SwipeableInstagramViewLayout
 //   
-//        SwipeUpToHideSwipeDownRevealHeader
-    
+//     CustomShapesAndAnimations
+//        
        Text("Ciao")
     }
 }

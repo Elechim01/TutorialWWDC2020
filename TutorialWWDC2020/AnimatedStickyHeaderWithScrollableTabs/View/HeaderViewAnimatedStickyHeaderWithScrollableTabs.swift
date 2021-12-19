@@ -116,26 +116,37 @@ struct HeaderViewAnimatedStickyHeaderWithScrollableTabs1: View {
     var body: some View {
         ScrollViewReader { reader in
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 0){
-                    ForEach(tabsItemsAnimatedStickyHeaderWithScrollableTabs){ tab in
-                        Text(tab.tab)
-                            .font(.caption)
-                            .padding(.vertical,10)
-                            .padding(.horizontal)
-                            .background(Color.primary.opacity(homeData.selectedtab == tab.tab ? 1 : 0))
-                            .clipShape(Capsule())
-                            .foregroundColor(homeData.selectedtab == tab.tab ? scheme == .dark ? .black : .white : .primary)
-                            .id(tab.tab)
-                    }
-                    .onChange(of: homeData.selectedtab) { value in
-                        withAnimation {
-                            reader.scrollTo(homeData.selectedTab, anchor: .leading)
-                        }
-                    }
-                }
+                HeaderViewAnimatedStickyHeaderWithScrollableTabs2(reader: reader)
+                    .environmentObject(homeData)
             }
             //                Visible Only When Scrolls Up...
             .opacity(homeData.offset > 200 ? Double((homeData.offset - 200) / 50) : 0)
+        }
+    }
+}
+
+struct HeaderViewAnimatedStickyHeaderWithScrollableTabs2: View{
+    
+    @EnvironmentObject var homeData: HomeViewModelAnimatedStickyHeaderWithScrollableTabs
+    @Environment(\.colorScheme) var scheme
+    let reader: ScrollViewProxy
+    var body: some View{
+        HStack(spacing: 0){
+            ForEach(tabsItemsAnimatedStickyHeaderWithScrollableTabs){ tab in
+                Text(tab.tab)
+                    .font(.caption)
+                    .padding(.vertical,10)
+                    .padding(.horizontal)
+                    .background(Color.primary.opacity(homeData.selectedtab == tab.tab ? 1 : 0))
+                    .clipShape(Capsule())
+                    .foregroundColor(homeData.selectedtab == tab.tab ? scheme == .dark ? .black : .white : .primary)
+                    .id(tab.tab)
+            }
+            .onChange(of: homeData.selectedtab) { value in
+                withAnimation {
+                    reader.scrollTo(homeData.selectedTab, anchor: .leading)
+                }
+            }
         }
     }
 }
