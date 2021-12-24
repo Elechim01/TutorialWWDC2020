@@ -30,8 +30,8 @@ struct ContentView: View {
 //        ViewSmoothCurves()
 //          ViewCustomSearchBar()
 //         SwipeableInstagramViewLayout
-//   
-//     CustomShapesAndAnimations
+//       
+//
 //        
        Text("Ciao")
     }

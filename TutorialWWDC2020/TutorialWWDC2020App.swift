@@ -9,6 +9,7 @@ import SwiftUI
 import CoreData
 import FBSDKCoreKit
 import Firebase
+import StreamChat
 
 @main
 struct TutorialWWDC2020App: App {
@@ -28,6 +29,13 @@ struct TutorialWWDC2020App: App {
 }
 
 class Delegate: NSObject,UIApplicationDelegate {
+    
+//    different way of intualizing the Stream..
+    
+    @AppStorage("userName") var storedUser = ""
+    @AppStorage("log_Status") var logStatus = false
+    
+    
     func application(
             _ application: UIApplication,
             didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
@@ -38,6 +46,20 @@ class Delegate: NSObject,UIApplicationDelegate {
                 didFinishLaunchingWithOptions: launchOptions
             )
             FirebaseApp.configure()
+            
+            let config = ChatClientConfig(apiKeyString: APIKeyChatAppUsingStreamSDK)
+            
+//            if user already logged in...
+            if logStatus{
+                
+                ChatClient.shared = ChatClient.shared = ChatClient(config: config, tokenProvider: .development(userId: storedUser))
+                
+            }else{
+                
+                ChatClient.shared = ChatClient(config: config, tokenProvider: .anonymous)
+                
+            }
+            
             return true
         }
               
@@ -55,6 +77,14 @@ class Delegate: NSObject,UIApplicationDelegate {
             )
         }
     }
+
+//Parte per ChatAppUsingStreamSDK
+// stram API...
+extension ChatClient{
+    static var shared: ChatClient!
+}
+
+
 
 
 //PARTE DI CORE DATACoreDataConnectionCRUDOperation
