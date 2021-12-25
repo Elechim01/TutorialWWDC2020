@@ -177,6 +177,10 @@
 		C467CE67277678A2005D92AB /* ViewMobileWalletCardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467CE66277678A2005D92AB /* ViewMobileWalletCardAnimation.swift */; };
 		C467CE6B277678D8005D92AB /* CardMobileWalletCardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467CE6A277678D8005D92AB /* CardMobileWalletCardAnimation.swift */; };
 		C467CE6D27767993005D92AB /* HomeViewMobileWalletCardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467CE6C27767993005D92AB /* HomeViewMobileWalletCardAnimation.swift */; };
+		C467CE7127768AD4005D92AB /* ViewSpotifyRedesignAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467CE7027768AD4005D92AB /* ViewSpotifyRedesignAppUI.swift */; };
+		C467CE752777C055005D92AB /* SongSpotifyRedesignAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467CE742777C055005D92AB /* SongSpotifyRedesignAppUI.swift */; };
+		C467CE772777C19E005D92AB /* HomeViewSpotifyRedesignAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467CE762777C19E005D92AB /* HomeViewSpotifyRedesignAppUI.swift */; };
+		C467CE792777CAE4005D92AB /* SideTabViewSpotifyRedesignAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467CE782777CAE4005D92AB /* SideTabViewSpotifyRedesignAppUI.swift */; };
 		C46A518B272747980001B904 /* ViewJSONParsingUsingOurOwn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A518A272747980001B904 /* ViewJSONParsingUsingOurOwn.swift */; };
 		C46A518E272752BF0001B904 /* ViewCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */; };
 		C46B6FA827527FDF00753C7C /* CustomCornerComplexShapesCurvesCustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46B6FA727527FDF00753C7C /* CustomCornerComplexShapesCurvesCustomBottomSheet.swift */; };
@@ -511,6 +515,10 @@
 		C467CE66277678A2005D92AB /* ViewMobileWalletCardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMobileWalletCardAnimation.swift; sourceTree = "<group>"; };
 		C467CE6A277678D8005D92AB /* CardMobileWalletCardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMobileWalletCardAnimation.swift; sourceTree = "<group>"; };
 		C467CE6C27767993005D92AB /* HomeViewMobileWalletCardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewMobileWalletCardAnimation.swift; sourceTree = "<group>"; };
+		C467CE7027768AD4005D92AB /* ViewSpotifyRedesignAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSpotifyRedesignAppUI.swift; sourceTree = "<group>"; };
+		C467CE742777C055005D92AB /* SongSpotifyRedesignAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongSpotifyRedesignAppUI.swift; sourceTree = "<group>"; };
+		C467CE762777C19E005D92AB /* HomeViewSpotifyRedesignAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewSpotifyRedesignAppUI.swift; sourceTree = "<group>"; };
+		C467CE782777CAE4005D92AB /* SideTabViewSpotifyRedesignAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideTabViewSpotifyRedesignAppUI.swift; sourceTree = "<group>"; };
 		C46A518A272747980001B904 /* ViewJSONParsingUsingOurOwn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewJSONParsingUsingOurOwn.swift; sourceTree = "<group>"; };
 		C46A518D272752BF0001B904 /* ViewCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCustomTabBar.swift; sourceTree = "<group>"; };
 		C46B6FA727527FDF00753C7C /* CustomCornerComplexShapesCurvesCustomBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerComplexShapesCurvesCustomBottomSheet.swift; sourceTree = "<group>"; };
@@ -1727,6 +1735,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C467CE6F27768AC3005D92AB /* SpotifyRedesignAppUI */ = {
+			isa = PBXGroup;
+			children = (
+				C467CE732777C037005D92AB /* Model */,
+				C467CE722777C02D005D92AB /* View */,
+				C467CE7027768AD4005D92AB /* ViewSpotifyRedesignAppUI.swift */,
+			);
+			path = SpotifyRedesignAppUI;
+			sourceTree = "<group>";
+		};
+		C467CE722777C02D005D92AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C467CE762777C19E005D92AB /* HomeViewSpotifyRedesignAppUI.swift */,
+				C467CE782777CAE4005D92AB /* SideTabViewSpotifyRedesignAppUI.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C467CE732777C037005D92AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C467CE742777C055005D92AB /* SongSpotifyRedesignAppUI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C46A51892727476E0001B904 /* JSONParsingUsingOurOwn */ = {
 			isa = PBXGroup;
 			children = (
@@ -2313,6 +2348,7 @@
 				C419F2A727748F8400B750A0 /* FoodOrderingAppUI */,
 				C467CE6227753190005D92AB /* PulseAnimation */,
 				C467CE6527767894005D92AB /* MobileWalletCardAnimation */,
+				C467CE6F27768AC3005D92AB /* SpotifyRedesignAppUI */,
 				C4A01DE426EFF77B001AF3F6 /* TutorialWWDC2020App.swift */,
 				C4A01DE626EFF77B001AF3F6 /* ContentView.swift */,
 				C4A01DE826EFF77C001AF3F6 /* Assets.xcassets */,
@@ -3077,6 +3113,7 @@
 				C4F53ACB276BEC690063AF88 /* HeaderViewSquareSpaceWebUIParallaxEffect.swift in Sources */,
 				C4F53ADA276C89040063AF88 /* MenuViewModelNavigationDrawerWithSavingPageState.swift in Sources */,
 				C4FC5C65276C9B9F00CC29DB /* ViewMediumAppStickyFooterAnimation.swift in Sources */,
+				C467CE792777CAE4005D92AB /* SideTabViewSpotifyRedesignAppUI.swift in Sources */,
 				C491F7B426FBCE46000A58CF /* HomeParallaxScrolling.swift in Sources */,
 				C46DD05B275430550017F779 /* LoginPageWithFirebase.swift in Sources */,
 				C419EBB027430858003B3B36 /* SearchUserCustomSearchBar.swift in Sources */,
@@ -3154,6 +3191,7 @@
 				C419F27A2772976300B750A0 /* ChatBubbleChatAppUsingStreamSDK.swift in Sources */,
 				C4B92483270B9FCB000BBE8A /* ViewGradientPickerAPI.swift in Sources */,
 				C4F53ABB276A3E840063AF88 /* HomeViewReorderingGridViewItems.swift in Sources */,
+				C467CE772777C19E005D92AB /* HomeViewSpotifyRedesignAppUI.swift in Sources */,
 				C49627F427600F75005A0C8C /* TabBarCustomSwipeToActionCustomTabBar.swift in Sources */,
 				C419EBB227430929003B3B36 /* CustomSearchBarD.swift in Sources */,
 				C4F53ACD276BEE4F0063AF88 /* StickyViewSquareSpaceWebUIParallaxEffect.swift in Sources */,
@@ -3251,6 +3289,7 @@
 				C437872527669070002FA890 /* ViewTextShimmerEffect.swift in Sources */,
 				C41FF4E5276F7EE5008D2374 /* MovieModelMovieBookingAppUI.swift in Sources */,
 				C4A01DE726EFF77B001AF3F6 /* ContentView.swift in Sources */,
+				C467CE7127768AD4005D92AB /* ViewSpotifyRedesignAppUI.swift in Sources */,
 				C419F29B2773E27100B750A0 /* HomeViewCustomSlideOutMenu.swift in Sources */,
 				C45DE4522771DDD60099A581 /* ComicSearchBarWithCombine.swift in Sources */,
 				C4078B132739CD6A0026616B /* FilteredImageApplyingFilters.swift in Sources */,
@@ -3277,6 +3316,7 @@
 				C4BC34C22718D69000948E89 /* ViewSharingImages.swift in Sources */,
 				C4D54C8E2761653400AD0294 /* ViewCustomCarouselSliderParallaxEffect.swift in Sources */,
 				C4857EBA26F9369600FD4939 /* ViewHeroAnimation.swift in Sources */,
+				C467CE752777C055005D92AB /* SongSpotifyRedesignAppUI.swift in Sources */,
 				C4D54C912762A87500AD0294 /* ViewCustomShapesAnimation.swift in Sources */,
 				C496851526F29FC40061949E /* HomeDepthStacksGestures.swift in Sources */,
 				C41FF4FD276FDD09008D2374 /* ImageViewMultipleImageViewer.swift in Sources */,
