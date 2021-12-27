@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ViewFoodOrderingAppUI: View {
     var body: some View {
-       HomeViewFoodOrderingAppUI
+       HomeViewFoodOrderingAppUI()
     }
 }
 

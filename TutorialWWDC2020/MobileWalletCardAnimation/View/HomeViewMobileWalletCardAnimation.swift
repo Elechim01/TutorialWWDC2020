@@ -27,34 +27,7 @@ struct HomeViewMobileWalletCardAnimation: View {
             
             VStack{
                 
-                HStack(spacing: 15){
-                    
-                    Button {
-                        
-                    } label: {
-                        Image(systemName: "line.horizontal.3.descrease")
-                            .font(.title)
-                            .foregroundColor(.primary)
-                    }
-                    
-                    Text("Welcome Back !!")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    
-                    Spacer(minLength: 0)
-                    
-                    Button {
-                        
-                    } label: {
-                        Image("p1")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 40, height: 40)
-                            .clipShape(Circle())
-                    }
-
-
-                }
+                HomeViewMobileWalletCardAnimation2(startAnimation: startAnimation, startCatdrotation: startCatdrotation, selectedCard: selectedCard,cardAnimation:cardAnimation,animation:animation)
                 
 //                Card View...
                 ZStack{
@@ -130,40 +103,7 @@ struct HomeViewMobileWalletCardAnimation: View {
 //        bluring the whole view...
         .blur(radius: cardAnimation ? 100 : 0)
         .overlay(
-            ZStack(alignment: .topLeading){
-                
-//                Detail View...
-                if cardAnimation{
-                    
-//                    Close Button...
-                    Button(action: {
-                        
-//                        closing the view...
-                        withAnimation(.interactiveSpring(response: 0.4, dampingFraction: 0.7, blendDuration: 0.5)){
-                            
-                            startCatdrotation = false
-                            selectedCard = CardMobileWalletCardAnimation(cardHolder: "", cardNumber: "", cardValidity: "", cardImage: "")
-                            cardAnimation = false
-                            startAnimation = false
-                        }
-                        
-                    },label:{
-                        Image(systemName: "xmark")
-                            .font(.system(size: 18,weight: .bold))
-                            .foregroundColor(colorScheme != .dark ? .white : .black)
-                            .padding()
-                            .background(Color.primary)
-                            .clipShape(Circle())
-                    })
-                    .padding()
-                    
-//                    Card View...
-                    CardViewMobileWalletCardAnimation(card:selectedCart)
-                        .matchedGeometryEffect(id: "CARD_ANIMATION", in: animation)
-                        .padding(.horizontal)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                }
-            }
+            HomeViewMobileWalletCardAnimation1(startAnimation: startAnimation, startCatdrotation: startCatdrotation, selectedCard: selectedCard,cardAnimation:cardAnimation,animation:animation)
         )
     }
     
@@ -259,5 +199,100 @@ struct CardViewMobileWalletCardAnimation:View {
                 }
                 .padding()
             )
+    }
+}
+
+
+struct HomeViewMobileWalletCardAnimation1:View {
+    
+    @Binding var startAnimation : Bool
+    @Binding var startCatdrotation : Bool
+    @Binding var selectedCard: CardMobileWalletCardAnimation
+    @Binding var cardAnimation : Bool
+    
+    var animation : Namespace.ID
+    
+//    Color Scheme..
+    @Environment(\.colorScheme) var colorScheme
+    
+    var body: some View{
+        ZStack(alignment: .topLeading){
+            
+//                Detail View...
+            if cardAnimation{
+                
+//                    Close Button...
+                Button(action: {
+                    
+//                        closing the view...
+                    withAnimation(.interactiveSpring(response: 0.4, dampingFraction: 0.7, blendDuration: 0.5)){
+                        
+                        startCatdrotation = false
+                        selectedCard = CardMobileWalletCardAnimation(cardHolder: "", cardNumber: "", cardValidity: "", cardImage: "")
+                        cardAnimation = false
+                        startAnimation = false
+                    }
+                    
+                },label:{
+                    Image(systemName: "xmark")
+                        .font(.system(size: 18,weight: .bold))
+                        .foregroundColor(colorScheme != .dark ? .white : .black)
+                        .padding()
+                        .background(Color.primary)
+                        .clipShape(Circle())
+                })
+                .padding()
+                
+//                    Card View...
+                CardViewMobileWalletCardAnimation(card:selectedCard)
+                    .matchedGeometryEffect(id: "CARD_ANIMATION", in: animation)
+                    .padding(.horizontal)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        }
+    }
+}
+
+struct HomeViewMobileWalletCardAnimation2:View {
+    
+    @Binding var startAnimation : Bool
+    @Binding var startCatdrotation : Bool
+    @Binding var selectedCard: CardMobileWalletCardAnimation
+    @Binding var cardAnimation : Bool
+    
+    var animation : Namespace.ID
+    
+//    Color Scheme..
+    @Environment(\.colorScheme) var colorScheme
+
+    var body: some View{
+        HStack(spacing: 15){
+            
+            Button {
+                
+            } label: {
+                Image(systemName: "line.horizontal.3.descrease")
+                    .font(.title)
+                    .foregroundColor(.primary)
+            }
+            
+            Text("Welcome Back !!")
+                .font(.title2)
+                .fontWeight(.bold)
+            
+            Spacer(minLength: 0)
+            
+            Button {
+                
+            } label: {
+                Image("p1")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 40, height: 40)
+                    .clipShape(Circle())
+            }
+
+
+        }
     }
 }

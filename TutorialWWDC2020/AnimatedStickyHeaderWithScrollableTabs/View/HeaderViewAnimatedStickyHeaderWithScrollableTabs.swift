@@ -130,6 +130,7 @@ struct HeaderViewAnimatedStickyHeaderWithScrollableTabs2: View{
     @EnvironmentObject var homeData: HomeViewModelAnimatedStickyHeaderWithScrollableTabs
     @Environment(\.colorScheme) var scheme
     let reader: ScrollViewProxy
+    
     var body: some View{
         HStack(spacing: 0){
             ForEach(tabsItemsAnimatedStickyHeaderWithScrollableTabs){ tab in

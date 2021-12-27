@@ -95,6 +95,7 @@ struct ChatViewChatAppUsingStreamSDK: View {
 //        clearing MSg Field...
 
         message = ""
+    }
 }
 
 struct ChatViewChatAppUsingStreamSDK_Previews: PreviewProvider {

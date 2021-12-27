@@ -36,27 +36,50 @@ class StreamViewModelChatAppUsingStreamSDK: ObservableObject {
         withAnimation {
             isLoading = true
         }
+     
+//        Da disabilitare per ChatAppUsingStreamSDK
+//        Updating User Profile...
+//        you can give user image url if want...
         
-        let config = ChatClientConfig(apiKeyString: APIKeyChatAppUsingStreamSDK)
-        ChatClient.shared = ChatClient(config: config, tokenProvider: .development(userId: userName))
+//         Da scommentare per App che richiedono StreamChat
+//        ChatClient.shared.currentUserController().updateUserData(name: userName, imageURL: nil, userExtraData: .defaultValue) { err in
+//            withAnimation {
+//                self.isLoading = false
+//            }
+//
+//
+//            if let  error = err{
+//                self.errorMsg = error.localizedDescription
+//                self.error.toggle()
+//                return
+//            }
+//            //            Else Successfull...
+//            //            storing userName..
+//            self.sotoredUser = self.userName
+//            self.logStatus = true
+//        }
         
-        ChatClient.shared.currentUserController().reloadUserIfNeeded { err in
-            
-            withAnimation {
-                self.isLoading = false
-            }
-
-            
-            if let  error = err{
-                self.errorMsg = error.localizedDescription
-                self.error.toggle()
-                return
-            }
-//            Else Successfull...
-//            storing userName..
-            self.sotoredUser = self.userName
-            self.logStatus = true
-        }
+//        Disabilitato per FirebasePhoneAuthFirebaseStreamSDK
+//        let config = ChatClientConfig(apiKeyString: APIKeyChatAppUsingStreamSDK)
+//        ChatClient.shared = ChatClient(config: config, tokenProvider: .development(userId: userName))
+//
+//        ChatClient.shared.currentUserController().reloadUserIfNeeded { err in
+//
+//            withAnimation {
+//                self.isLoading = false
+//            }
+//
+//
+//            if let  error = err{
+//                self.errorMsg = error.localizedDescription
+//                self.error.toggle()
+//                return
+//            }
+////            Else Successfull...
+////            storing userName..
+//            self.sotoredUser = self.userName
+//            self.logStatus = true
+//        }
     }
     
 //    Fetching All Channels...
@@ -96,28 +119,28 @@ class StreamViewModelChatAppUsingStreamSDK: ObservableObject {
         
 //        you can give image url to channel...
 //        same you can also give image url to user..
+//        Da disabilitare per chat App 
+//        let request = try! ChatClient.shared.channelController(createChannelWithId: newChannel, name: channelName, imageURL: nil, extraData: .defaultValue)
         
-        let request = try! ChatClient.shared.channelController(createChannelWithId: newChannel, name: channelName, imageURL: nil, extraData: .defaultValue)
-        
-        request.synchronize { err in
-            
-            withAnimation {
-                self.isLoading = false
-            }
-            
-            if let error = err{
-                self.errorMsg = error.localizedDescription
-                self.error.toggle()
-                return
-            }
-            
-//            Success....
-//            closing Loading And New Channel View..
-            withAnimation {
-                self.channelName = ""
-                self.createNewChannel = false
-            }
-        }
+//        request.synchronize { err in
+//
+//            withAnimation {
+//                self.isLoading = false
+//            }
+//
+//            if let error = err{
+//                self.errorMsg = error.localizedDescription
+//                self.error.toggle()
+//                return
+//            }
+//
+////            Success....
+////            closing Loading And New Channel View..
+//            withAnimation {
+//                self.channelName = ""
+//                self.createNewChannel = false
+//            }
+//        }
         
     }
     

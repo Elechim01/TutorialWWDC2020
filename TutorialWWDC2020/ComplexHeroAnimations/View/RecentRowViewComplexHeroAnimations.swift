@@ -82,6 +82,6 @@ struct RecentRowViewComplexHeroAnimations: View {
 
 struct RecentRowViewComplexHeroAnimations_Previews: PreviewProvider {
     static var previews: some View {
-        HomeViewComplexHeroAnimations()
+        ViewComplexHeroAnimations()
     }
 }

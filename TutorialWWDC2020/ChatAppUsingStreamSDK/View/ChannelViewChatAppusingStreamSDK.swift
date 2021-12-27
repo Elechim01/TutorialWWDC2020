@@ -7,10 +7,14 @@
 
 import SwiftUI
 import StreamChat
+import Firebase
 
 struct ChannelViewChatAppusingStreamSDK: View {
     
     @EnvironmentObject var streamData: StreamViewModelChatAppUsingStreamSDK
+    
+    @AppStorage("userName") var storedUser = ""
+    @AppStorage("log_Status") var logStatus = false
     
     var body: some View {
         //                Channel View..
@@ -23,7 +27,7 @@ struct ChannelViewChatAppusingStreamSDK: View {
                     ForEach(channels,id:\.channel){ listener in
                         
                         NavigationLink {
-                            ChatViewChatAppUsingStreamSDK(listner: listener)
+                            ChatViewChatAppUsingStreamSDK(listener: listener)
                         } label: {
                             ChannelRowViewChatAppUsingStreamSDK(listner: listener)
                         }
@@ -59,6 +63,21 @@ struct ChannelViewChatAppusingStreamSDK: View {
                     Image(systemName: "square.and.pencil")
                 }
             }
+            
+//            Disabilitare per FirebasePhoneAuthFirebaseStreamSDK
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button {
+                    
+//                    Logging Out...
+                    logStatus = false
+                    storedUser = ""
+                    try! Auth.auth().signOut()
+                    
+                } label: {
+                    Image(systemName: "power")
+                }
+            }
+            
         }
         .onAppear {
             streamData.fetchAllChanels()

@@ -10,6 +10,7 @@ import CoreData
 import FBSDKCoreKit
 import Firebase
 import StreamChat
+import JWTKit
 
 @main
 struct TutorialWWDC2020App: App {
@@ -52,11 +53,56 @@ class Delegate: NSObject,UIApplicationDelegate {
 //            if user already logged in...
             if logStatus{
                 
-                ChatClient.shared = ChatClient.shared = ChatClient(config: config, tokenProvider: .development(userId: storedUser))
+//                Da Scommentare per app che richiedono StramChat
+//                ChatClient.shared = ChatClient(config: config, tokenProvider: .development(userId: storedUser))
+                
+                //            for that we need to intialize the stream sdk with JWT Tokens...
+                //            AKA Known as Authentiactiog with stream SDK...
+                            
+                //            generating JWT token...
+                            
+                            let signers = JWTSigners()
+                            signers.use(.hs256(key: SecretKeyFirebasePhoneAuthFirebaseStreamSDK.data(using: .utf8)!))
+                            
+                //            Creatng Payload and inserting Userd ID to generate token...
+                //            Here User ID will be Firebase UID...
+                //            Since its Unique...
+                            
+                            guard let uid = Auth.auth().currentUser?.uid else {
+            
+                                return true
+                            }
+                            
+                            let payload = PayLoadFirebasePhoneAuthFirebaseStreamSDK(user_id: uid)
+                            
+                //            generating Token...
+                            do{
+                                
+                                let jwt = try signers.sign(payload)
+                                
+                                print(jwt)
+                                
+                                let config = ChatClientConfig(apiKeyString: APIKeyFirebasePhoneAuthFirebaseStreamSDK)
+                                
+//                                let tokenProvider = TokenProvider{ client, _ in
+//
+//                                    guard let token = try? Token(rawValue: jwt) else {
+//                                        return
+//                                    }
+//
+//                                    completion(.success(token))
+//                                }
+//
+//                                ChatClient.shared = ChatClient(config: config, tokenProvider: tokenProvider)
+                                
+                            }
+                            catch{
+                                print(error.localizedDescription)
+                            }
                 
             }else{
                 
-                ChatClient.shared = ChatClient(config: config, tokenProvider: .anonymous)
+//                ChatClient.shared = ChatClient(config: config, tokenProvider: .anonymous)
                 
             }
             
@@ -76,6 +122,11 @@ class Delegate: NSObject,UIApplicationDelegate {
                 annotation: options[UIApplication.OpenURLOptionsKey.annotation]
             )
         }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        
+    }
+    
     }
 
 //Parte per ChatAppUsingStreamSDK

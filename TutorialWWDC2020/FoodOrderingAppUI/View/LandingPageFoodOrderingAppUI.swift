@@ -198,6 +198,6 @@ struct LandingPageFoodOrderingAppUI: View {
 
 struct LandingPageFoodOrderingAppUI_Previews: PreviewProvider {
     static var previews: some View {
-        LandingPageFoodOrderingAppUI()
+       ViewFoodOrderingAppUI()
     }
 }
